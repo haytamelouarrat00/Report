@@ -1,0 +1,189 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{lipsum} % For filler text if needed
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{everypage}
+
+% --- No page numbering for title ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+% --- Bottom-right logo ---
+\fancyfoot[R]{
+    \raisebox{0.1\textwidth}{\includegraphics[height=0.25cm]{ressources/for_glory.png}}
+}
+\begin{document}
+
+% --- Logo Placement with TikZ ---
+\begin{tikzpicture}[remember picture, overlay]
+    % Top-left: Company Logo
+    \node[anchor=north west, xshift=1cm, yshift=-3cm] at (current page.north west) {
+        \includegraphics[width=0.5\textwidth, keepaspectratio]{ressources/ss_horizontal_white_on_black.jpg} % <-- Replace with actual file
+    };
+    
+    % Top-right: University Logo
+    \node[anchor=north east, xshift=-1cm, yshift=-2cm] at (current page.north east) {
+        \includegraphics[width=0.5\textwidth, keepaspectratio]{ressources/logo_upssitech.png} % <-- Replace with actual file
+    };
+\end{tikzpicture}
+
+% ------------------------------------------------------------
+\vspace*{4cm}
+
+\begin{center}
+    \Huge \textbf{Neural-Assisted Feature Matching}\\[1.5cm]
+    \LARGE Internship Report\\[1.5cm]
+    \large \textbf{Author:} EL OUARRAT Haytam\\
+    \textbf{Internship Period:} Mars – August 2025\\
+    \textbf{Location:} SteelSeries, Lille, France\\[2cm]
+    
+    \textbf{Advisors:} Pierre Biret, Damien Granger, Raphaël Greff\\
+    \textbf{University Supervisor:} Phillipe Joly \\[2cm]
+    
+    \large Engineering Degree in Robotics and Interactive Systems \\
+    UPSSITECH \\
+    University of Toulouse
+\end{center}
+
+\vfill
+
+\begin{center}
+    \today
+\end{center}
+
+% --- Page Break 
+\newpage
+\tableofcontents
+\listoffigures
+% ------------------------------------------------------------
+\chapter{Acknowledgements}
+% ------------------------------------------------------------
+\chapter{Introduction}
+
+\section{Host Organism}
+\subsection{Nahimic}
+\subsection{SteelSeries}
+\subsection{GN Group}
+\subsection{Mission}
+
+\section{Context \& Motivation}
+\subsection{Role of Feature Matching in Computer Vision}
+\subsection{Challenges in Gaming Applications}
+\subsection{Limitations of Traditional Feature Matching Techniques}
+
+\section{Project Objectives}
+\subsection{Reprodusing Feature Matching Techniques with Neural Networks}
+\subsection{Improving computational efficiency}
+\subsection{Ensure matching accuracy for gaming footage}
+
+\section{Industrial Relevance}
+\subsection{Integration with SteelSeries Moments Software}
+\subsection{Real-time performance constraints}
+
+% ------------------------------------------------------------
+\chapter{Literature Review}
+\section{Traditional Feature Matching}
+\subsection{Overview of SIFT, ORB, FAST}
+\subsection{Comparative Strengths, Weaknesses, and Computational Costs}
+
+\section{Neural Feature Matching}
+\subsection{Review of Recent Methods: LoFTR, ALIKE, LightGlue, XFeat}
+
+\section{Knowledge Distillation}
+\subsection{Distillation Types: Response-Based, Feature-Based, Relation-Based}
+\subsection{Applications in Model Compression and Matching Tasks}
+
+\section{Lightweight Architectures for Edge Deployment}
+\subsection{MobileNet, ShuffleNet, XFeat-Style Networks}
+\subsection{Trade-Offs Between Efficiency and Accuracy}
+
+\section{Gaps and Opportunities}
+\subsection{Where Traditional Methods Fall Short}
+\subsection{Where Neural Methods Remain Overkill for Real-Time CPU Usage}
+\subsection{Motivation for a Hybrid/Distilled Approach}
+
+% ------------------------------------------------------------
+\chapter{Methodology}
+\section{Problem Formulation}
+\subsection{Define Feature Matching as Correspondence Prediction}
+\subsection{Objectives in Terms of Speed, Accuracy, and Robustness}
+
+\section{Baseline Selection}
+\subsection{Justification for Using ORB or FAST as Teacher Models}
+\subsection{Benchmark Datasets (e.g., HPatches, Gaming Clips)}
+
+\section{Neural Architecture Design}
+\subsection{Choice of Lightweight CNN or Transformer Backbone}
+\subsection{Feature Extraction vs. Matching Separation}
+
+\section{Distillation Strategy}
+\subsection{Design of Teacher-Student Framework}
+\subsection{Distillation Losses (e.g., L2 on Descriptors, Cross-Entropy on Match Maps)}
+
+\section{Evaluation Metrics}
+\subsection{Matching Precision, Recall, Repeatability}
+\subsection{Runtime (FPS), Memory Footprint, CPU Load}
+
+% ------------------------------------------------------------
+\chapter{Implementation}
+\section{Dataset Preparation}
+\subsection{Gaming Video Frame Extraction}
+\subsection{Synthetic Transformation Generation for Ground Truth Correspondences}
+
+\section{Training Pipeline}
+\subsection{Data Augmentation Strategies}
+\subsection{Loss Function Components and Training Schedule}
+
+\section{Model Optimization}
+\subsection{Quantization, Pruning, or ONNX Export (if applicable)}
+\subsection{Inference Optimization for CPU}
+
+\section{Integration with SteelSeries Pipeline}
+\subsection{Data Flow Alignment with Moments Software (if available)}
+\subsection{Latency Tracking and Bottleneck Identification}
+
+% ------------------------------------------------------------
+\chapter{Results \& Analysis}
+\section{Matching Quality}
+\subsection{Quantitative Comparison with ORB, SIFT, and XFeat}
+\subsection{Visual Results on Gaming Footage}
+
+\section{Computational Efficiency}
+\subsection{FPS and Latency Benchmarks}
+\subsection{Memory and CPU Usage Profiles}
+
+\section{Ablation Studies}
+\subsection{Effect of Different Distillation Losses}
+\subsection{Model Depth vs. Performance Trade-Offs}
+
+\section{Real-Time Viability}
+\subsection{End-to-End Latency Breakdown}
+\subsection{Suitability for Gaming Hardware}
+
+% ------------------------------------------------------------
+\chapter{Conclusion and Future Work}
+\section{Summary of Contributions}
+\section{Limitations}
+\subsection{Domain Generalization}
+\subsection{Extreme Low-Light or High-Motion Scenes}
+
+\section{Future Work}
+\subsection{Self-Distillation or Online Distillation Strategies}
+\subsection{Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}
+\subsection{Real-Time Deployment on End-User Devices}
+
+% ------------------------------------------------------------
+\chapter{References}
+% ------------------------------------------------------------
+\chapter{Appendices}
+\section{Additional Figures}
+\section{Code Snippets}
+\section{Hyperparameter Tables}
+\section{Hardware Specifications}
+% ------------------------------------------------------------
+\end{document}
