@@ -1,91 +1,91 @@
 \contentsline {chapter}{\numberline {1}Acknowledgements}{6}{}%
 \contentsline {chapter}{\numberline {2}Introduction}{7}{}%
 \contentsline {section}{\numberline {2.1}Host Organism}{7}{}%
-\contentsline {subsection}{\numberline {2.1.1}Nahimic}{7}{}%
-\contentsline {subsection}{\numberline {2.1.2}SteelSeries}{7}{}%
-\contentsline {subsection}{\numberline {2.1.3}GN Group}{7}{}%
-\contentsline {subsection}{\numberline {2.1.4}Mission}{7}{}%
-\contentsline {section}{\numberline {2.2}Context \& Motivation}{7}{}%
-\contentsline {subsection}{\numberline {2.2.1}Role of Feature Matching in Computer Vision}{7}{}%
-\contentsline {subsection}{\numberline {2.2.2}Challenges in Gaming Applications}{7}{}%
-\contentsline {subsection}{\numberline {2.2.3}Limitations of Traditional Feature Matching Techniques}{7}{}%
-\contentsline {section}{\numberline {2.3}Project Objectives}{7}{}%
-\contentsline {subsection}{\numberline {2.3.1}Reprodusing Feature Matching Techniques with Neural Networks}{7}{}%
-\contentsline {subsection}{\numberline {2.3.2}Improving computational efficiency}{7}{}%
-\contentsline {subsection}{\numberline {2.3.3}Ensure matching accuracy for gaming footage}{7}{}%
-\contentsline {section}{\numberline {2.4}Industrial Relevance}{7}{}%
-\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{7}{}%
-\contentsline {subsection}{\numberline {2.4.2}Real-time performance constraints}{7}{}%
-\contentsline {chapter}{\numberline {3}Literature Review}{8}{}%
-\contentsline {section}{\numberline {3.1}Traditional Feature Matching}{8}{}%
-\contentsline {subsection}{\numberline {3.1.1}Overview of SIFT, ORB, FAST}{8}{}%
-\contentsline {subsection}{\numberline {3.1.2}Comparative Strengths, Weaknesses, and Computational Costs}{8}{}%
-\contentsline {section}{\numberline {3.2}Neural Feature Matching}{8}{}%
-\contentsline {subsection}{\numberline {3.2.1}Review of Recent Methods: LoFTR, ALIKE, LightGlue, XFeat}{8}{}%
-\contentsline {section}{\numberline {3.3}Knowledge Distillation}{8}{}%
-\contentsline {subsection}{\numberline {3.3.1}Distillation Types: Response-Based, Feature-Based, Relation-Based}{8}{}%
-\contentsline {subsection}{\numberline {3.3.2}Applications in Model Compression and Matching Tasks}{8}{}%
-\contentsline {section}{\numberline {3.4}Lightweight Architectures for Edge Deployment}{8}{}%
-\contentsline {subsection}{\numberline {3.4.1}MobileNet, ShuffleNet, XFeat-Style Networks}{8}{}%
-\contentsline {subsection}{\numberline {3.4.2}Trade-Offs Between Efficiency and Accuracy}{8}{}%
-\contentsline {section}{\numberline {3.5}Gaps and Opportunities}{8}{}%
-\contentsline {subsection}{\numberline {3.5.1}Where Traditional Methods Fall Short}{8}{}%
-\contentsline {subsection}{\numberline {3.5.2}Where Neural Methods Remain Overkill for Real-Time CPU Usage}{8}{}%
-\contentsline {subsection}{\numberline {3.5.3}Motivation for a Hybrid/Distilled Approach}{8}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{9}{}%
-\contentsline {section}{\numberline {4.1}Problem Formulation}{9}{}%
-\contentsline {subsection}{\numberline {4.1.1}Define Feature Matching as Correspondence Prediction}{9}{}%
-\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{9}{}%
-\contentsline {section}{\numberline {4.2}Baseline Selection}{9}{}%
-\contentsline {subsection}{\numberline {4.2.1}Justification for Using ORB or FAST as Teacher Models}{9}{}%
-\contentsline {subsection}{\numberline {4.2.2}Benchmark Datasets (e.g., HPatches, Gaming Clips)}{9}{}%
-\contentsline {section}{\numberline {4.3}Neural Architecture Design}{9}{}%
-\contentsline {subsection}{\numberline {4.3.1}Choice of Lightweight CNN or Transformer Backbone}{9}{}%
-\contentsline {subsection}{\numberline {4.3.2}Feature Extraction vs. Matching Separation}{9}{}%
-\contentsline {section}{\numberline {4.4}Distillation Strategy}{9}{}%
-\contentsline {subsection}{\numberline {4.4.1}Design of Teacher-Student Framework}{9}{}%
-\contentsline {subsection}{\numberline {4.4.2}Distillation Losses (e.g., L2 on Descriptors, Cross-Entropy on Match Maps)}{9}{}%
-\contentsline {section}{\numberline {4.5}Evaluation Metrics}{9}{}%
-\contentsline {subsection}{\numberline {4.5.1}Matching Precision, Recall, Repeatability}{9}{}%
-\contentsline {subsection}{\numberline {4.5.2}Runtime (FPS), Memory Footprint, CPU Load}{9}{}%
-\contentsline {chapter}{\numberline {5}Implementation}{10}{}%
-\contentsline {section}{\numberline {5.1}Dataset Preparation}{10}{}%
-\contentsline {subsection}{\numberline {5.1.1}Gaming Video Frame Extraction}{10}{}%
-\contentsline {subsection}{\numberline {5.1.2}Synthetic Transformation Generation for Ground Truth Correspondences}{10}{}%
-\contentsline {section}{\numberline {5.2}Training Pipeline}{10}{}%
-\contentsline {subsection}{\numberline {5.2.1}Data Augmentation Strategies}{10}{}%
-\contentsline {subsection}{\numberline {5.2.2}Loss Function Components and Training Schedule}{10}{}%
-\contentsline {section}{\numberline {5.3}Model Optimization}{10}{}%
-\contentsline {subsection}{\numberline {5.3.1}Quantization, Pruning, or ONNX Export (if applicable)}{10}{}%
-\contentsline {subsection}{\numberline {5.3.2}Inference Optimization for CPU}{10}{}%
-\contentsline {section}{\numberline {5.4}Integration with SteelSeries Pipeline}{10}{}%
-\contentsline {subsection}{\numberline {5.4.1}Data Flow Alignment with Moments Software (if available)}{10}{}%
-\contentsline {subsection}{\numberline {5.4.2}Latency Tracking and Bottleneck Identification}{10}{}%
-\contentsline {chapter}{\numberline {6}Results \& Analysis}{11}{}%
-\contentsline {section}{\numberline {6.1}Matching Quality}{11}{}%
-\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{11}{}%
-\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{11}{}%
-\contentsline {section}{\numberline {6.2}Computational Efficiency}{11}{}%
-\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{11}{}%
-\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{11}{}%
-\contentsline {section}{\numberline {6.3}Ablation Studies}{11}{}%
-\contentsline {subsection}{\numberline {6.3.1}Effect of Different Distillation Losses}{11}{}%
-\contentsline {subsection}{\numberline {6.3.2}Model Depth vs. Performance Trade-Offs}{11}{}%
-\contentsline {section}{\numberline {6.4}Real-Time Viability}{11}{}%
-\contentsline {subsection}{\numberline {6.4.1}End-to-End Latency Breakdown}{11}{}%
-\contentsline {subsection}{\numberline {6.4.2}Suitability for Gaming Hardware}{11}{}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{12}{}%
-\contentsline {section}{\numberline {7.1}Summary of Contributions}{12}{}%
-\contentsline {section}{\numberline {7.2}Limitations}{12}{}%
-\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{12}{}%
-\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{12}{}%
-\contentsline {section}{\numberline {7.3}Future Work}{12}{}%
-\contentsline {subsection}{\numberline {7.3.1}Self-Distillation or Online Distillation Strategies}{12}{}%
-\contentsline {subsection}{\numberline {7.3.2}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{12}{}%
-\contentsline {subsection}{\numberline {7.3.3}Real-Time Deployment on End-User Devices}{12}{}%
-\contentsline {chapter}{\numberline {8}References}{13}{}%
-\contentsline {chapter}{\numberline {9}Appendices}{14}{}%
-\contentsline {section}{\numberline {9.1}Additional Figures}{14}{}%
-\contentsline {section}{\numberline {9.2}Code Snippets}{14}{}%
-\contentsline {section}{\numberline {9.3}Hyperparameter Tables}{14}{}%
-\contentsline {section}{\numberline {9.4}Hardware Specifications}{14}{}%
+\contentsline {subsection}{\numberline {2.1.1}SteelSeries}{7}{}%
+\contentsline {subsubsection}{Company history and Background}{7}{}%
+\contentsline {subsubsection}{Key Products and Technologies}{7}{}%
+\contentsline {subsection}{\numberline {2.1.2}Mission}{9}{}%
+\contentsline {section}{\numberline {2.2}Context \& Motivation}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}Role of Feature Matching in Computer Vision}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}Challenges in Gaming Applications}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}Limitations of Traditional Feature Matching Techniques}{10}{}%
+\contentsline {section}{\numberline {2.3}Project Objectives}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Reprodusing Feature Matching Techniques with Neural Networks}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Improving computational efficiency}{10}{}%
+\contentsline {subsection}{\numberline {2.3.3}Ensure matching accuracy for gaming footage}{10}{}%
+\contentsline {section}{\numberline {2.4}Industrial Relevance}{10}{}%
+\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{10}{}%
+\contentsline {subsection}{\numberline {2.4.2}Real-time performance constraints}{10}{}%
+\contentsline {chapter}{\numberline {3}Literature Review}{11}{}%
+\contentsline {section}{\numberline {3.1}Traditional Feature Matching}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}Overview of SIFT, ORB, FAST}{11}{}%
+\contentsline {subsection}{\numberline {3.1.2}Comparative Strengths, Weaknesses, and Computational Costs}{11}{}%
+\contentsline {section}{\numberline {3.2}Neural Feature Matching}{11}{}%
+\contentsline {subsection}{\numberline {3.2.1}Review of Recent Methods: LoFTR, ALIKE, LightGlue, XFeat}{11}{}%
+\contentsline {section}{\numberline {3.3}Knowledge Distillation}{11}{}%
+\contentsline {subsection}{\numberline {3.3.1}Distillation Types: Response-Based, Feature-Based, Relation-Based}{11}{}%
+\contentsline {subsection}{\numberline {3.3.2}Applications in Model Compression and Matching Tasks}{11}{}%
+\contentsline {section}{\numberline {3.4}Lightweight Architectures for Edge Deployment}{11}{}%
+\contentsline {subsection}{\numberline {3.4.1}MobileNet, ShuffleNet, XFeat-Style Networks}{11}{}%
+\contentsline {subsection}{\numberline {3.4.2}Trade-Offs Between Efficiency and Accuracy}{11}{}%
+\contentsline {section}{\numberline {3.5}Gaps and Opportunities}{11}{}%
+\contentsline {subsection}{\numberline {3.5.1}Where Traditional Methods Fall Short}{11}{}%
+\contentsline {subsection}{\numberline {3.5.2}Where Neural Methods Remain Overkill for Real-Time CPU Usage}{11}{}%
+\contentsline {subsection}{\numberline {3.5.3}Motivation for a Hybrid/Distilled Approach}{11}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{12}{}%
+\contentsline {section}{\numberline {4.1}Problem Formulation}{12}{}%
+\contentsline {subsection}{\numberline {4.1.1}Define Feature Matching as Correspondence Prediction}{12}{}%
+\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{12}{}%
+\contentsline {section}{\numberline {4.2}Baseline Selection}{12}{}%
+\contentsline {subsection}{\numberline {4.2.1}Justification for Using ORB or FAST as Teacher Models}{12}{}%
+\contentsline {subsection}{\numberline {4.2.2}Benchmark Datasets (e.g., HPatches, Gaming Clips)}{12}{}%
+\contentsline {section}{\numberline {4.3}Neural Architecture Design}{12}{}%
+\contentsline {subsection}{\numberline {4.3.1}Choice of Lightweight CNN or Transformer Backbone}{12}{}%
+\contentsline {subsection}{\numberline {4.3.2}Feature Extraction vs. Matching Separation}{12}{}%
+\contentsline {section}{\numberline {4.4}Distillation Strategy}{12}{}%
+\contentsline {subsection}{\numberline {4.4.1}Design of Teacher-Student Framework}{12}{}%
+\contentsline {subsection}{\numberline {4.4.2}Distillation Losses (e.g., L2 on Descriptors, Cross-Entropy on Match Maps)}{12}{}%
+\contentsline {section}{\numberline {4.5}Evaluation Metrics}{12}{}%
+\contentsline {subsection}{\numberline {4.5.1}Matching Precision, Recall, Repeatability}{12}{}%
+\contentsline {subsection}{\numberline {4.5.2}Runtime (FPS), Memory Footprint, CPU Load}{12}{}%
+\contentsline {chapter}{\numberline {5}Implementation}{13}{}%
+\contentsline {section}{\numberline {5.1}Dataset Preparation}{13}{}%
+\contentsline {subsection}{\numberline {5.1.1}Gaming Video Frame Extraction}{13}{}%
+\contentsline {subsection}{\numberline {5.1.2}Synthetic Transformation Generation for Ground Truth Correspondences}{13}{}%
+\contentsline {section}{\numberline {5.2}Training Pipeline}{13}{}%
+\contentsline {subsection}{\numberline {5.2.1}Data Augmentation Strategies}{13}{}%
+\contentsline {subsection}{\numberline {5.2.2}Loss Function Components and Training Schedule}{13}{}%
+\contentsline {section}{\numberline {5.3}Model Optimization}{13}{}%
+\contentsline {subsection}{\numberline {5.3.1}Quantization, Pruning, or ONNX Export (if applicable)}{13}{}%
+\contentsline {subsection}{\numberline {5.3.2}Inference Optimization for CPU}{13}{}%
+\contentsline {section}{\numberline {5.4}Integration with SteelSeries Pipeline}{13}{}%
+\contentsline {subsection}{\numberline {5.4.1}Data Flow Alignment with Moments Software (if available)}{13}{}%
+\contentsline {subsection}{\numberline {5.4.2}Latency Tracking and Bottleneck Identification}{13}{}%
+\contentsline {chapter}{\numberline {6}Results \& Analysis}{14}{}%
+\contentsline {section}{\numberline {6.1}Matching Quality}{14}{}%
+\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{14}{}%
+\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{14}{}%
+\contentsline {section}{\numberline {6.2}Computational Efficiency}{14}{}%
+\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{14}{}%
+\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{14}{}%
+\contentsline {section}{\numberline {6.3}Ablation Studies}{14}{}%
+\contentsline {subsection}{\numberline {6.3.1}Effect of Different Distillation Losses}{14}{}%
+\contentsline {subsection}{\numberline {6.3.2}Model Depth vs. Performance Trade-Offs}{14}{}%
+\contentsline {section}{\numberline {6.4}Real-Time Viability}{14}{}%
+\contentsline {subsection}{\numberline {6.4.1}End-to-End Latency Breakdown}{14}{}%
+\contentsline {subsection}{\numberline {6.4.2}Suitability for Gaming Hardware}{14}{}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{15}{}%
+\contentsline {section}{\numberline {7.1}Summary of Contributions}{15}{}%
+\contentsline {section}{\numberline {7.2}Limitations}{15}{}%
+\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{15}{}%
+\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{15}{}%
+\contentsline {section}{\numberline {7.3}Future Work}{15}{}%
+\contentsline {subsection}{\numberline {7.3.1}Self-Distillation or Online Distillation Strategies}{15}{}%
+\contentsline {subsection}{\numberline {7.3.2}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{15}{}%
+\contentsline {subsection}{\numberline {7.3.3}Real-Time Deployment on End-User Devices}{15}{}%
+\contentsline {chapter}{\numberline {8}References}{16}{}%
+\contentsline {chapter}{\numberline {9}Appendices}{17}{}%
+\contentsline {section}{\numberline {9.1}Additional Figures}{17}{}%
+\contentsline {section}{\numberline {9.2}Code Snippets}{17}{}%
+\contentsline {section}{\numberline {9.3}Hyperparameter Tables}{17}{}%
+\contentsline {section}{\numberline {9.4}Hardware Specifications}{17}{}%
