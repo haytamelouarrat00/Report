@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  30 JUN 2025 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  12 AUG 2025 17:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
 \c@chapter=\count188
@@ -337,23 +337,105 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count292
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count293
-) (main.aux)
+) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen270
+)) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen271
+) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count294
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count295
+\leftroot@=\count296
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count297
+\DOTSCASE@=\count298
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen272
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count299
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count300
+\dotsspace@=\muskip16
+\c@parentequation=\count301
+\dspbrk@lvl=\count302
+\tag@help=\toks34
+\row@=\count303
+\column@=\count304
+\maxfields@=\count305
+\andhelp@=\toks35
+\eqnshift@=\dimen273
+\alignsep@=\dimen274
+\tagshift@=\dimen275
+\tagwidth@=\dimen276
+\totwidth@=\dimen277
+\lineht@=\dimen278
+\@envbody=\toks36
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment') (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count306
+\float@exts=\toks38
+\float@box=\box66
+\@float@everytoks=\toks39
+\@floatcapt=\box67
+)
+
+LaTeX Warning: Unused global option(s):
+    [9pt].
+
+(main.aux
+
+LaTeX Warning: Label `fig:teacher_student' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -374,12 +456,12 @@ LaTeX Font Info:    ... okay on input line 23.
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=56.99039pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -391,17 +473,17 @@ LaTeX Font Info:    ... okay on input line 23.
 
 (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen270
-\scratchbox=\box64
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen271
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count307
+\scratchdimen=\dimen279
+\scratchbox=\box68
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen280
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks41
 ) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -409,176 +491,338 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 <ressources/ss_horizontal_white_on_black.jpg, id=4, 1003.75pt x 143.53625pt>
 File: ressources/ss_horizontal_white_on_black.jpg Graphic file (type jpg)
 <use ressources/ss_horizontal_white_on_black.jpg>
-Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 29.
+Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 31.
 (pdftex.def)             Requested size: 227.62206pt x 32.54831pt.
 <ressources/logo_upssitech.png, id=5, 972.63374pt x 284.06125pt>
 File: ressources/logo_upssitech.png Graphic file (type png)
 <use ressources/logo_upssitech.png>
-Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 34.
+Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 36.
 (pdftex.def)             Requested size: 227.62206pt x 66.47699pt.
 <ressources/for_glory.png, id=7, 115.93312pt x 20.32594pt>
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 63.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 65.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
  [1
 
-{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] (main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
- [2
+{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] [1] (main.toc [1
 
-]
-File: ressources/for_glory.png Graphic file (type png)
-<use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 84.
-(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [3])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 65.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 71.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [4] (main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
+ [2] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
- [5
+ (acknow.tex [3
 
 ]
 Chapter 1.
-[6
+) (intro.tex [4
 
 ]
 Chapter 2.
-<ressources/mouse_1.png, id=32, 481.8pt x 385.44pt>
+<ressources/mouse_1.png, id=34, 481.8pt x 385.44pt>
 File: ressources/mouse_1.png Graphic file (type png)
 <use ressources/mouse_1.png>
-Package pdftex.def Info: ressources/mouse_1.png  used on input line 84.
+Package pdftex.def Info: ressources/mouse_1.png  used on input line 16.
 (pdftex.def)             Requested size: 113.81102pt x 91.04892pt.
-<ressources/mouse_2.png, id=33, 481.8pt x 275.0275pt>
+<ressources/mouse_2.png, id=35, 481.8pt x 275.0275pt>
 File: ressources/mouse_2.png Graphic file (type png)
 <use ressources/mouse_2.png>
-Package pdftex.def Info: ressources/mouse_2.png  used on input line 89.
+Package pdftex.def Info: ressources/mouse_2.png  used on input line 21.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/mouse_3.png, id=34, 481.8pt x 275.0275pt>
+<ressources/mouse_3.png, id=36, 481.8pt x 275.0275pt>
 File: ressources/mouse_3.png Graphic file (type png)
 <use ressources/mouse_3.png>
-Package pdftex.def Info: ressources/mouse_3.png  used on input line 94.
+Package pdftex.def Info: ressources/mouse_3.png  used on input line 26.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/kb_1.png, id=35, 301.125pt x 301.125pt>
+<ressources/kb_1.png, id=37, 301.125pt x 301.125pt>
 File: ressources/kb_1.png Graphic file (type png)
 <use ressources/kb_1.png>
-Package pdftex.def Info: ressources/kb_1.png  used on input line 103.
+Package pdftex.def Info: ressources/kb_1.png  used on input line 35.
 (pdftex.def)             Requested size: 113.81102pt x 113.81297pt.
-<ressources/kb_2.png, id=36, 301.125pt x 240.9pt>
+<ressources/kb_2.png, id=38, 301.125pt x 240.9pt>
 File: ressources/kb_2.png Graphic file (type png)
 <use ressources/kb_2.png>
-Package pdftex.def Info: ressources/kb_2.png  used on input line 108.
+Package pdftex.def Info: ressources/kb_2.png  used on input line 40.
 (pdftex.def)             Requested size: 113.81102pt x 91.05038pt.
-<ressources/kb_3.png, id=37, 301.125pt x 240.9pt>
+<ressources/kb_3.png, id=39, 301.125pt x 240.9pt>
 File: ressources/kb_3.png Graphic file (type png)
 <use ressources/kb_3.png>
-Package pdftex.def Info: ressources/kb_3.png  used on input line 113.
+Package pdftex.def Info: ressources/kb_3.png  used on input line 45.
 (pdftex.def)             Requested size: 113.81102pt x 91.05038pt.
-[7
 
- <./ressources/mouse_1.png> <./ressources/mouse_2.png> <./ressources/mouse_3.png>]
-<ressources/hs_2.png, id=47, 481.8pt x 481.8pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<ressources/hs_2.png, id=40, 481.8pt x 481.8pt>
 File: ressources/hs_2.png Graphic file (type png)
 <use ressources/hs_2.png>
-Package pdftex.def Info: ressources/hs_2.png  used on input line 122.
+Package pdftex.def Info: ressources/hs_2.png  used on input line 54.
 (pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
-<ressources/hs_3.png, id=48, 301.125pt x 246.9225pt>
+<ressources/hs_3.png, id=41, 301.125pt x 246.9225pt>
 File: ressources/hs_3.png Graphic file (type png)
 <use ressources/hs_3.png>
-Package pdftex.def Info: ressources/hs_3.png  used on input line 127.
+Package pdftex.def Info: ressources/hs_3.png  used on input line 59.
 (pdftex.def)             Requested size: 113.81102pt x 93.32663pt.
-<ressources/hs_1.png, id=49, 481.8pt x 481.8pt>
+<ressources/hs_1.png, id=42, 481.8pt x 481.8pt>
 File: ressources/hs_1.png Graphic file (type png)
 <use ressources/hs_1.png>
-Package pdftex.def Info: ressources/hs_1.png  used on input line 132.
+Package pdftex.def Info: ressources/hs_1.png  used on input line 64.
 (pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
-<ressources/sktt1.png, id=50, 963.6pt x 542.025pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5
+
+ <./ressources/mouse_1.png> <./ressources/mouse_2.png> <./ressources/mouse_3.png>]
+<ressources/sktt1.png, id=52, 963.6pt x 542.025pt>
 File: ressources/sktt1.png Graphic file (type png)
 <use ressources/sktt1.png>
-Package pdftex.def Info: ressources/sktt1.png  used on input line 151.
+Package pdftex.def Info: ressources/sktt1.png  used on input line 83.
 (pdftex.def)             Requested size: 318.66948pt x 179.24924pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 155.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 91.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [8 <./ressources/kb_1.png> <./ressources/kb_2.png> <./ressources/kb_3.png> <./ressources/hs_2.png> <./ressources/hs_3.png> <./ressources/hs_1.png>]
+[6 <./ressources/kb_1.png> <./ressources/kb_2.png> <./ressources/kb_3.png> <./ressources/hs_2.png> <./ressources/hs_3.png> <./ressources/hs_1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 170.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [9 <./ressources/sktt1.png>]
+ [7 <./ressources/sktt1.png>]) (litt_rev.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 170.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [8]
+Chapter 3.
+<ressources/alike.png, id=69, 480.79625pt x 126.97438pt>
+File: ressources/alike.png Graphic file (type png)
+<use ressources/alike.png>
+Package pdftex.def Info: ressources/alike.png  used on input line 26.
+(pdftex.def)             Requested size: 455.24411pt x 120.22778pt.
+[9
+
+ <./ressources/alike.png>]
+<ressources/lightglue.png, id=74, 709.14937pt x 205.5178pt>
+File: ressources/lightglue.png Graphic file (type png)
+<use ressources/lightglue.png>
+Package pdftex.def Info: ressources/lightglue.png  used on input line 91.
+(pdftex.def)             Requested size: 455.24411pt x 131.93547pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 96.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
  [10]
-Chapter 3.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [11 <./ressources/lightglue.png>]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 164.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
-Overfull \hbox (26.95705pt too wide) in paragraph at lines 179--179
-|[]\OT1/cmr/bx/n/14.4 Distillation Types: Response-Based, Feature-Based, Relation-
  []
 
-[11
 
-]
+Overfull \hbox (4.47293pt too wide) in paragraph at lines 199--217
+[][] 
+ []
+
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 248.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+[13]) (methodo.tex
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [14]
 Chapter 4.
-[12
-
-]
-Chapter 5.
-[13
-
-]
-Chapter 6.
-[14
-
-]
-Chapter 7.
+<ressources/xfeat-comparative-graph.png, id=106, 623.32875pt x 415.5525pt>
+File: ressources/xfeat-comparative-graph.png Graphic file (type png)
+<use ressources/xfeat-comparative-graph.png>
+Package pdftex.def Info: ressources/xfeat-comparative-graph.png  used on input line 61.
+(pdftex.def)             Requested size: 364.19667pt x 242.80238pt.
 [15
 
 ]
-Chapter 8.
-[16
+<ressources/iconexample1.png, id=110, 602.25pt x 602.25pt>
+File: ressources/iconexample1.png Graphic file (type png)
+<use ressources/iconexample1.png>
+Package pdftex.def Info: ressources/iconexample1.png  used on input line 90.
+(pdftex.def)             Requested size: 91.04742pt x 91.0412pt.
+<ressources/iconexample2.png, id=111, 1927.2pt x 1927.2pt>
+File: ressources/iconexample2.png Graphic file (type png)
+<use ressources/iconexample2.png>
+Package pdftex.def Info: ressources/iconexample2.png  used on input line 91.
+(pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
+<ressources/iconexample3.png, id=112, 256.96pt x 256.96pt>
+File: ressources/iconexample3.png Graphic file (type png)
+<use ressources/iconexample3.png>
+Package pdftex.def Info: ressources/iconexample3.png  used on input line 92.
+(pdftex.def)             Requested size: 91.04742pt x 91.04695pt.
+<ressources/iconexample4.png, id=113, 24.09pt x 24.09pt>
+File: ressources/iconexample4.png Graphic file (type png)
+<use ressources/iconexample4.png>
+Package pdftex.def Info: ressources/iconexample4.png  used on input line 93.
+(pdftex.def)             Requested size: 91.04742pt x 91.06244pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 97.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [16 <./ressources/xfeat-comparative-graph.png>]
+<ressources/bad_icon1.png, id=118, 513.92pt x 513.92pt>
+File: ressources/bad_icon1.png Graphic file (type png)
+<use ressources/bad_icon1.png>
+Package pdftex.def Info: ressources/bad_icon1.png  used on input line 100.
+(pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
+<ressources/bad_icon2.png, id=119, 501.875pt x 501.875pt>
+File: ressources/bad_icon2.png Graphic file (type png)
+<use ressources/bad_icon2.png>
+Package pdftex.def Info: ressources/bad_icon2.png  used on input line 101.
+(pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
+<ressources/bad_icon3.png, id=120, 607.26875pt x 525.965pt>
+File: ressources/bad_icon3.png Graphic file (type png)
+<use ressources/bad_icon3.png>
+Package pdftex.def Info: ressources/bad_icon3.png  used on input line 102.
+(pdftex.def)             Requested size: 91.04742pt x 78.85121pt.
+<ressources/bad_icon4.png, id=121, 4111.36pt x 4111.36pt>
+File: ressources/bad_icon4.png Graphic file (type png)
+<use ressources/bad_icon4.png>
+Package pdftex.def Info: ressources/bad_icon4.png  used on input line 103.
+(pdftex.def)             Requested size: 91.04742pt x 91.02734pt.
+<ressources/bg_example.jpg, id=122, 3854.4pt x 2168.1pt>
+File: ressources/bg_example.jpg Graphic file (type jpg)
+<use ressources/bg_example.jpg>
+Package pdftex.def Info: ressources/bg_example.jpg  used on input line 118.
+(pdftex.def)             Requested size: 364.19667pt x 204.84683pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [17 <./ressources/iconexample1.png> <./ressources/iconexample2.png> <./ressources/iconexample3.png> <./ressources/iconexample4.png> <./ressources/bad_icon1.png> <./ressources/bad_icon2.png> <./ressources/bad_icon3.png> <./ressources/bad_icon4.png> <./ressources/bg_example.jpg>]
+Overfull \hbox (1.14552pt too wide) in paragraph at lines 149--150
+[]\OT1/cmr/m/n/10 Candidate cor-re-spon-dences are gen-er-ated us-ing a FLANN-based ap-prox-i-mate nearest-neighbour search
+ []
+
+) (impl.tex
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [18]
+Chapter 5.
+<ressources/roi.jpg, id=138, 3854.4pt x 2168.1pt>
+File: ressources/roi.jpg Graphic file (type jpg)
+<use ressources/roi.jpg>
+Package pdftex.def Info: ressources/roi.jpg  used on input line 30.
+(pdftex.def)             Requested size: 455.24411pt x 256.05855pt.
+[19
 
 ]
-Chapter 9.
-[17
+<ressources/image1.jpg, id=142, 1271.75125pt x 714.67pt>
+File: ressources/image1.jpg Graphic file (type jpg)
+<use ressources/image1.jpg>
+Package pdftex.def Info: ressources/image1.jpg  used on input line 37.
+(pdftex.def)             Requested size: 409.71692pt x 230.24757pt.
+ Excluding 'comment' comment.
+<ressources/example_data1.png, id=143, 1727.253pt x 471.2004pt>
+File: ressources/example_data1.png Graphic file (type png)
+<use ressources/example_data1.png>
+Package pdftex.def Info: ressources/example_data1.png  used on input line 58.
+(pdftex.def)             Requested size: 455.24411pt x 124.19165pt.
+<ressources/example_data2.png, id=144, 1727.253pt x 471.2004pt>
+File: ressources/example_data2.png Graphic file (type png)
+<use ressources/example_data2.png>
+Package pdftex.def Info: ressources/example_data2.png  used on input line 64.
+(pdftex.def)             Requested size: 455.24411pt x 124.19165pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 67.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [20 <./ressources/roi.jpg> <./ressources/image1.jpg>]
+<ressources/image1_keypoints.jpg, id=148, 1271.75125pt x 714.67pt>
+File: ressources/image1_keypoints.jpg Graphic file (type jpg)
+<use ressources/image1_keypoints.jpg>
+Package pdftex.def Info: ressources/image1_keypoints.jpg  used on input line 76.
+(pdftex.def)             Requested size: 364.19667pt x 204.6645pt.
+<ressources/mask_1.png, id=149, 1271.75125pt x 714.67pt>
+File: ressources/mask_1.png Graphic file (type png)
+<use ressources/mask_1.png>
+Package pdftex.def Info: ressources/mask_1.png  used on input line 83.
+(pdftex.def)             Requested size: 364.19667pt x 204.6645pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 87.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [21 <./ressources/example_data1.png> <./ressources/example_data2.png> <./ressources/image1_keypoints.jpg>]
+<ressources/image1_keypoints_masked.jpg, id=155, 1271.75125pt x 714.67pt>
+File: ressources/image1_keypoints_masked.jpg Graphic file (type jpg)
+<use ressources/image1_keypoints_masked.jpg>
+Package pdftex.def Info: ressources/image1_keypoints_masked.jpg  used on input line 90.
+(pdftex.def)             Requested size: 364.19667pt x 204.6645pt.
+) (res_ana.tex
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [22 <./ressources/mask_1.png (PNG copy)> <./ressources/image1_keypoints_masked.jpg>]
+Chapter 6.
+) (concl.tex [23
+
+]
+Chapter 7.
+) (append.tex [24
+
+]
+Chapter 8.
+) (main.bbl [25
+
+]) [26
 
 ] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15108 strings out of 474486
- 316049 string characters out of 5738563
- 1943542 words of memory out of 5000000
- 37159 multiletter control sequences out of 15000+600000
- 564206 words of font info for 56 fonts, out of 8000000 for 9000
+ 16172 strings out of 474486
+ 334107 string characters out of 5738563
+ 1944542 words of memory out of 5000000
+ 38165 multiletter control sequences out of 15000+600000
+ 566072 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,717b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (17 pages, 1620957 bytes).
+ 84i,16n,93p,1858b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (28 pages, 10023803 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces SteelSeries Gaming Mice}}{7}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SteelSeries Gaming Keyboards}}{8}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SteelSeries Gaming Keyboards}}{8}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \relax }}{9}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SteelSeries Gaming Mice}}{5}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SteelSeries Gaming Keyboards}}{6}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SteelSeries Gaming Keyboards}}{6}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 5x League of Legends World Champions SKT T1}}{7}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces architecture overview of ALIKE}}{9}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces architecture overview of LightGlue}}{11}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of XFeat with other feature matching methods}}{16}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of gaming elements used in dataset creation}}{17}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of gaming elements avoided in dataset creation}}{17}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of backgrounds used in dataset creation}}{17}{}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{20}{}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{20}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{21}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{21}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of extraction process.}}{21}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the binary mask generated for the icon.}}{22}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Overview of filtering process.}}{22}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
