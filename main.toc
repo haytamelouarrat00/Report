@@ -54,30 +54,32 @@
 \contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{19}{}%
 \contentsline {subsubsection}{General Approach}{19}{}%
 \contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{21}{}%
-\contentsline {section}{\numberline {5.4}Quantitative Results}{22}{}%
-\contentsline {section}{\numberline {5.5}Qualitative Results}{22}{}%
-\contentsline {section}{\numberline {5.6}Analysis \& Discussion}{22}{}%
-\contentsline {subsection}{\numberline {5.6.1}Compare results with SIFT, ORB, XFeat}{22}{}%
-\contentsline {subsection}{\numberline {5.6.2}Discuss trade-offs: speed vs. accuracy.}{22}{}%
-\contentsline {subsection}{\numberline {5.6.3}Link back to performance targets from Chapter 4.}{22}{}%
-\contentsline {subsection}{\numberline {5.6.4}Tie to the research gap from Chapter 3.}{22}{}%
-\contentsline {chapter}{\numberline {6}Results \& Analysis}{23}{}%
-\contentsline {section}{\numberline {6.1}Matching Quality}{23}{}%
-\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{23}{}%
-\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{23}{}%
-\contentsline {section}{\numberline {6.2}Computational Efficiency}{23}{}%
-\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{23}{}%
-\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{23}{}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{24}{}%
-\contentsline {section}{\numberline {7.1}Summary of Contributions}{24}{}%
-\contentsline {section}{\numberline {7.2}Limitations}{24}{}%
-\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{24}{}%
-\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{24}{}%
-\contentsline {section}{\numberline {7.3}Future Work}{24}{}%
-\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{24}{}%
-\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{24}{}%
-\contentsline {chapter}{\numberline {8}Appendices}{25}{}%
-\contentsline {section}{\numberline {8.1}Additional Figures}{25}{}%
-\contentsline {section}{\numberline {8.2}Code Snippets}{25}{}%
-\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{25}{}%
-\contentsline {section}{\numberline {8.4}Hardware Specifications}{25}{}%
+\contentsline {subsection}{\numberline {5.3.1}Results}{22}{}%
+\contentsline {subsubsection}{Accuracy Metrics}{23}{}%
+\contentsline {subsubsection}{Loss Metrics}{24}{}%
+\contentsline {subsubsection}{Overall Assessment}{24}{}%
+\contentsline {section}{\numberline {5.4}Analysis \& Discussion}{24}{}%
+\contentsline {subsection}{\numberline {5.4.1}Compare results with SIFT, ORB, XFeat}{24}{}%
+\contentsline {subsection}{\numberline {5.4.2}Discuss trade-offs: speed vs. accuracy.}{24}{}%
+\contentsline {subsection}{\numberline {5.4.3}Link back to performance targets from Chapter 4.}{24}{}%
+\contentsline {subsection}{\numberline {5.4.4}Tie to the research gap from Chapter 3.}{24}{}%
+\contentsline {chapter}{\numberline {6}Results \& Analysis}{25}{}%
+\contentsline {section}{\numberline {6.1}Matching Quality}{25}{}%
+\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{25}{}%
+\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{25}{}%
+\contentsline {section}{\numberline {6.2}Computational Efficiency}{25}{}%
+\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{25}{}%
+\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{25}{}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{26}{}%
+\contentsline {section}{\numberline {7.1}Summary of Contributions}{26}{}%
+\contentsline {section}{\numberline {7.2}Limitations}{26}{}%
+\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{26}{}%
+\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{26}{}%
+\contentsline {section}{\numberline {7.3}Future Work}{26}{}%
+\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{26}{}%
+\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{26}{}%
+\contentsline {chapter}{\numberline {8}Appendices}{27}{}%
+\contentsline {section}{\numberline {8.1}Additional Figures}{27}{}%
+\contentsline {section}{\numberline {8.2}Code Snippets}{27}{}%
+\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{27}{}%
+\contentsline {section}{\numberline {8.4}Hardware Specifications}{27}{}%

@@ -15,11 +15,12 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{20}{}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{20}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{21}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{21}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of extraction process.}}{21}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the binary mask generated for the icon.}}{22}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Overview of filtering process.}}{22}{}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of extraction process.}}{21}{}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the binary mask generated for the icon.}}{21}{}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of filtering process.}}{22}{}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{22}{}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{23}{}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{23}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

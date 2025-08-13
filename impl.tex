@@ -53,19 +53,6 @@ While this describes our general design principle for synthetic data generation,
 \end{itemize}
 \end{comment}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{ressources/example_data1.png}
-    \caption{Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}
-    \label{fig:synthesis_example1}
-\end{figure}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{ressources/example_data2.png}
-    \caption{Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}
-    \label{fig:synthesis_example2}
-\end{figure}
-
 \section{Training Procedure \& Experimental Setup}
 Our chosen approach consists of training the network on synthetic data using a
 teacher-student framework. In the early stages, we kept the same teacher model
@@ -91,8 +78,71 @@ This mask is used to filter out keypoints that do not belong to the icon, ensuri
     \caption{Overview of filtering process.}
     \label{fig:teacher_student}
 \end{figure}
-\section{Quantitative Results}
-\section{Qualitative Results}
+By repeating this process on both \textbf{reference} and \textbf{target} images, we get a pair of keypoint arrays ready to match using ALIKE's matching algorithm to finally get our training data samples.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ressources/example_data1.png}
+    \caption{Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}
+    \label{fig:synthesis_example1}
+\end{figure}
+At a first time we trained the model following the default parameters:
+\begin{itemize}
+    \item Learning rate: 0.001
+    \item Batch size: 10
+    \item Number of iterations: 160k
+\end{itemize}
+This has led us to under average results, prompting further investigation into hyperparameter tuning and data formulation.
+\subsection{Results}
+The metrics obtained from our initial training runs indicate that while the
+model is capable of learning the basic features of the icons, it struggles with
+more complex backgrounds and variations in icon appearance.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ressources/loss_1.png}
+    \caption{Loss curves for initial training runs.}
+    \label{fig:loss_curves_1}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ressources/acc_1.png}
+    \caption{Accuracy curves for initial training runs.}
+    \label{fig:acc_curves_1}
+\end{figure}
+\subsubsection{Accuracy Metrics}
+\begin{itemize}
+    \item \textcolor{blue}{\textbf{Coarse Accuracy: }}Rapid increase in the first ~5k steps, reaching ~55\%-60\%. Then it plateaus with small oscillations.
+    \item \textcolor{darkgreen}{\textbf{Keypoint Position Accuracy: }}Steady growth until ~20k steps, then saturates around ~25\%-27\%.
+    \item \textcolor{myorange}{\textbf{Fine Matching Accuracy: }}Slow but consistent improvement, reaching ~20\%-22\% by step 50k, with more variance in later steps.
+\end{itemize}
+We can interpret this as follows:
+\begin{itemize}
+    \item The model learns coarse correspondences very quickly and maintains that
+          performance, suggesting early layers or coarse matching blocks converge fast.
+    \item Fine matching is the slowest to improve, likely because it depends on the
+          coarse stage being strong first, and needs more subtle feature learning.
+    \item Keypoint position accuracy plateaus mid-training, meaning spatial localization
+          stops improving after ~20k steps.
+\end{itemize}
+\subsubsection{Loss Metrics}
+\begin{itemize}
+    \item \textcolor{blue}{\textbf{Descriptor Loss: }}Sharp drop in the first $\sim$5k steps, then remains low and stable (around 1--2).
+    \item \textcolor{myorange}{\textbf{Fine Coordinates Loss: }}Slow but steady decrease across the 50k steps, still trending down by the end of training.
+    \item \textcolor{darkgreen}{\textbf{Keypoint Position Loss: }}Drops quickly in early training and stabilizes, mirroring the accuracy plateau.
+    \item \textcolor{red}{\textbf{Reliability Loss: }}Low from the start with minimal change, indicating stable confidence estimation.
+    \item \textcolor{purple}{\textbf{Total Loss: }}Large drop in the first $\sim$5k steps, followed by a slower but continuous decline until the end.
+\end{itemize}
+
+We can interpret this as follows:
+\begin{itemize}
+    \item Most of the learning happens in the first 5k--10k steps, especially for descriptors and keypoint positioning.
+    \item Fine coordinate refinement remains the main bottleneck, as its loss is still higher and accuracy is still improving, suggesting more training could help.
+    \item Reliability loss stability shows that confidence estimation remains consistent throughout training.
+\end{itemize}
+\subsubsection{Overall Assessment}
+The training shows strong performance in terms of fast convergence on coarse matching and descriptor learning, with stable behavior and no signs of divergence. However, fine matching accuracy remains low compared to coarse accuracy, and keypoint accuracy saturates early, indicating possible underfitting in fine localization. \textbf{To address these issues, several strategies can be considered: extending the training or applying fine-tuning with a smaller learning rate to further improve fine accuracy, reweighting the losses to give more emphasis to the FineCoords component once the coarse stage has converged, and applying data augmentation techniques that highlight sub-pixel differences to strengthen fine matching capabilities. Additionally, a curriculum learning approach could be adopted, starting with simpler examples before progressively increasing difficulty for the fine stage. }
+
+
 \section{Analysis \& Discussion}
 \subsection{Compare results with SIFT, ORB, XFeat}
 \subsection{Discuss trade-offs: speed vs. accuracy.}
