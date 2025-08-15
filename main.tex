@@ -10,6 +10,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{amsmath}
+\usepackage{amsfonts} % For \mathbb{R} and other mathematical symbols
 \usepackage{comment}
 \usepackage{xcolor}
 \usepackage{float} % For [H] placement option
@@ -66,32 +67,32 @@
 % --- Page Break 
 \newpage
 \begin{abstract}
-Real-time analysis of gaming footage requires feature matching algorithms that are both robust and computationally efficient. SteelSeries’ Moments software currently relies on the Scale-Invariant Feature Transform (SIFT) to detect and match in-game icons, offering strong invariance to scale, rotation, and illumination changes. However, SIFT’s high computational cost and latency make it unsuitable for high frame rate, CPU-bound environments. This work proposes a Neural-Assisted Feature Matching approach that accelerates the most computationally intensive stages of SIFT—keypoint detection and descriptor computation—through the integration of lightweight convolutional neural networks. We investigate recent neural methods, including ALIKE, LightGlue, and XFeat, identifying XFeat as the primary candidate for its favorable speed–accuracy trade-off. A custom gaming-focused dataset was created using real gameplay footage and synthetic transformations to evaluate matching quality, latency, and resource usage. The proposed hybrid pipeline achieves substantial reductions in processing time compared to the existing SIFT-based implementation, while preserving comparable matching accuracy and robustness under varied gaming conditions. These findings demonstrate the potential of neural-assisted methods for real-time, resource-constrained computer vision tasks, with direct applicability to gaming analytics and broader real-time visual correspondence applications.
+    Real-time analysis of gaming footage requires feature matching algorithms that are both robust and computationally efficient. SteelSeries’ Moments software currently relies on the Scale-Invariant Feature Transform (SIFT) to detect and match in-game icons, offering strong invariance to scale, rotation, and illumination changes. However, SIFT’s high computational cost and latency make it unsuitable for high frame rate, CPU-bound environments. This work proposes a Neural-Assisted Feature Matching approach that accelerates the most computationally intensive stages of SIFT—keypoint detection and descriptor computation—through the integration of lightweight convolutional neural networks. We investigate recent neural methods, including ALIKE, LightGlue, and XFeat, identifying XFeat as the primary candidate for its favorable speed–accuracy trade-off. A custom gaming-focused dataset was created using real gameplay footage and synthetic transformations to evaluate matching quality, latency, and resource usage. The proposed hybrid pipeline achieves substantial reductions in processing time compared to the existing SIFT-based implementation, while preserving comparable matching accuracy and robustness under varied gaming conditions. These findings demonstrate the potential of neural-assisted methods for real-time, resource-constrained computer vision tasks, with direct applicability to gaming analytics and broader real-time visual correspondence applications.
 \end{abstract}
 
 \tableofcontents
 \listoffigures
 % ------------------------------------------------------------
-\input{acknow}
+\input{chapters/acknow}
 % ------------------------------------------------------------
-\input{intro}
+\input{chapters/intro}
 % ------------------------------------------------------------
-\input{litt_rev}
+\input{chapters/litt_rev}
 
 % ------------------------------------------------------------
-\input{methodo}
+\input{chapters/methodo}
 
 % ------------------------------------------------------------
-\input{impl}
+\input{chapters/impl}
 
 % ------------------------------------------------------------
-\input{res_ana}
+\input{chapters/res_ana}
 
 % ------------------------------------------------------------
-\input{concl}
+\input{chapters/concl}
 
 % ------------------------------------------------------------
-\input{append}
+\input{chapters/append}
 % ------------------------------------------------------------
 
 % Add bibliography here

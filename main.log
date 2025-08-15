@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  13 AUG 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  15 AUG 2025 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,6 +401,13 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write4
  Excluding comment 'comment') (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
@@ -422,20 +429,20 @@ LaTeX Warning: Label `fig:teacher_student' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -496,21 +503,29 @@ Package caption Info: End \AtBeginDocument code.
 <ressources/ss_horizontal_white_on_black.jpg, id=4, 1003.75pt x 143.53625pt>
 File: ressources/ss_horizontal_white_on_black.jpg Graphic file (type jpg)
 <use ressources/ss_horizontal_white_on_black.jpg>
-Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 33.
+Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 34.
 (pdftex.def)             Requested size: 227.62206pt x 32.54831pt.
 <ressources/logo_upssitech.png, id=5, 972.63374pt x 284.06125pt>
 File: ressources/logo_upssitech.png Graphic file (type png)
 <use ressources/logo_upssitech.png>
-Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 38.
+Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 39.
 (pdftex.def)             Requested size: 227.62206pt x 66.47699pt.
 <ressources/for_glory.png, id=7, 115.93312pt x 20.32594pt>
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 67.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 68.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
  [1
 
-{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] [1] (main.toc [1
+{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] [1] (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 ])
 \tf@toc=\write5
@@ -518,17 +533,17 @@ Package pdftex.def Info: ressources/for_glory.png  used on input line 67.
 
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 73.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 74.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
  [2] (main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (acknow.tex [3
+ (chapters/acknow.tex [3
 
 ]
 Chapter 1.
-) (intro.tex [4
+) (chapters/intro.tex [4
 
 ]
 Chapter 2.
@@ -604,7 +619,7 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [7 <./ressources/sktt1.png>]) (litt_rev.tex
+ [7 <./ressources/sktt1.png>]) (chapters/litt_rev.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
@@ -652,7 +667,7 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 248.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-[13]) (methodo.tex
+[13]) (chapters/methodo.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
@@ -726,7 +741,7 @@ Overfull \hbox (1.14552pt too wide) in paragraph at lines 149--150
 []\OT1/cmr/m/n/10 Candidate cor-re-spon-dences are gen-er-ated us-ing a FLANN-based ap-prox-i-mate nearest-neighbour search
  []
 
-) (impl.tex
+) (chapters/impl.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
@@ -796,24 +811,74 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 120.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [23 <./ressources/loss_1.png> <./ressources/acc_1.png>]) (res_ana.tex
+ [23 <./ressources/loss_1.png> <./ressources/acc_1.png>]
+<ressources/confusion_matrix_1.png, id=165, 381.5856pt x 342.19846pt>
+File: ressources/confusion_matrix_1.png Graphic file (type png)
+<use ressources/confusion_matrix_1.png>
+Package pdftex.def Info: ressources/confusion_matrix_1.png  used on input line 149.
+(pdftex.def)             Requested size: 318.66948pt x 285.78952pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 155.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [24 <./ressources/confusion_matrix_1.png>]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 215.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [25]
+<ressources/image2.png, id=173, 1885.0425pt x 708.6475pt>
+File: ressources/image2.png Graphic file (type png)
+<use ressources/image2.png>
+Package pdftex.def Info: ressources/image2.png  used on input line 237.
+(pdftex.def)             Requested size: 273.14923pt x 102.68097pt.
+<ressources/acuracy_2.png, id=174, 867.24pt x 505.89pt>
+File: ressources/acuracy_2.png Graphic file (type png)
+<use ressources/acuracy_2.png>
+Package pdftex.def Info: ressources/acuracy_2.png  used on input line 248.
+(pdftex.def)             Requested size: 318.66948pt x 185.88724pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 254.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [26 <./ressources/image2.png> <./ressources/acuracy_2.png>]
+<ressources/multiple_losses_graph_2.png, id=181, 867.24pt x 505.89pt>
+File: ressources/multiple_losses_graph_2.png Graphic file (type png)
+<use ressources/multiple_losses_graph_2.png>
+Package pdftex.def Info: ressources/multiple_losses_graph_2.png  used on input line 260.
+(pdftex.def)             Requested size: 318.66948pt x 185.88724pt.
+<ressources/icon_4_original.png, id=182, 256.96pt x 256.96pt>
+File: ressources/icon_4_original.png Graphic file (type png)
+<use ressources/icon_4_original.png>
+Package pdftex.def Info: ressources/icon_4_original.png  used on input line 300.
+(pdftex.def)             Requested size: 159.33821pt x 159.34099pt.
+<ressources/icon_4.png, id=183, 128.48pt x 128.48pt>
+File: ressources/icon_4.png Graphic file (type png)
+<use ressources/icon_4.png>
+Package pdftex.def Info: ressources/icon_4.png  used on input line 307.
+(pdftex.def)             Requested size: 159.33821pt x 159.35078pt.
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 312.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [27 <./ressources/multiple_losses_graph_2.png>]) (chapters/res_ana.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [24]
+ [28 <./ressources/icon_4_original.png> <./ressources/icon_4.png>]
 Chapter 6.
-) (concl.tex [25
+) (chapters/concl.tex [29
 
 ]
 Chapter 7.
-) (append.tex [26
+) (chapters/append.tex [30
 
 ]
 Chapter 8.
-) (main.bbl [27
+) (main.bbl [31
 
-]) [28
+]) [32
 
 ] (main.aux)
  ***********
@@ -826,17 +891,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16182 strings out of 474486
- 334290 string characters out of 5738563
+ 16353 strings out of 474486
+ 338529 string characters out of 5738563
  1944542 words of memory out of 5000000
- 38175 multiletter control sequences out of 15000+600000
- 566072 words of font info for 63 fonts, out of 8000000 for 9000
+ 38327 multiletter control sequences out of 15000+600000
+ 568454 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,16n,93p,1858b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (30 pages, 9062883 bytes).
+ 84i,16n,93p,1867b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (34 pages, 10959480 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

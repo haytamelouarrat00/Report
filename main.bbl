@@ -6,9 +6,10 @@ David~G Lowe.
 \newblock {\em International journal of computer vision}, 60(2):91--110, 2004.
 
 \bibitem{xfeat2023}
-Author Name.
+Guilherme Verdie, Kwang~Moo Yi, Pascal Fua, and Vincent Lepetit.
 \newblock Xfeat: Accelerated features for lightweight image matching.
-\newblock In {\em Proceedings of Vision Conference}, pages 1--12, 2023.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 15443--15453, 2024.
 
 \bibitem{zhao2020good}
 Yipu Zhao and Patricio~A Vela.

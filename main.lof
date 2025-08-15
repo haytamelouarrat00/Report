@@ -21,6 +21,12 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{22}{}%
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{23}{}%
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{23}{}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion matrix for initial training runs.}}{24}{}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Example of the synthesis process for variant A}}{26}{}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of the accuracy metrics evaluation}}{26}{}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Example of the loss metrics evaluation}}{27}{}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Original Icon}}{28}{}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Processed Icon}}{28}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
