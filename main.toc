@@ -1,97 +1,101 @@
-\contentsline {chapter}{\numberline {1}Acknowledgements}{4}{}%
-\contentsline {chapter}{\numberline {2}Introduction}{5}{}%
-\contentsline {section}{\numberline {2.1}Host Organism}{5}{}%
-\contentsline {subsection}{\numberline {2.1.1}SteelSeries}{5}{}%
-\contentsline {subsubsection}{Company history and Background}{5}{}%
-\contentsline {subsubsection}{Key Products and Technologies}{5}{}%
-\contentsline {subsection}{\numberline {2.1.2}Mission}{6}{}%
-\contentsline {section}{\numberline {2.2}Context \& Motivation}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}Feature Matching in Computer Vision}{6}{}%
-\contentsline {subsubsection}{Definition}{6}{}%
-\contentsline {subsection}{\numberline {2.2.2}How Feature Matching Works}{7}{}%
-\contentsline {subsection}{\numberline {2.2.3}Scale Invariant Feature Transform}{7}{}%
-\contentsline {subsection}{\numberline {2.2.4}Challenges in Gaming Applications}{8}{}%
-\contentsline {subsection}{\numberline {2.2.5}Limitations of Traditional Feature Matching Techniques}{8}{}%
-\contentsline {section}{\numberline {2.3}Project Objectives}{8}{}%
-\contentsline {subsection}{\numberline {2.3.1}Reproducing Feature Matching Techniques with Neural Networks}{8}{}%
-\contentsline {subsection}{\numberline {2.3.2}Problem Statement}{8}{}%
-\contentsline {section}{\numberline {2.4}Industrial Relevance}{8}{}%
-\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{8}{}%
-\contentsline {chapter}{\numberline {3}Literature Review: Neural Feature Matching}{9}{}%
-\contentsline {section}{\numberline {3.1}Review of Recent Methods}{9}{}%
-\contentsline {section}{\numberline {3.2}ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction}{9}{}%
-\contentsline {subsection}{\numberline {3.2.1}Shared Feature Encoder}{9}{}%
-\contentsline {subsection}{\numberline {3.2.2}Keypoint Detection Head}{10}{}%
-\contentsline {subsection}{\numberline {3.2.3}Descriptor Extraction Head}{10}{}%
-\contentsline {section}{\numberline {3.3}LightGlue: Local Feature Matching at Light Speed}{11}{}%
-\contentsline {subsection}{\numberline {3.3.1}Input Representation:}{11}{}%
-\contentsline {subsection}{\numberline {3.3.2}Transformer-based Backbone: }{11}{}%
-\contentsline {subsection}{\numberline {3.3.3}Lightweight Matching Head:}{11}{}%
-\contentsline {subsection}{\numberline {3.3.4}Adaptive Inference:}{11}{}%
-\contentsline {section}{\numberline {3.4}XFeat: Accelerated Features for Lightweight Image Matching}{12}{}%
-\contentsline {subsection}{\numberline {3.4.1}Featherweight Network Backbone}{12}{}%
-\contentsline {subsection}{\numberline {3.4.2}Local Feature extraction}{12}{}%
-\contentsline {subsection}{\numberline {3.4.3}Dense Matching and Match Refinement}{12}{}%
-\contentsline {subsubsection}{What is Mutual Nearest Neighbor?}{12}{}%
-\contentsline {subsection}{\numberline {3.4.4}Sparse \& Semi-dense Matching}{13}{}%
-\contentsline {section}{\numberline {3.5}Gaps and Limitations}{14}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{15}{}%
-\contentsline {section}{\numberline {4.1}Problem Formulation}{15}{}%
-\contentsline {subsection}{\numberline {4.1.1}Feature Matching as Correspondence Prediction}{15}{}%
-\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{15}{}%
-\contentsline {subsubsection}{Performance Requirements}{15}{}%
-\contentsline {subsection}{\numberline {4.1.3}Choice of Models}{15}{}%
-\contentsline {subsection}{\numberline {4.1.4}Datasets}{16}{}%
-\contentsline {section}{\numberline {4.2}Experimental Design}{16}{}%
-\contentsline {subsection}{\numberline {4.2.1}Data Collection and Preprocessing}{16}{}%
-\contentsline {subsubsection}{Icons and Templates}{16}{}%
-\contentsline {subsubsection}{Footage Collection}{17}{}%
-\contentsline {subsection}{\numberline {4.2.2}Design of Teacher-Student Framework}{17}{}%
-\contentsline {subsection}{\numberline {4.2.3}SIFT Implementation}{18}{}%
-\contentsline {section}{\numberline {4.3}Evaluation metrics}{18}{}%
-\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{19}{}%
-\contentsline {section}{\numberline {5.1}Overview of the approach}{19}{}%
-\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{19}{}%
-\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{19}{}%
-\contentsline {subsubsection}{General Approach}{19}{}%
-\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{21}{}%
-\contentsline {subsection}{\numberline {5.3.1}Results}{22}{}%
-\contentsline {subsubsection}{Accuracy Metrics}{23}{}%
-\contentsline {subsubsection}{Loss Metrics}{24}{}%
-\contentsline {subsubsection}{Confusion matrix}{24}{}%
-\contentsline {subsubsection}{Overall Assessment}{25}{}%
-\contentsline {section}{\numberline {5.4}Iterative Refinement}{25}{}%
-\contentsline {subsection}{\numberline {5.4.1}Variant A}{26}{}%
-\contentsline {subsubsection}{Homography-based keypoint transfer}{26}{}%
-\contentsline {paragraph}{Notes.}{26}{}%
-\contentsline {subsubsection}{Accuracy metrics}{26}{}%
-\contentsline {subsubsection}{Loss metrics}{27}{}%
+\contentsline {chapter}{\numberline {1}Acknowledgements}{3}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{4}{}%
+\contentsline {section}{\numberline {2.1}Host Organism}{4}{}%
+\contentsline {subsection}{\numberline {2.1.1}SteelSeries}{4}{}%
+\contentsline {subsubsection}{Company history and Background}{4}{}%
+\contentsline {subsubsection}{Key Products and Technologies}{4}{}%
+\contentsline {subsection}{\numberline {2.1.2}Mission}{5}{}%
+\contentsline {section}{\numberline {2.2}Context \& Motivation}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}Feature Matching in Computer Vision}{5}{}%
+\contentsline {subsubsection}{Definition}{5}{}%
+\contentsline {subsection}{\numberline {2.2.2}How Feature Matching Works}{6}{}%
+\contentsline {subsection}{\numberline {2.2.3}Scale Invariant Feature Transform}{6}{}%
+\contentsline {subsection}{\numberline {2.2.4}Challenges in Gaming Applications}{7}{}%
+\contentsline {subsection}{\numberline {2.2.5}Limitations of Traditional Feature Matching Techniques}{7}{}%
+\contentsline {section}{\numberline {2.3}Project Objectives}{7}{}%
+\contentsline {subsection}{\numberline {2.3.1}Reproducing Feature Matching Techniques with Neural Networks}{7}{}%
+\contentsline {subsection}{\numberline {2.3.2}Problem Statement}{7}{}%
+\contentsline {section}{\numberline {2.4}Industrial Relevance}{7}{}%
+\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{7}{}%
+\contentsline {chapter}{\numberline {3}Literature Review: Neural Feature Matching}{8}{}%
+\contentsline {section}{\numberline {3.1}Review of Recent Methods}{8}{}%
+\contentsline {section}{\numberline {3.2}ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction}{8}{}%
+\contentsline {subsection}{\numberline {3.2.1}Shared Feature Encoder}{8}{}%
+\contentsline {subsection}{\numberline {3.2.2}Keypoint Detection Head}{9}{}%
+\contentsline {subsection}{\numberline {3.2.3}Descriptor Extraction Head}{9}{}%
+\contentsline {section}{\numberline {3.3}LightGlue: Local Feature Matching at Light Speed}{10}{}%
+\contentsline {subsection}{\numberline {3.3.1}Input Representation:}{10}{}%
+\contentsline {subsection}{\numberline {3.3.2}Transformer-based Backbone: }{10}{}%
+\contentsline {subsection}{\numberline {3.3.3}Lightweight Matching Head:}{10}{}%
+\contentsline {subsection}{\numberline {3.3.4}Adaptive Inference:}{10}{}%
+\contentsline {section}{\numberline {3.4}XFeat: Accelerated Features for Lightweight Image Matching}{11}{}%
+\contentsline {subsection}{\numberline {3.4.1}Featherweight Network Backbone}{11}{}%
+\contentsline {subsection}{\numberline {3.4.2}Local Feature extraction}{11}{}%
+\contentsline {subsection}{\numberline {3.4.3}Dense Matching and Match Refinement}{11}{}%
+\contentsline {subsubsection}{What is Mutual Nearest Neighbor?}{11}{}%
+\contentsline {subsection}{\numberline {3.4.4}Sparse \& Semi-dense Matching}{12}{}%
+\contentsline {section}{\numberline {3.5}Gaps and Limitations}{13}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{14}{}%
+\contentsline {section}{\numberline {4.1}Problem Formulation}{14}{}%
+\contentsline {subsection}{\numberline {4.1.1}Feature Matching as Correspondence Prediction}{14}{}%
+\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{14}{}%
+\contentsline {subsubsection}{Performance Requirements}{14}{}%
+\contentsline {subsection}{\numberline {4.1.3}Choice of Models}{14}{}%
+\contentsline {subsection}{\numberline {4.1.4}Datasets}{15}{}%
+\contentsline {section}{\numberline {4.2}Experimental Design}{15}{}%
+\contentsline {subsection}{\numberline {4.2.1}Data Collection and Preprocessing}{15}{}%
+\contentsline {subsubsection}{Icons and Templates}{15}{}%
+\contentsline {subsubsection}{Footage Collection}{16}{}%
+\contentsline {subsection}{\numberline {4.2.2}Design of Teacher-Student Framework}{16}{}%
+\contentsline {subsection}{\numberline {4.2.3}SIFT Implementation}{17}{}%
+\contentsline {section}{\numberline {4.3}Evaluation metrics}{17}{}%
+\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{18}{}%
+\contentsline {section}{\numberline {5.1}Overview of the approach}{18}{}%
+\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{18}{}%
+\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{18}{}%
+\contentsline {subsubsection}{General Approach}{18}{}%
+\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{20}{}%
+\contentsline {subsection}{\numberline {5.3.1}Results}{21}{}%
+\contentsline {subsubsection}{Accuracy Metrics}{22}{}%
+\contentsline {subsubsection}{Loss Metrics}{23}{}%
+\contentsline {subsubsection}{Confusion matrix}{23}{}%
+\contentsline {subsubsection}{Overall Assessment}{24}{}%
+\contentsline {section}{\numberline {5.4}Iterative Refinement}{24}{}%
+\contentsline {subsection}{\numberline {5.4.1}Variant A}{25}{}%
+\contentsline {subsubsection}{Homography-based keypoint transfer}{25}{}%
+\contentsline {paragraph}{Notes.}{25}{}%
+\contentsline {subsubsection}{Accuracy metrics}{25}{}%
+\contentsline {subsubsection}{Loss metrics}{26}{}%
 \contentsline {subsubsection}{Confusion Matrix}{27}{}%
 \contentsline {subsubsection}{Interpretation}{27}{}%
-\contentsline {subsection}{\numberline {5.4.2}Variant B}{27}{}%
-\contentsline {subsection}{\numberline {5.4.3}Variant C}{28}{}%
-\contentsline {section}{\numberline {5.5}Analysis \& Discussion}{28}{}%
-\contentsline {subsection}{\numberline {5.5.1}Compare results with SIFT, ORB, XFeat}{28}{}%
-\contentsline {subsection}{\numberline {5.5.2}Discuss trade-offs: speed vs. accuracy.}{28}{}%
-\contentsline {subsection}{\numberline {5.5.3}Link back to performance targets from Chapter 4.}{28}{}%
-\contentsline {subsection}{\numberline {5.5.4}Tie to the research gap from Chapter 3.}{28}{}%
-\contentsline {chapter}{\numberline {6}Results \& Analysis}{29}{}%
-\contentsline {section}{\numberline {6.1}Matching Quality}{29}{}%
-\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{29}{}%
-\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{29}{}%
-\contentsline {section}{\numberline {6.2}Computational Efficiency}{29}{}%
-\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{29}{}%
-\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{29}{}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{30}{}%
-\contentsline {section}{\numberline {7.1}Summary of Contributions}{30}{}%
-\contentsline {section}{\numberline {7.2}Limitations}{30}{}%
-\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{30}{}%
-\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{30}{}%
-\contentsline {section}{\numberline {7.3}Future Work}{30}{}%
-\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{30}{}%
-\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{30}{}%
-\contentsline {chapter}{\numberline {8}Appendices}{31}{}%
-\contentsline {section}{\numberline {8.1}Additional Figures}{31}{}%
-\contentsline {section}{\numberline {8.2}Code Snippets}{31}{}%
-\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{31}{}%
-\contentsline {section}{\numberline {8.4}Hardware Specifications}{31}{}%
+\contentsline {subsection}{\numberline {5.4.2}Variant B}{28}{}%
+\contentsline {subsubsection}{Accuracy metrics}{29}{}%
+\contentsline {subsubsection}{Loss metrics}{29}{}%
+\contentsline {subsubsection}{Confusion matrix}{29}{}%
+\contentsline {subsubsection}{Interpretation}{29}{}%
+\contentsline {subsection}{\numberline {5.4.3}Variant C}{29}{}%
+\contentsline {section}{\numberline {5.5}Analysis \& Discussion}{29}{}%
+\contentsline {subsection}{\numberline {5.5.1}Compare results with SIFT, ORB, XFeat}{29}{}%
+\contentsline {subsection}{\numberline {5.5.2}Discuss trade-offs: speed vs. accuracy.}{29}{}%
+\contentsline {subsection}{\numberline {5.5.3}Link back to performance targets from Chapter 4.}{29}{}%
+\contentsline {subsection}{\numberline {5.5.4}Tie to the research gap from Chapter 3.}{29}{}%
+\contentsline {chapter}{\numberline {6}Results \& Analysis}{30}{}%
+\contentsline {section}{\numberline {6.1}Matching Quality}{30}{}%
+\contentsline {subsection}{\numberline {6.1.1}Quantitative Comparison with ORB, SIFT, and XFeat}{30}{}%
+\contentsline {subsection}{\numberline {6.1.2}Visual Results on Gaming Footage}{30}{}%
+\contentsline {section}{\numberline {6.2}Computational Efficiency}{30}{}%
+\contentsline {subsection}{\numberline {6.2.1}FPS and Latency Benchmarks}{30}{}%
+\contentsline {subsection}{\numberline {6.2.2}Memory and CPU Usage Profiles}{30}{}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{31}{}%
+\contentsline {section}{\numberline {7.1}Summary of Contributions}{31}{}%
+\contentsline {section}{\numberline {7.2}Limitations}{31}{}%
+\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{31}{}%
+\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{31}{}%
+\contentsline {section}{\numberline {7.3}Future Work}{31}{}%
+\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{31}{}%
+\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{31}{}%
+\contentsline {chapter}{\numberline {8}Appendices}{32}{}%
+\contentsline {section}{\numberline {8.1}Additional Figures}{32}{}%
+\contentsline {section}{\numberline {8.2}Code Snippets}{32}{}%
+\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{32}{}%
+\contentsline {section}{\numberline {8.4}Hardware Specifications}{32}{}%

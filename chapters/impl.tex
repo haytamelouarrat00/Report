@@ -269,18 +269,42 @@ found that the performance was sensitive to these factors.
     \item \textcolor{red}{\textbf{Total Loss:}} Drops sharply from ~45 to ~12–14, then plateaus — convergence reached.
 \end{itemize}
 \subsubsection{Confusion Matrix}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{ressources/confusion_matrix_2.png}
+    \caption{Confusion matrix for variant A}
+    \label{fig:confusion_matrix_2}
+\end{figure}
+\begin{itemize}
+    \item \textbf{Accuracy :} 0.602
+    \item \textbf{Precision :} 0.696
+    \item \textbf{Recall :} 0.363
+    \item \textbf{F1 Score :} 0.477
+\end{itemize}
 \subsubsection{Interpretation}
-These results indicate that the model is able to distinguish between different
-features and able to learn to a certain extent the patterns present in the
-data. Yet many issues emerge, notably the quick and fast overfitting we witness
-from the loss metrics, and the low accuracy. So we decided to introduce
-learning rate scheduling and simple data augmentation, by cropping out the
-background from the reference image, to avoid teaching the network unnecessary
-information from the background. We have also noticed that the different loss
-metrics are not on the same scale, so we tried changing their weights for them
-to fall back under the same scale. For that, we reduced the weight of the
-keypoint position loss; as it is always the highest, this change should help
-balance the training process.
+The results show that while the model can differentiate between various
+features and capture some general patterns in the data, it struggles to truly
+learn our custom target. The main problems are the rapid overfitting seen in
+the loss curves and the overall low accuracy. To mitigate this, we introduced
+learning rate scheduling and applied a basic form of data augmentation:
+cropping the background from the reference image. This was done to prevent the
+network from memorizing irrelevant background details instead of focusing on
+the icon itself. Another issue was that the loss metrics operated on very
+different scales, which could skew the optimization process. To address this,
+we adjusted their relative weights so they would be more balanced. In
+particular, we lowered the weight of the keypoint position loss, as it was
+consistently the largest, to avoid it dominating the training signal. Despite
+these changes, the network still fails to capture the distinctive patterns and
+features that define our custom target. This suggests that the model is
+focusing on general cues or noise rather than learning the precise visual
+characteristics we aim to detect.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{ressources/false_positive_1.png}
+    \caption{False Positive Example}
+    \label{fig:false_positive_1}
+\end{figure}
+
 \subsection{Variant B}
 In our new solution, we noticed that some icons contained semi-transparent
 regions. When placed over a background, these pixels blended with the
@@ -309,8 +333,20 @@ background.
         \label{fig:processed_icon}
     \end{minipage}
 \end{figure}
+Next we have added simple geometric transformations to our synthesis pipeline, where we would move the icon by random translations, to imitate the icon's position variability in real-world scenarios. And then we would keep the rest of the pipeline intact.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{ressources/icon_transformed.png}
+    \caption{Transformed Icon}
+    \label{fig:transformed_icon}
+\end{figure}
+\subsubsection{Accuracy metrics}
+\subsubsection{Loss metrics}
+\subsubsection{Confusion matrix}
+\subsubsection{Interpretation}
 
 \subsection{Variant C}
+We decided to return to our original approach and adopt SIFT as the teacher method. Given that our SIFT-based solution already demonstrates strong performance on the target task, it provides a robust and reliable supervisory signal for training. In addition, we deliberately removed all forms of filtering, such as RANSAC and masking, in order to increase the complexity of the learning problem and reduce the risk of overfitting. This choice results in a more raw and unfiltered dataset, encouraging the student model to generalize more effectively under challenging conditions.
 \section{Analysis \& Discussion}
 \subsection{Compare results with SIFT, ORB, XFeat}
 \subsection{Discuss trade-offs: speed vs. accuracy.}

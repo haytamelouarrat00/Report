@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  15 AUG 2025 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  17 AUG 2025 02:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,11 +422,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 LaTeX Warning: Unused global option(s):
     [9pt].
 
-(main.aux
-
-LaTeX Warning: Label `fig:teacher_student' multiply defined.
-
-)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -443,7 +439,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -517,62 +512,52 @@ Package pdftex.def Info: ressources/for_glory.png  used on input line 68.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
  [1
 
-{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] [1] (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-])
+{C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>] [1]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-File: ressources/for_glory.png Graphic file (type png)
-<use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 74.
-(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [2] (main.lof)
+[1
+
+]
+No file main.lof.
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- (chapters/acknow.tex [3
+(chapters/acknow.tex [2
 
 ]
 Chapter 1.
-) (chapters/intro.tex [4
+) (chapters/intro.tex [3
 
 ]
 Chapter 2.
-<ressources/mouse_1.png, id=34, 481.8pt x 385.44pt>
+<ressources/mouse_1.png, id=31, 481.8pt x 385.44pt>
 File: ressources/mouse_1.png Graphic file (type png)
 <use ressources/mouse_1.png>
 Package pdftex.def Info: ressources/mouse_1.png  used on input line 16.
 (pdftex.def)             Requested size: 113.81102pt x 91.04892pt.
-<ressources/mouse_2.png, id=35, 481.8pt x 275.0275pt>
+<ressources/mouse_2.png, id=32, 481.8pt x 275.0275pt>
 File: ressources/mouse_2.png Graphic file (type png)
 <use ressources/mouse_2.png>
 Package pdftex.def Info: ressources/mouse_2.png  used on input line 21.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/mouse_3.png, id=36, 481.8pt x 275.0275pt>
+<ressources/mouse_3.png, id=33, 481.8pt x 275.0275pt>
 File: ressources/mouse_3.png Graphic file (type png)
 <use ressources/mouse_3.png>
 Package pdftex.def Info: ressources/mouse_3.png  used on input line 26.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/kb_1.png, id=37, 301.125pt x 301.125pt>
+<ressources/kb_1.png, id=34, 301.125pt x 301.125pt>
 File: ressources/kb_1.png Graphic file (type png)
 <use ressources/kb_1.png>
 Package pdftex.def Info: ressources/kb_1.png  used on input line 35.
 (pdftex.def)             Requested size: 113.81102pt x 113.81297pt.
-<ressources/kb_2.png, id=38, 301.125pt x 240.9pt>
+<ressources/kb_2.png, id=35, 301.125pt x 240.9pt>
 File: ressources/kb_2.png Graphic file (type png)
 <use ressources/kb_2.png>
 Package pdftex.def Info: ressources/kb_2.png  used on input line 40.
 (pdftex.def)             Requested size: 113.81102pt x 91.05038pt.
-<ressources/kb_3.png, id=39, 301.125pt x 240.9pt>
+<ressources/kb_3.png, id=36, 301.125pt x 240.9pt>
 File: ressources/kb_3.png Graphic file (type png)
 <use ressources/kb_3.png>
 Package pdftex.def Info: ressources/kb_3.png  used on input line 45.
@@ -580,17 +565,17 @@ Package pdftex.def Info: ressources/kb_3.png  used on input line 45.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ressources/hs_2.png, id=40, 481.8pt x 481.8pt>
+<ressources/hs_2.png, id=37, 481.8pt x 481.8pt>
 File: ressources/hs_2.png Graphic file (type png)
 <use ressources/hs_2.png>
 Package pdftex.def Info: ressources/hs_2.png  used on input line 54.
 (pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
-<ressources/hs_3.png, id=41, 301.125pt x 246.9225pt>
+<ressources/hs_3.png, id=38, 301.125pt x 246.9225pt>
 File: ressources/hs_3.png Graphic file (type png)
 <use ressources/hs_3.png>
 Package pdftex.def Info: ressources/hs_3.png  used on input line 59.
 (pdftex.def)             Requested size: 113.81102pt x 93.32663pt.
-<ressources/hs_1.png, id=42, 481.8pt x 481.8pt>
+<ressources/hs_1.png, id=39, 481.8pt x 481.8pt>
 File: ressources/hs_1.png Graphic file (type png)
 <use ressources/hs_1.png>
 Package pdftex.def Info: ressources/hs_1.png  used on input line 64.
@@ -598,10 +583,10 @@ Package pdftex.def Info: ressources/hs_1.png  used on input line 64.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5
+[4
 
  <./ressources/mouse_1.png> <./ressources/mouse_2.png> <./ressources/mouse_3.png>]
-<ressources/sktt1.png, id=52, 963.6pt x 542.025pt>
+<ressources/sktt1.png, id=48, 963.6pt x 542.025pt>
 File: ressources/sktt1.png Graphic file (type png)
 <use ressources/sktt1.png>
 Package pdftex.def Info: ressources/sktt1.png  used on input line 83.
@@ -614,27 +599,42 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 91.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-[6 <./ressources/kb_1.png> <./ressources/kb_2.png> <./ressources/kb_3.png> <./ressources/hs_2.png> <./ressources/hs_3.png> <./ressources/hs_1.png>]
+[5 <./ressources/kb_1.png> <./ressources/kb_2.png> <./ressources/kb_3.png> <./ressources/hs_2.png> <./ressources/hs_3.png> <./ressources/hs_1.png>]
+
+LaTeX Warning: Citation `lowe2004' on page 6 undefined on input line 107.
+
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [7 <./ressources/sktt1.png>]) (chapters/litt_rev.tex
+[6 <./ressources/sktt1.png>]
+
+LaTeX Warning: Citation `zhao2020good' on page 7 undefined on input line 113.
+
+) (chapters/litt_rev.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [8]
+ [7]
 Chapter 3.
-<ressources/alike.png, id=69, 480.79625pt x 126.97438pt>
+<ressources/alike.png, id=66, 480.79625pt x 126.97438pt>
 File: ressources/alike.png Graphic file (type png)
 <use ressources/alike.png>
 Package pdftex.def Info: ressources/alike.png  used on input line 26.
 (pdftex.def)             Requested size: 455.24411pt x 120.22778pt.
-[9
+[8
 
  <./ressources/alike.png>]
-<ressources/lightglue.png, id=74, 709.14937pt x 205.5178pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+ (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+ (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<ressources/lightglue.png, id=71, 709.14937pt x 205.5178pt>
 File: ressources/lightglue.png Graphic file (type png)
 <use ressources/lightglue.png>
 Package pdftex.def Info: ressources/lightglue.png  used on input line 91.
@@ -643,17 +643,17 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 96.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [10]
+ [9]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [11 <./ressources/lightglue.png>]
+ [10 <./ressources/lightglue.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 164.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [12]
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
@@ -667,37 +667,37 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 248.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-[13]) (chapters/methodo.tex
+[12]) (chapters/methodo.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [14]
+ [13]
 Chapter 4.
-<ressources/xfeat-comparative-graph.png, id=106, 623.32875pt x 415.5525pt>
+<ressources/xfeat-comparative-graph.png, id=103, 623.32875pt x 415.5525pt>
 File: ressources/xfeat-comparative-graph.png Graphic file (type png)
 <use ressources/xfeat-comparative-graph.png>
 Package pdftex.def Info: ressources/xfeat-comparative-graph.png  used on input line 61.
 (pdftex.def)             Requested size: 364.19667pt x 242.80238pt.
-[15
+[14
 
 ]
-<ressources/iconexample1.png, id=110, 602.25pt x 602.25pt>
+<ressources/iconexample1.png, id=107, 602.25pt x 602.25pt>
 File: ressources/iconexample1.png Graphic file (type png)
 <use ressources/iconexample1.png>
 Package pdftex.def Info: ressources/iconexample1.png  used on input line 90.
 (pdftex.def)             Requested size: 91.04742pt x 91.0412pt.
-<ressources/iconexample2.png, id=111, 1927.2pt x 1927.2pt>
+<ressources/iconexample2.png, id=108, 1927.2pt x 1927.2pt>
 File: ressources/iconexample2.png Graphic file (type png)
 <use ressources/iconexample2.png>
 Package pdftex.def Info: ressources/iconexample2.png  used on input line 91.
 (pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
-<ressources/iconexample3.png, id=112, 256.96pt x 256.96pt>
+<ressources/iconexample3.png, id=109, 256.96pt x 256.96pt>
 File: ressources/iconexample3.png Graphic file (type png)
 <use ressources/iconexample3.png>
 Package pdftex.def Info: ressources/iconexample3.png  used on input line 92.
 (pdftex.def)             Requested size: 91.04742pt x 91.04695pt.
-<ressources/iconexample4.png, id=113, 24.09pt x 24.09pt>
+<ressources/iconexample4.png, id=110, 24.09pt x 24.09pt>
 File: ressources/iconexample4.png Graphic file (type png)
 <use ressources/iconexample4.png>
 Package pdftex.def Info: ressources/iconexample4.png  used on input line 93.
@@ -706,28 +706,28 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 97.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [16 <./ressources/xfeat-comparative-graph.png>]
-<ressources/bad_icon1.png, id=118, 513.92pt x 513.92pt>
+ [15 <./ressources/xfeat-comparative-graph.png>]
+<ressources/bad_icon1.png, id=115, 513.92pt x 513.92pt>
 File: ressources/bad_icon1.png Graphic file (type png)
 <use ressources/bad_icon1.png>
 Package pdftex.def Info: ressources/bad_icon1.png  used on input line 100.
 (pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
-<ressources/bad_icon2.png, id=119, 501.875pt x 501.875pt>
+<ressources/bad_icon2.png, id=116, 501.875pt x 501.875pt>
 File: ressources/bad_icon2.png Graphic file (type png)
 <use ressources/bad_icon2.png>
 Package pdftex.def Info: ressources/bad_icon2.png  used on input line 101.
 (pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
-<ressources/bad_icon3.png, id=120, 607.26875pt x 525.965pt>
+<ressources/bad_icon3.png, id=117, 607.26875pt x 525.965pt>
 File: ressources/bad_icon3.png Graphic file (type png)
 <use ressources/bad_icon3.png>
 Package pdftex.def Info: ressources/bad_icon3.png  used on input line 102.
 (pdftex.def)             Requested size: 91.04742pt x 78.85121pt.
-<ressources/bad_icon4.png, id=121, 4111.36pt x 4111.36pt>
+<ressources/bad_icon4.png, id=118, 4111.36pt x 4111.36pt>
 File: ressources/bad_icon4.png Graphic file (type png)
 <use ressources/bad_icon4.png>
 Package pdftex.def Info: ressources/bad_icon4.png  used on input line 103.
 (pdftex.def)             Requested size: 91.04742pt x 91.02734pt.
-<ressources/bg_example.jpg, id=122, 3854.4pt x 2168.1pt>
+<ressources/bg_example.jpg, id=119, 3854.4pt x 2168.1pt>
 File: ressources/bg_example.jpg Graphic file (type jpg)
 <use ressources/bg_example.jpg>
 Package pdftex.def Info: ressources/bg_example.jpg  used on input line 118.
@@ -736,7 +736,7 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [17 <./ressources/iconexample1.png> <./ressources/iconexample2.png> <./ressources/iconexample3.png> <./ressources/iconexample4.png> <./ressources/bad_icon1.png> <./ressources/bad_icon2.png> <./ressources/bad_icon3.png> <./ressources/bad_icon4.png> <./ressources/bg_example.jpg>]
+ [16 <./ressources/iconexample1.png> <./ressources/iconexample2.png> <./ressources/iconexample3.png> <./ressources/iconexample4.png> <./ressources/bad_icon1.png> <./ressources/bad_icon2.png> <./ressources/bad_icon3.png> <./ressources/bad_icon4.png> <./ressources/bg_example.jpg>]
 Overfull \hbox (1.14552pt too wide) in paragraph at lines 149--150
 []\OT1/cmr/m/n/10 Candidate cor-re-spon-dences are gen-er-ated us-ing a FLANN-based ap-prox-i-mate nearest-neighbour search
  []
@@ -746,23 +746,26 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [18]
+ [17]
 Chapter 5.
-<ressources/roi.jpg, id=138, 3854.4pt x 2168.1pt>
+<ressources/roi.jpg, id=135, 3854.4pt x 2168.1pt>
 File: ressources/roi.jpg Graphic file (type jpg)
 <use ressources/roi.jpg>
 Package pdftex.def Info: ressources/roi.jpg  used on input line 30.
 (pdftex.def)             Requested size: 455.24411pt x 256.05855pt.
-[19
+[18
 
 ]
-<ressources/image1.jpg, id=142, 1271.75125pt x 714.67pt>
+<ressources/image1.jpg, id=139, 1271.75125pt x 714.67pt>
 File: ressources/image1.jpg Graphic file (type jpg)
 <use ressources/image1.jpg>
 Package pdftex.def Info: ressources/image1.jpg  used on input line 37.
 (pdftex.def)             Requested size: 409.71692pt x 230.24757pt.
  Excluding 'comment' comment.
-<ressources/image1_keypoints.jpg, id=143, 1271.75125pt x 714.67pt>
+
+LaTeX Warning: Citation `xfeat2023' on page 19 undefined on input line 59.
+
+<ressources/image1_keypoints.jpg, id=140, 1271.75125pt x 714.67pt>
 File: ressources/image1_keypoints.jpg Graphic file (type jpg)
 <use ressources/image1_keypoints.jpg>
 Package pdftex.def Info: ressources/image1_keypoints.jpg  used on input line 63.
@@ -771,13 +774,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 66.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [20 <./ressources/roi.jpg> <./ressources/image1.jpg>]
-<ressources/mask_1.png, id=147, 1271.75125pt x 714.67pt>
+[19 <./ressources/roi.jpg> <./ressources/image1.jpg>]
+<ressources/mask_1.png, id=144, 1271.75125pt x 714.67pt>
 File: ressources/mask_1.png Graphic file (type png)
 <use ressources/mask_1.png>
 Package pdftex.def Info: ressources/mask_1.png  used on input line 70.
 (pdftex.def)             Requested size: 364.19667pt x 204.6645pt.
-<ressources/image1_keypoints_masked.jpg, id=148, 1271.75125pt x 714.67pt>
+<ressources/image1_keypoints_masked.jpg, id=145, 1271.75125pt x 714.67pt>
 File: ressources/image1_keypoints_masked.jpg Graphic file (type jpg)
 <use ressources/image1_keypoints_masked.jpg>
 Package pdftex.def Info: ressources/image1_keypoints_masked.jpg  used on input line 77.
@@ -786,18 +789,18 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 81.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [21 <./ressources/image1_keypoints.jpg> <./ressources/mask_1.png (PNG copy)>]
-<ressources/example_data1.png, id=152, 1727.253pt x 471.2004pt>
+ [20 <./ressources/image1_keypoints.jpg> <./ressources/mask_1.png (PNG copy)>]
+<ressources/example_data1.png, id=149, 1727.253pt x 471.2004pt>
 File: ressources/example_data1.png Graphic file (type png)
 <use ressources/example_data1.png>
 Package pdftex.def Info: ressources/example_data1.png  used on input line 85.
 (pdftex.def)             Requested size: 455.24411pt x 124.19165pt.
-<ressources/loss_1.png, id=153, 867.24pt x 505.89pt>
+<ressources/loss_1.png, id=150, 867.24pt x 505.89pt>
 File: ressources/loss_1.png Graphic file (type png)
 <use ressources/loss_1.png>
 Package pdftex.def Info: ressources/loss_1.png  used on input line 102.
 (pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-<ressources/acc_1.png, id=154, 867.24pt x 505.89pt>
+<ressources/acc_1.png, id=151, 867.24pt x 505.89pt>
 File: ressources/acc_1.png Graphic file (type png)
 <use ressources/acc_1.png>
 Package pdftex.def Info: ressources/acc_1.png  used on input line 108.
@@ -806,13 +809,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [22 <./ressources/image1_keypoints_masked.jpg> <./ressources/example_data1.png>]
+ [21 <./ressources/image1_keypoints_masked.jpg> <./ressources/example_data1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 120.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [23 <./ressources/loss_1.png> <./ressources/acc_1.png>]
-<ressources/confusion_matrix_1.png, id=165, 381.5856pt x 342.19846pt>
+ [22 <./ressources/loss_1.png> <./ressources/acc_1.png>]
+<ressources/confusion_matrix_1.png, id=161, 381.5856pt x 342.19846pt>
 File: ressources/confusion_matrix_1.png Graphic file (type png)
 <use ressources/confusion_matrix_1.png>
 Package pdftex.def Info: ressources/confusion_matrix_1.png  used on input line 149.
@@ -821,18 +824,18 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 155.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [24 <./ressources/confusion_matrix_1.png>]
+ [23 <./ressources/confusion_matrix_1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 215.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [25]
-<ressources/image2.png, id=173, 1885.0425pt x 708.6475pt>
+ [24]
+<ressources/image2.png, id=170, 1885.0425pt x 708.6475pt>
 File: ressources/image2.png Graphic file (type png)
 <use ressources/image2.png>
 Package pdftex.def Info: ressources/image2.png  used on input line 237.
 (pdftex.def)             Requested size: 273.14923pt x 102.68097pt.
-<ressources/acuracy_2.png, id=174, 867.24pt x 505.89pt>
+<ressources/acuracy_2.png, id=171, 867.24pt x 505.89pt>
 File: ressources/acuracy_2.png Graphic file (type png)
 <use ressources/acuracy_2.png>
 Package pdftex.def Info: ressources/acuracy_2.png  used on input line 248.
@@ -841,44 +844,80 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 254.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [26 <./ressources/image2.png> <./ressources/acuracy_2.png>]
-<ressources/multiple_losses_graph_2.png, id=181, 867.24pt x 505.89pt>
+ [25 <./ressources/image2.png> <./ressources/acuracy_2.png>]
+<ressources/multiple_losses_graph_2.png, id=178, 867.24pt x 505.89pt>
 File: ressources/multiple_losses_graph_2.png Graphic file (type png)
 <use ressources/multiple_losses_graph_2.png>
 Package pdftex.def Info: ressources/multiple_losses_graph_2.png  used on input line 260.
 (pdftex.def)             Requested size: 318.66948pt x 185.88724pt.
-<ressources/icon_4_original.png, id=182, 256.96pt x 256.96pt>
-File: ressources/icon_4_original.png Graphic file (type png)
-<use ressources/icon_4_original.png>
-Package pdftex.def Info: ressources/icon_4_original.png  used on input line 300.
-(pdftex.def)             Requested size: 159.33821pt x 159.34099pt.
-<ressources/icon_4.png, id=183, 128.48pt x 128.48pt>
-File: ressources/icon_4.png Graphic file (type png)
-<use ressources/icon_4.png>
-Package pdftex.def Info: ressources/icon_4.png  used on input line 307.
-(pdftex.def)             Requested size: 159.33821pt x 159.35078pt.
+<ressources/confusion_matrix_2.png, id=179, 365.6862pt x 270.65115pt>
+File: ressources/confusion_matrix_2.png Graphic file (type png)
+<use ressources/confusion_matrix_2.png>
+Package pdftex.def Info: ressources/confusion_matrix_2.png  used on input line 274.
+(pdftex.def)             Requested size: 273.14923pt x 202.17842pt.
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 312.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 279.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [27 <./ressources/multiple_losses_graph_2.png>]) (chapters/res_ana.tex
+ [26 <./ressources/multiple_losses_graph_2.png>]
+<ressources/false_positive_1.png, id=184, 854.59274pt x 348.70274pt>
+File: ressources/false_positive_1.png Graphic file (type png)
+<use ressources/false_positive_1.png>
+Package pdftex.def Info: ressources/false_positive_1.png  used on input line 303.
+(pdftex.def)             Requested size: 318.66948pt x 130.02893pt.
+<ressources/icon_4_original.png, id=185, 256.96pt x 256.96pt>
+File: ressources/icon_4_original.png Graphic file (type png)
+<use ressources/icon_4_original.png>
+Package pdftex.def Info: ressources/icon_4_original.png  used on input line 324.
+(pdftex.def)             Requested size: 159.33821pt x 159.34099pt.
+<ressources/icon_4.png, id=186, 128.48pt x 128.48pt>
+File: ressources/icon_4.png Graphic file (type png)
+<use ressources/icon_4.png>
+Package pdftex.def Info: ressources/icon_4.png  used on input line 331.
+(pdftex.def)             Requested size: 159.33821pt x 159.35078pt.
+
+
+LaTeX Warning: File `ressources/icon_transformed.png' not found on input line 339.
+
+
+chapters/impl.tex:339: Package pdftex.def Error: File `ressources/icon_transformed.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 ...xtwidth]{ressources/icon_transformed.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 342.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+[27 <./ressources/confusion_matrix_2.png> <./ressources/false_positive_1.png>]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 350.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [28 <./ressources/icon_4_original.png> <./ressources/icon_4.png>]) (chapters/res_ana.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
- [28 <./ressources/icon_4_original.png> <./ressources/icon_4.png>]
+ [29]
 Chapter 6.
-) (chapters/concl.tex [29
+) (chapters/concl.tex [30
 
 ]
 Chapter 7.
-) (chapters/append.tex [30
+) (chapters/append.tex [31
 
 ]
 Chapter 8.
-) (main.bbl [31
+) (main.bbl [32
 
-]) [32
+]) [33
 
 ] (main.aux)
  ***********
@@ -887,21 +926,24 @@ L3 programming layer <2024-01-04>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 16353 strings out of 474486
- 338529 string characters out of 5738563
+ 16394 strings out of 474486
+ 340165 string characters out of 5738563
  1944542 words of memory out of 5000000
- 38327 multiletter control sequences out of 15000+600000
- 568454 words of font info for 74 fonts, out of 8000000 for 9000
+ 38373 multiletter control sequences out of 15000+600000
+ 568622 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,93p,1867b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (34 pages, 10959480 bytes).
+ <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (35 pages, 11398250 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
+ 317 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
