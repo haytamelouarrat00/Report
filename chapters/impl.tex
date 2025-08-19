@@ -336,20 +336,156 @@ background.
 Next we have added simple geometric transformations to our synthesis pipeline, where we would move the icon by random translations, to imitate the icon's position variability in real-world scenarios. And then we would keep the rest of the pipeline intact.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{ressources/icon_transformed.png}
+    \includegraphics[width=0.8\textwidth]{ressources/image_3.png}
     \caption{Transformed Icon}
     \label{fig:transformed_icon}
 \end{figure}
-\subsubsection{Accuracy metrics}
-\subsubsection{Loss metrics}
-\subsubsection{Confusion matrix}
-\subsubsection{Interpretation}
+\subsubsection{Training Performance and Loss Analysis}
 
+We conducted comprehensive training over 100,000 steps with multi-component
+loss monitoring comprising coarse loss, fine loss, reliability loss, and total
+loss, alongside validation evaluation every 1,000 steps. The training
+demonstrated exceptional convergence across all metrics with a total loss
+reduction of 78.1\% from 20.75 to 4.55.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/loss_3.png}
+    \caption{Loss Metrics}
+    \label{fig:loss_components}
+\end{figure}
+The network exhibited rapid initial learning with total loss decreasing from 20.75 to approximately 8.0 within the first 20,000 steps. Component analysis revealed distinct optimization patterns: coarse loss achieved 88.8\% reduction (10.97→1.22), fine loss decreased by 69.1\% (8.51→2.63), and reliability loss improved by 45.4\% (2.54→1.39). This multi-faceted improvement indicates effective joint optimization across all network objectives (see Figure~\ref{fig:loss_components}).
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/accuracy_3.png}
+    \caption{Accuracy Metrics}
+    \label{fig:accuracy_metrics3}
+\end{figure}
+
+Accuracy metrics showed corresponding improvements, progressing from 1.01\% to
+a peak of 81.65\% before stabilizing at 71.72\%. The validation loss trajectory
+confirmed generalization capability, decreasing from 11.45 to 9.84 (14.1\%
+improvement) with minimal overfitting indicators.
+Figure~\ref{fig:accuracy_metrics3} illustrates the synchronized improvement
+between accuracy and loss reduction throughout training.
+
+The training exhibited three distinct phases: \textbf{rapid convergence} (0-20k
+steps), \textbf{gradual refinement} (20k-70k steps), and \textbf{stabilization}
+(70k-100k steps). All loss components demonstrated monotonic improvement with
+minimal oscillations, indicating stable optimization dynamics. The final
+validation loss of 9.84 and training accuracy of 71.72\% establish strong
+baseline performance with excellent convergence properties.
+\subsubsection{Confusion matrix}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{ressources/confusion_matrix_3.png}
+    \caption{Confusion matrix for variant B}
+    \label{fig:confusion_matrix_3}
+\end{figure}
+\begin{itemize}
+    \item \textbf{Accuracy: }0.619
+    \item \textbf{Precision: }0.587
+    \item \textbf{Recall: }0.804
+    \item \textbf{F1 Score: }0.679
+\end{itemize}
+We could see that although the model can accurately detect the existence of keypoints, it still outputs an abnormally high false positive rate, which is a result of the overfitting of our model, and it not being able to generalize well to unseen data.
+\subsubsection{Interpretation}
+Although the training results show significant improvements in both loss and
+accuracy metrics, the model still struggles with false positives, which is
+result of the overfitting of our model. This could be proof that our choice of
+teacher model is not optimal for this task, or that the model does not
+generalize well to the target domain. To address this, we decided to explore an
+alternative teacher model.
 \subsection{Variant C}
-We decided to return to our original approach and adopt SIFT as the teacher method. Given that our SIFT-based solution already demonstrates strong performance on the target task, it provides a robust and reliable supervisory signal for training. In addition, we deliberately removed all forms of filtering, such as RANSAC and masking, in order to increase the complexity of the learning problem and reduce the risk of overfitting. This choice results in a more raw and unfiltered dataset, encouraging the student model to generalize more effectively under challenging conditions.
-\section{Analysis \& Discussion}
-\subsection{Compare results with SIFT, ORB, XFeat}
-\subsection{Discuss trade-offs: speed vs. accuracy.}
-\subsection{Link back to performance targets from Chapter 4.}
-\subsection{Tie to the research gap from Chapter 3.}
+We decided to return to our original approach and adopt SIFT as the teacher
+method. Given that our SIFT-based solution already demonstrates strong
+performance on the target task, it provides a robust and reliable supervisory
+signal for training. In addition, we deliberately removed all forms of
+filtering, such as RANSAC and masking, in order to increase the complexity of
+the learning problem and reduce the risk of overfitting. This choice results in
+a more raw and unfiltered dataset, encouraging the student model to generalize
+more effectively under challenging conditions. For the supervision of our
+detector, we rely on SIFT to extract interest points from both the reference
+and target images. Rather than using the associated descriptors, we retain only
+the keypoint locations, which are sufficient for our purpose. These coordinates
+are then converted into ground-truth heatmaps by encoding each keypoint as a
+binary mask. Formally, let $\mathcal{K} = \{(x_i, y_i)\}_{i=1}^{N}$ denote the
+set of detected keypoints in an image of size $H \times W$. The ground-truth
+heatmap $M \in \{0,1\}^{H \times W}$ is defined as
+\begin{equation}
+    M(x,y) =
+    \begin{cases}
+        1, & \text{if } (x,y) \in \mathcal{K}, \\
+        0, & \text{otherwise}.
+    \end{cases}
+\end{equation}
+This representation allows us to jointly supervise both the detector and the descriptor using ground-truth correspondences between image pairs, following the training paradigm introduced in XFeat~\cite{xfeat2023}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/image_41_heatmap.png}
+    \caption{SIFT Keypoint Heatmap}
+\end{figure}
+Then we use These keypoints from both images to generate ground-truth correspondences.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/image_41.png}
+    \caption{SIFT Keypoint Detection Example}
+    \label{fig:sift_example}
+\end{figure}
+\subsubsection{Training Performance and Loss Analysis}
+We trained for \(\sim145\text{k}\) steps (0–144{,}688) with multi-component
+loss monitoring (coarse, fine, reliability, and total) and validation every
+1{,}000 steps. Optimization was decisive: the \textbf{total loss} fell by
+\(\mathbf{81.65\%}\) from \(\mathbf{23.36}\rightarrow\mathbf{4.29}\), with a
+rapid \(\mathbf{78.24\%}\) drop by \(\sim\)20k steps \((23.36\rightarrow
+5.08)\). Component trends showed coordinated progress
+(Fig.~\ref{fig:loss_components}): \textbf{coarse loss} improved
+\(\mathbf{83.86\%}\) \((13.47\rightarrow 2.17)\), \textbf{fine loss}
+\(\mathbf{81.51\%}\) \((8.64\rightarrow 1.60)\), and \textbf{reliability loss}
+decreased more moderately by \(\mathbf{58.79\%}\) \((2.49\rightarrow 1.03)\).
+Minima were reached early for reliability \((\mathbf{0.152}\ \text{at }
+\mathbf{step\ 146})\) and coarse \((\mathbf{0.923}\ \text{at } \mathbf{step\
+    6{,}276})\), with later troughs for fine \((\mathbf{1.003}\ \text{at }
+\mathbf{step\ 129{,}639})\) and total \((\mathbf{3.718}\ \text{at }
+\mathbf{step\ 129{,}639})\), consistent with a fast coarse/reliability
+stabilization followed by slower fine-grained refinement.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/loss_3.png}
+    \caption{Loss Metrics}
+    \label{fig:loss_components}
+\end{figure}
+Accuracy evolved in step with losses but with distinct behaviors across heads (Fig.~\ref{fig:accuracy_metrics3}). \textbf{Fine accuracy} peaked at \(\mathbf{100\%}\) (step \(\sim\)1{,}267) and stabilized at a strong late-training band (mean of last 10\% \(\approx \mathbf{78.62\%}\); final reading \(\mathbf{64.00\%}\)), indicating high-fidelity fine predictions despite endpoint variance. \textbf{Coarse accuracy} peaked at \(\mathbf{70.37\%}\) (step \(\sim\)63{,}515) but drifted downward thereafter (last-10\% mean \(\approx \mathbf{21.06\%}\); final \(\mathbf{15.14\%}\)), suggesting increasing sensitivity or over-confidence at the coarse stage as training progressed.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/accuracy_4.png}
+    \caption{Accuracy Metrics}
+    \label{fig:accuracy_metrics3}
+\end{figure}
+
+The validation trajectory clarifies generalization. It improved early
+\((\mathbf{11.25}\ \text{at }999 \rightarrow \mathbf{10.20}\ \text{by
+}\sim\!20\text{k}; \text{best } \mathbf{8.12}\ \text{at }\sim\!8\text{k})\),
+then rose steadily to \(\mathbf{17.63}\) by the end, signaling late overfitting
+despite continued training-loss gains. Overall, training exhibited three
+phases: \textbf{rapid convergence} (0–20k), \textbf{gradual refinement}
+(20k–100k), and a \textbf{late drift} (>100k) where optimization continues but
+validation degrades. As a baseline, this run demonstrates excellent
+optimization and mature fine-level accuracy; for deployment, prefer early
+stopping around the validation minimum (\(\sim\)8–20k) or strengthen
+regularization (e.g., heavier augmentation, dropout/weight decay, stochastic
+depth) to preserve the early generalization peak while maintaining the gains in
+fine accuracy.
+
+\subsubsection{Confusion matrix}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/cm_L_10.png}
+    \caption{Confusion matrix for variant C}
+    \label{fig:confusion_matrix_4}
+\end{figure}
+The new formula shows better promising results, the number of false positives has decreased significantly, increasing the overall precision of the model. With these results, this remains our best performing model so far, and we can see that the model is able to learn the keypoints and descriptors from the SIFT teacher model, and generalize well to unseen data.
 

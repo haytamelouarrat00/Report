@@ -5,6 +5,13 @@ David~G Lowe.
 \newblock Distinctive image features from scale-invariant keypoints.
 \newblock {\em International journal of computer vision}, 60(2):91--110, 2004.
 
+\bibitem{xfeat_github}
+Guilherme Potje, Felipe Cadar, André Araujo, Renato Martins, and Erickson~R.
+  Nascimento.
+\newblock Xfeat: Accelerated features.
+\newblock \url{https://github.com/verlab/accelerated_features}, 2024.
+\newblock Accessed: 2025-08-18.
+
 \bibitem{xfeat2023}
 Guilherme Verdie, Kwang~Moo Yi, Pascal Fua, and Vincent Lepetit.
 \newblock Xfeat: Accelerated features for lightweight image matching.

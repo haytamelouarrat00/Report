@@ -1,35 +1,44 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces SteelSeries Gaming Mice}}{4}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SteelSeries Gaming Keyboards}}{5}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SteelSeries Gaming Keyboards}}{5}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 5x League of Legends World Champions SKT T1}}{6}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SteelSeries Gaming Mice}}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SteelSeries Gaming Keyboards}}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SteelSeries Gaming Keyboards}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 5x League of Legends World Champions SKT T1}}{7}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces architecture overview of ALIKE}}{8}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces architecture overview of LightGlue}}{10}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces architecture overview of ALIKE}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces architecture overview of LightGlue}}{11}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of XFeat with other feature matching methods}}{15}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of gaming elements used in dataset creation}}{16}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of gaming elements avoided in dataset creation}}{16}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of backgrounds used in dataset creation}}{16}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of XFeat with other feature matching methods}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of gaming elements used in dataset creation}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of gaming elements avoided in dataset creation}}{17}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Example of backgrounds used in dataset creation}}{17}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{19}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{19}{}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of extraction process.}}{20}{}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the binary mask generated for the icon.}}{20}{}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of filtering process.}}{21}{}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{21}{}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{22}{}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{22}{}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion matrix for initial training runs.}}{23}{}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Example of the synthesis process for variant A}}{25}{}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of the accuracy metrics evaluation}}{25}{}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Example of the loss metrics evaluation}}{26}{}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Confusion matrix for variant A}}{27}{}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces False Positive Example}}{27}{}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Original Icon}}{28}{}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Processed Icon}}{28}{}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Transformed Icon}}{28}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of extraction process.}}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the binary mask generated for the icon.}}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of filtering process.}}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion matrix for initial training runs.}}{24}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Example of the synthesis process for variant A}}{26}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of the accuracy metrics evaluation}}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Example of the loss metrics evaluation}}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Confusion matrix for variant A}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces False Positive Example}}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Original Icon}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Processed Icon}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Transformed Icon}}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Loss Metrics}}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Accuracy Metrics}}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Confusion matrix for variant B}}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces SIFT Keypoint Heatmap}}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces SIFT Keypoint Detection Example}}{32}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Loss Metrics}}{33}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Accuracy Metrics}}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Confusion matrix for variant C}}{34}{figure.caption.37}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Evaluation results comparison}}{35}{figure.caption.38}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
