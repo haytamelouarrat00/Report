@@ -39,6 +39,8 @@
 \contentsline {figure}{\numberline {5.24}{\ignorespaces Accuracy Metrics}}{33}{figure.caption.36}%
 \contentsline {figure}{\numberline {5.25}{\ignorespaces Confusion matrix for variant C}}{34}{figure.caption.37}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Evaluation results comparison}}{35}{figure.caption.38}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Training loss comparison between XFeat-original and NAFM-Variant C.}}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Accuracy comparison between XFeat-original and NAFM-Variant C.}}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Evaluation results comparison}}{37}{figure.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

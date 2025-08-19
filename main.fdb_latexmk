@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1755589566.56258 "main.aux" "main.bbl" "main" 1755594703.53131 0
-  "./ref.bib" 1755527345 2245 9d317e37b71a39a822d4394cd03110de ""
+["bibtex main"] 1755616023.04394 "main.aux" "main.bbl" "main" 1755616029.52629 0
+  "./ref.bib" 1755615371 2593 83b381e1198b072e1d431d5a293d128f ""
   "C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/plain.bst" 1291864736 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1755594702 23665 d50b8ff58360ec979032b730820fb018 "pdflatex"
+  "main.aux" 1755616028 25600 fdeb479270929854aff62dfd72779353 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1755594697.78958 "c:/Users/aytam.elhouarrat/Documents/Report/main.tex" "main.pdf" "main" 1755594703.53198 0
+["pdflatex"] 1755616023.25853 "c:/Users/aytam.elhouarrat/Documents/Report/main.tex" "main.pdf" "main" 1755616029.52684 0
   "C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754862866 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1751814170 10472 d17acde6bdf5f595bea1af7ef8c9ff3d ""
   "C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1754182581 11548 67fe8c142eff3266a24e2eda3061b26a ""
@@ -197,17 +197,17 @@
   "chapters/acknow.tex" 1753530820 26 0f6fb526be491c2e6776eee5401fac10 ""
   "chapters/append.tex" 1753531017 143 f0ae6ccec77c2c088e051db6f672f4d2 ""
   "chapters/concl.tex" 1753792231 334 7c0449f0ab2bcaa24a136872bf0ff9e5 ""
-  "chapters/impl.tex" 1755556365 28725 1e165b7598c29a8ee4c004e65e5277ec ""
+  "chapters/impl.tex" 1755615271 28725 1e165b7598c29a8ee4c004e65e5277ec ""
   "chapters/intro.tex" 1754853166 12500 1fe9bfd0fd6fb11dd1d9f69841db5607 ""
   "chapters/litt_rev.tex" 1754857260 20675 b79a87ba0391e73eb9bafe2406ca8de4 ""
   "chapters/methodo.tex" 1755091977 10652 797211316347f4a699ed0d0f18ea9e61 ""
-  "chapters/res_ana.tex" 1755594697 6870 4302f90abe49442aeb2b760323b92ad2 ""
-  "main.aux" 1755594702 23665 d50b8ff58360ec979032b730820fb018 "pdflatex"
-  "main.bbl" 1755589566 1012 36907d58533c081ec47333ccaeb71e1c "bibtex main"
-  "main.lof" 1755594702 4392 f6c6ead61f5e791fe91cc55b10eaae01 "pdflatex"
-  "main.out" 1755594702 14659 33fe74e95d3ecfa3f531fab218d3a15b "pdflatex"
+  "chapters/res_ana.tex" 1755616016 11237 784450f408e8d445cab56f0eaf7877ac ""
+  "main.aux" 1755616028 25600 fdeb479270929854aff62dfd72779353 "pdflatex"
+  "main.bbl" 1755616023 1012 36907d58533c081ec47333ccaeb71e1c "bibtex main"
+  "main.lof" 1755616028 4685 3319ab46635f7fcf3546ab58f97cdfd4 "pdflatex"
+  "main.out" 1755616028 16148 110b7c6be93c90b3c6290366bef498d0 "pdflatex"
   "main.tex" 1755527698 4590 7052d7f51002e90e469bdf4bfc586e4c ""
-  "main.toc" 1755594702 8641 830f555a3788f487a4a0ccf14bf02d7a "pdflatex"
+  "main.toc" 1755616028 9087 de286780af7ca8f0b34ebcfa5922a21a "pdflatex"
   "ressources/acc_1.png" 1755078924 100695 abd69739bb7eca4e6a937fdbf600dbce ""
   "ressources/accuracy_3.png" 1755453250 861437 32c3ec95fdec9a1578946df59375a5a7 ""
   "ressources/accuracy_4.png" 1755521332 150230 ffd5f4fb5690d358da0d8d70ef0cf1fc ""
@@ -219,6 +219,8 @@
   "ressources/bad_icon4.png" 1718028028 251662 0342a221261203c2a5c9bfc0f7b50f42 ""
   "ressources/bg_example.jpg" 1711468956 239456 04fda512fb33118f4c5477bef179c2e3 ""
   "ressources/cm_L_10.png" 1755508756 27404 b6ab0b68bfd09a9143f54cf081cec5cf ""
+  "ressources/comaprative_accuracy.png" 1755611263 241601 a3fb804551c2f47fb8575196eb4117f8 ""
+  "ressources/comparative_losses.png" 1755612185 142360 6067ebeaa8f83d7d9d621ff32a4dc626 ""
   "ressources/confusion_matrix_1.png" 1755038062 53375 d5835501293134d5f1763dce90a38d03 ""
   "ressources/confusion_matrix_2.png" 1755292533 44734 0ea67410766f54141d9c19953ac7abaa ""
   "ressources/confusion_matrix_3.png" 1755519077 54124 1b491475a4523154d7700de456c09274 ""
