@@ -272,6 +272,8 @@ INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\c
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
@@ -419,8 +421,6 @@ INPUT .\ressources\alike.png
 INPUT .\ressources\alike.png
 INPUT .\ressources\alike.png
 INPUT .\ressources\alike.png
-INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
@@ -540,6 +540,10 @@ INPUT .\ressources\bg_example.jpg
 INPUT .\ressources\bg_example.jpg
 INPUT .\ressources\bg_example.jpg
 INPUT .\ressources\bg_example.jpg
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
@@ -782,6 +786,10 @@ INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
 INPUT .\chapters\res_ana.tex
 INPUT .\chapters\res_ana.tex
 INPUT .\chapters\res_ana.tex
@@ -855,6 +863,8 @@ INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx6.pfb
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx6.pfb
+INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
+INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx8.pfb
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

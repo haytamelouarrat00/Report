@@ -135,7 +135,9 @@ The current solution implemented at SteelSeries leverages a sophisticated SIFT
 implementation that enhances the traditional SIFT algorithm for our specific
 use case. The implementation goes as follows:
 
-We employ a carefully tuned Scale-Invariant Feature Transform (SIFT) configuration to maximise the number of stable, repeatable keypoints in varied imaging conditions. The detector is initialised with the following parameters:
+We employ a carefully tuned Scale-Invariant Feature Transform (SIFT)
+configuration to maximise the number of stable, repeatable keypoints in varied
+imaging conditions. The detector is initialised with the following parameters:
 
 \begin{itemize}
     \item \textbf{$nOctaveLayers = 4$}: controls the number of scale-space intervals per octave. Increasing this value produces more keypoints across finer scale increments, improving detection in textured or low-detail regions at the cost of additional computation.
@@ -144,13 +146,72 @@ We employ a carefully tuned Scale-Invariant Feature Transform (SIFT) configurati
     \item \textbf{$\sigma = 1.8$}: specifies the Gaussian smoothing applied at the initial scale of each octave. Larger values increase robustness to noise and small perturbations but can blur fine details; $\sigma = 1.8$ offers a compromise between stability and spatial precision.
 \end{itemize}
 
-After detecting keypoints in both the reference and target images, descriptors are computed and normalised by dividing each vector by the sum of its elements. This amplitude normalisation mitigates the effect of overall descriptor magnitude differences, focusing the comparison on relative component values.
+After detecting keypoints in both the reference and target images, descriptors
+are computed and normalised by dividing each vector by the sum of its elements.
+This amplitude normalisation mitigates the effect of overall descriptor
+magnitude differences, focusing the comparison on relative component values.
 
-Candidate correspondences are generated using a FLANN-based approximate nearest-neighbour search with a KDTree index. For each reference descriptor, the two nearest neighbours in the target descriptor set are retrieved. Match filtering follows a two-pronged strategy:
+Candidate correspondences are generated using a FLANN-based approximate
+nearest-neighbour search with a KDTree index. For each reference descriptor,
+the two nearest neighbours in the target descriptor set are retrieved. Match
+filtering follows a two-pronged strategy:
 \begin{enumerate}
     \item \textbf{Relative criterion}: Lowe’s ratio test is applied, retaining matches where the closest neighbour’s distance is less than $0.7$ times that of the second-closest neighbour. This rejects ambiguous matches where multiple candidates are similarly close in descriptor space.
     \item \textbf{Absolute criterion}: Any match with a nearest neighbour distance below $0.09$ is also accepted, even if the ratio test is not satisfied, ensuring that exceptionally strong correspondences are preserved.
 \end{enumerate}
 
-The filtered matches are recorded as index pairs into the respective keypoint arrays. This combination of tuned detector parameters, descriptor normalisation, and dual match filtering yields a set of correspondences that is both distinctive and resilient to background clutter and illumination changes.
- \section{Evaluation metrics} %TODO
+The filtered matches are recorded as index pairs into the respective keypoint
+arrays. This combination of tuned detector parameters, descriptor
+normalisation, and dual match filtering yields a set of correspondences that is
+both distinctive and resilient to background clutter and illumination changes.
+\section{Evaluation metrics} %TODO
+\subsection{Loss Functions}
+
+The training of XFeat relies on a combination of four complementary losses,
+each addressing a different component of the feature matching pipeline. The
+final objective is expressed as a weighted sum of these terms:
+
+\begin{equation}
+    L = \alpha L_{ds} + \beta L_{rel} + \gamma L_{fine} + \delta L_{kp},
+\end{equation}
+where $\alpha, \beta, \gamma, \delta$ are hyperparameters controlling the contribution of each loss. We detail them below.
+
+\subsubsection{Dual-Softmax Descriptor Loss ($L_{ds}$)}
+To supervise local descriptors, we employ a dual-softmax negative log-likelihood loss.
+Given descriptor sets $F_1, F_2 \in \mathbb{R}^{N \times 64}$, their similarity matrix is:
+\begin{equation}
+    S = F_1 F_2^{T}.
+\end{equation}
+Correct matches lie along the diagonal of $S$. The dual-softmax loss encourages high similarity for corresponding features in both directions:
+\begin{equation}
+    L_{ds} = - \sum_i \log \big( \text{softmax}_r(S)_{ii} \big)
+    - \sum_i \log \big( \text{softmax}_r(S^T)_{ii} \big).
+\end{equation}
+
+\subsubsection{Reliability Loss ($L_{rel}$)}
+The reliability map $R \in \mathbb{R}^{H/8 \times W/8}$ estimates the confidence that a descriptor can be reliably matched.
+We supervise it by interpreting the dual-softmax probability as confidence $\bar{R}$ and minimizing the $L_1$ distance:
+\begin{equation}
+    L_{rel} = \lVert \sigma(R_1) - \bar{R}_1 \odot \bar{R}_2 \rVert_1 +
+    \lVert \sigma(R_2) - \bar{R}_1 \odot \bar{R}_2 \rVert_1,
+\end{equation}
+where $\sigma$ is the sigmoid function and $\odot$ the Hadamard product.
+
+\subsubsection{Fine Matching Loss ($L_{fine}$)}
+The match refinement module predicts pixel-level offsets $(x,y)$ between coarse correspondences using an MLP.
+Given ground-truth offset $(\bar{x}_i, \bar{y}_i)$ for the $i$-th match, we apply a negative log-likelihood loss over predicted logits $o$:
+\begin{equation}
+    L_{fine} = - \sum_i \log \big( \text{softmax}(o_i)_{\bar{y}_i, \bar{x}_i} \big).
+\end{equation}
+
+\subsubsection{Keypoint Detection Loss ($L_{kp}$)}
+Keypoints are supervised via knowledge distillation from a teacher network (ALIKE).
+For each cell $k_{i,j} \in \mathbb{R}^{65}$, representing 64 positions plus a dustbin, we apply an NLL loss:
+\begin{equation}
+    L_{kp} = - \sum_k \log \big( \text{softmax}(k_{i,j})_{t_{idx}} \big),
+\end{equation}
+where $t_{idx}$ encodes the teacher-provided keypoint or the dustbin when no keypoint is present.
+
+\medskip
+\subsection{Matching Criterion}
+To determine whether the evaluated icon is present in the target image, we first needed to establish a robust matching criterion. The process begins with detecting all keypoints within the scene and isolating those belonging to the icon region using binary masks. To ensure reliability, we apply RANSAC to filter out spurious correspondences and retain only geometrically consistent inliers. Next, we define a bounding box around the set of matched keypoints. Our criterion is then expressed as the ratio between the number of inliers and the total number of keypoints located within this bounding box. This ratio provides a quantitative measure of confidence: higher values indicate stronger evidence that the icon truly exists in the target image, while lower values suggest the matches may be coincidental or unreliable.
