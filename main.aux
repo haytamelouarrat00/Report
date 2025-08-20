@@ -89,136 +89,144 @@
 \@writefile{toc}{\contentsline {subsubsection}{Reliability Loss ($L_{rel}$)}{19}{equation.4.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Fine Matching Loss ($L_{fine}$)}{19}{equation.4.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Keypoint Detection Loss ($L_{kp}$)}{19}{equation.4.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{19}{subsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{20}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{20}{subsection.4.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Illustration of the matching criterion process.}}{20}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:matching_criterion}{{4.5}{20}{Illustration of the matching criterion process}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{21}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Overview of the approach}{20}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{20}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{20}{subsection.5.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{General Approach}{20}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Overview of the approach}{21}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{21}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{21}{subsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{General Approach}{21}{subsection.5.2.1}\protected@file@percent }
 \citation{xfeat2023}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{21}{figure.caption.14}\protected@file@percent }
-\newlabel{fig:roi_example}{{5.1}{21}{Example of a cropped region of interest from a gaming frame}{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{21}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:overlay_example}{{5.2}{21}{Example of the icon overlaid on the background}{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{22}{section.5.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of extraction process.}}{22}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:teacher_student}{{5.3}{22}{Overview of extraction process}{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the binary mask generated for the icon.}}{22}{figure.caption.17}\protected@file@percent }
-\newlabel{fig:binary_mask}{{5.4}{22}{Example of the binary mask generated for the icon}{figure.caption.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of filtering process.}}{23}{figure.caption.18}\protected@file@percent }
-\newlabel{fig:teacher_student}{{5.5}{23}{Overview of filtering process}{figure.caption.18}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{23}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:synthesis_example1}{{5.6}{23}{Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks}{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Results}{23}{subsection.5.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{24}{figure.caption.20}\protected@file@percent }
-\newlabel{fig:loss_curves_1}{{5.7}{24}{Loss curves for initial training runs}{figure.caption.20}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{24}{figure.caption.21}\protected@file@percent }
-\newlabel{fig:acc_curves_1}{{5.8}{24}{Accuracy curves for initial training runs}{figure.caption.21}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Accuracy Metrics}{24}{figure.caption.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Loss Metrics}{25}{figure.caption.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{25}{figure.caption.21}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion matrix for initial training runs.}}{25}{figure.caption.22}\protected@file@percent }
-\newlabel{fig:confusion_matrix_1}{{5.9}{25}{Confusion matrix for initial training runs}{figure.caption.22}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Overall Assessment}{26}{figure.caption.22}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Iterative Refinement}{26}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Variant A}{27}{subsection.5.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Homography-based keypoint transfer}{27}{subsection.5.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Notes.}{27}{subsection.5.4.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Example of the synthesis process for variant A}}{27}{figure.caption.23}\protected@file@percent }
-\newlabel{fig:variant_a}{{5.10}{27}{Example of the synthesis process for variant A}{figure.caption.23}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Accuracy metrics}{27}{figure.caption.23}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of the accuracy metrics evaluation}}{27}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:accuracy_metrics_2}{{5.11}{27}{Example of the accuracy metrics evaluation}{figure.caption.24}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Loss metrics}{28}{figure.caption.24}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Example of the loss metrics evaluation}}{28}{figure.caption.25}\protected@file@percent }
-\newlabel{fig:loss_metrics_2}{{5.12}{28}{Example of the loss metrics evaluation}{figure.caption.25}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Confusion Matrix}{29}{figure.caption.25}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Confusion matrix for variant A}}{29}{figure.caption.26}\protected@file@percent }
-\newlabel{fig:confusion_matrix_2}{{5.13}{29}{Confusion matrix for variant A}{figure.caption.26}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Interpretation}{29}{figure.caption.26}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces False Positive Example}}{29}{figure.caption.27}\protected@file@percent }
-\newlabel{fig:false_positive_1}{{5.14}{29}{False Positive Example}{figure.caption.27}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Variant B}{30}{subsection.5.4.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Original Icon}}{30}{figure.caption.28}\protected@file@percent }
-\newlabel{fig:original_icon}{{5.15}{30}{Original Icon}{figure.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Processed Icon}}{30}{figure.caption.28}\protected@file@percent }
-\newlabel{fig:processed_icon}{{5.16}{30}{Processed Icon}{figure.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Transformed Icon}}{30}{figure.caption.29}\protected@file@percent }
-\newlabel{fig:transformed_icon}{{5.17}{30}{Transformed Icon}{figure.caption.29}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Training Performance and Loss Analysis}{30}{figure.caption.29}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Loss Metrics}}{31}{figure.caption.30}\protected@file@percent }
-\newlabel{fig:loss_components}{{5.18}{31}{Loss Metrics}{figure.caption.30}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Accuracy Metrics}}{31}{figure.caption.31}\protected@file@percent }
-\newlabel{fig:accuracy_metrics3}{{5.19}{31}{Accuracy Metrics}{figure.caption.31}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{32}{figure.caption.31}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Confusion matrix for variant B}}{32}{figure.caption.32}\protected@file@percent }
-\newlabel{fig:confusion_matrix_3}{{5.20}{32}{Confusion matrix for variant B}{figure.caption.32}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Interpretation}{32}{figure.caption.32}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Variant C}{32}{subsection.5.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of a cropped region of interest from a gaming frame.}}{22}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:roi_example}{{5.1}{22}{Example of a cropped region of interest from a gaming frame}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of the icon overlaid on the background.}}{22}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:overlay_example}{{5.2}{22}{Example of the icon overlaid on the background}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{23}{section.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Overview of extraction process.}}{23}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:teacher_student}{{5.3}{23}{Overview of extraction process}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of the binary mask generated for the icon.}}{23}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:binary_mask}{{5.4}{23}{Example of the binary mask generated for the icon}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Overview of filtering process.}}{24}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:teacher_student}{{5.5}{24}{Overview of filtering process}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks.}}{24}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:synthesis_example1}{{5.6}{24}{Example of the synthesis process, showing the background and the overlaid icon as well as the detected keypoints and masks}{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Results}{24}{subsection.5.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Loss curves for initial training runs.}}{25}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:loss_curves_1}{{5.7}{25}{Loss curves for initial training runs}{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Accuracy curves for initial training runs.}}{25}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:acc_curves_1}{{5.8}{25}{Accuracy curves for initial training runs}{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Accuracy Metrics}{25}{figure.caption.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Loss Metrics}{26}{figure.caption.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{26}{figure.caption.22}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion matrix for initial training runs.}}{26}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:confusion_matrix_1}{{5.9}{26}{Confusion matrix for initial training runs}{figure.caption.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Overall Assessment}{27}{figure.caption.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Iterative Refinement}{27}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Variant A}{28}{subsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Homography-based keypoint transfer}{28}{subsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Notes.}{28}{subsection.5.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Example of the synthesis process for variant A}}{28}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:variant_a}{{5.10}{28}{Example of the synthesis process for variant A}{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Accuracy metrics}{28}{figure.caption.24}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Example of the accuracy metrics evaluation}}{28}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:accuracy_metrics_2}{{5.11}{28}{Example of the accuracy metrics evaluation}{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Loss metrics}{29}{figure.caption.25}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Example of the loss metrics evaluation}}{29}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:loss_metrics_2}{{5.12}{29}{Example of the loss metrics evaluation}{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Confusion Matrix}{30}{figure.caption.26}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Confusion matrix for variant A}}{30}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:confusion_matrix_2}{{5.13}{30}{Confusion matrix for variant A}{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Interpretation}{30}{figure.caption.27}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces False Positive Example}}{30}{figure.caption.28}\protected@file@percent }
+\newlabel{fig:false_positive_1}{{5.14}{30}{False Positive Example}{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Variant B}{31}{subsection.5.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Original Icon}}{31}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:original_icon}{{5.15}{31}{Original Icon}{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Processed Icon}}{31}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:processed_icon}{{5.16}{31}{Processed Icon}{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Transformed Icon}}{31}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:transformed_icon}{{5.17}{31}{Transformed Icon}{figure.caption.30}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Training Performance and Loss Analysis}{31}{figure.caption.30}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Loss Metrics}}{32}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:loss_components}{{5.18}{32}{Loss Metrics}{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Accuracy Metrics}}{32}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:accuracy_metrics3}{{5.19}{32}{Accuracy Metrics}{figure.caption.32}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{33}{figure.caption.32}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Confusion matrix for variant B}}{33}{figure.caption.33}\protected@file@percent }
+\newlabel{fig:confusion_matrix_3}{{5.20}{33}{Confusion matrix for variant B}{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Interpretation}{33}{figure.caption.33}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Variant C}{33}{subsection.5.4.3}\protected@file@percent }
 \citation{xfeat2023}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces SIFT Keypoint Heatmap}}{33}{figure.caption.33}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces SIFT Keypoint Detection Example}}{33}{figure.caption.34}\protected@file@percent }
-\newlabel{fig:sift_example}{{5.22}{33}{SIFT Keypoint Detection Example}{figure.caption.34}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Training Performance and Loss Analysis}{34}{figure.caption.34}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Loss Metrics}}{34}{figure.caption.35}\protected@file@percent }
-\newlabel{fig:loss_components}{{5.23}{34}{Loss Metrics}{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces Accuracy Metrics}}{35}{figure.caption.36}\protected@file@percent }
-\newlabel{fig:accuracy_metrics3}{{5.24}{35}{Accuracy Metrics}{figure.caption.36}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{36}{figure.caption.36}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces Confusion matrix for variant C}}{36}{figure.caption.37}\protected@file@percent }
-\newlabel{fig:confusion_matrix_4}{{5.25}{36}{Confusion matrix for variant C}{figure.caption.37}{}}
-\citation{xfeat_github}
-\citation{xfeat_github}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces SIFT Keypoint Heatmap}}{34}{figure.caption.34}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces SIFT Keypoint Detection Example}}{34}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:sift_example}{{5.22}{34}{SIFT Keypoint Detection Example}{figure.caption.35}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Training Performance and Loss Analysis}{34}{figure.caption.35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Loss Metrics}}{35}{figure.caption.36}\protected@file@percent }
+\newlabel{fig:loss_components}{{5.23}{35}{Loss Metrics}{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces Accuracy Metrics}}{35}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:accuracy_metrics3}{{5.24}{35}{Accuracy Metrics}{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Confusion matrix}{36}{figure.caption.37}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces Confusion matrix for variant C}}{36}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:confusion_matrix_4}{{5.25}{36}{Confusion matrix for variant C}{figure.caption.38}{}}
+\citation{x_feat_official_github}
+\citation{x_feat_official_github}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Experimental Evaluation and Performance Analysis}{37}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {6.1}Experimental Framework and Baseline Configuration}{37}{section.6.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}Performance Metrics and Quantitative Assessment}{37}{section.6.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Training Dynamics and Model Convergence}{37}{subsection.6.2.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Performance comparison between original pretrained model and new model trained on custom dataset.}}{37}{table.caption.38}\protected@file@percent }
-\newlabel{tab:performance_comparison}{{6.1}{37}{Performance comparison between original pretrained model and new model trained on custom dataset}{table.caption.38}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Training loss comparison between XFeat-original and NAFM-Variant C.}}{38}{figure.caption.39}\protected@file@percent }
-\newlabel{fig:loss_comparison}{{6.1}{38}{Training loss comparison between XFeat-original and NAFM-Variant C}{figure.caption.39}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Accuracy comparison between XFeat-original and NAFM-Variant C.}}{39}{figure.caption.40}\protected@file@percent }
-\newlabel{fig:accuracy_comparison}{{6.2}{39}{Accuracy comparison between XFeat-original and NAFM-Variant C}{figure.caption.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces Performance comparison between original pretrained model and new model trained on custom dataset.}}{37}{table.caption.39}\protected@file@percent }
+\newlabel{tab:performance_comparison}{{6.1}{37}{Performance comparison between original pretrained model and new model trained on custom dataset}{table.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces Training loss comparison between XFeat-original and NAFM-Variant C.}}{38}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:loss_comparison}{{6.1}{38}{Training loss comparison between XFeat-original and NAFM-Variant C}{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Accuracy comparison between XFeat-original and NAFM-Variant C.}}{39}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:accuracy_comparison}{{6.2}{39}{Accuracy comparison between XFeat-original and NAFM-Variant C}{figure.caption.41}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}Classification Performance Analysis}{39}{section.6.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Baseline Model Evaluation Results}{39}{subsection.6.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Evaluation results comparison}}{39}{figure.caption.41}\protected@file@percent }
-\newlabel{fig:evaluation_results}{{6.3}{39}{Evaluation results comparison}{figure.caption.41}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Classification report on XFeat.}}{40}{table.caption.42}\protected@file@percent }
-\newlabel{tab:classification_report}{{6.2}{40}{Classification report on XFeat}{table.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Evaluation results comparison}}{39}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:evaluation_results}{{6.3}{39}{Evaluation results comparison}{figure.caption.42}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Classification report on XFeat.}}{40}{table.caption.43}\protected@file@percent }
+\newlabel{tab:classification_report}{{6.2}{40}{Classification report on XFeat}{table.caption.43}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Enhanced Model Performance Evaluation}{40}{subsection.6.3.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces Classification report with precision, recall, F1-score, and support for the two classes.}}{40}{table.caption.43}\protected@file@percent }
-\newlabel{tab:classification_report2}{{6.3}{40}{Classification report with precision, recall, F1-score, and support for the two classes}{table.caption.43}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.3}{\ignorespaces Classification report with precision, recall, F1-score, and support for the two classes.}}{40}{table.caption.44}\protected@file@percent }
+\newlabel{tab:classification_report2}{{6.3}{40}{Classification report with precision, recall, F1-score, and support for the two classes}{table.caption.44}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Detailed Performance Breakdown}{40}{subsection.6.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.4}Performance Summary and Behavioral Characteristics}{40}{subsection.6.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Computational Efficiency and Speed-Accuracy Trade-offs}{41}{section.6.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Performance Benchmarking Analysis}{41}{subsection.6.4.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces Computational performance comparison across different methodologies.}}{41}{table.caption.44}\protected@file@percent }
-\newlabel{tab:speed_comparison}{{6.4}{41}{Computational performance comparison across different methodologies}{table.caption.44}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6.4}{\ignorespaces Computational performance comparison across different methodologies.}}{41}{table.caption.45}\protected@file@percent }
+\newlabel{tab:speed_comparison}{{6.4}{41}{Computational performance comparison across different methodologies}{table.caption.45}{}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{42}{chapter.7}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Summary of Contributions}{42}{section.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Limitations}{42}{section.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{42}{subsection.7.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{42}{subsection.7.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Future Work}{42}{section.7.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{42}{subsection.7.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{42}{subsection.7.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Limitations}{43}{section.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Future Work}{44}{section.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Introduction of Synthetic 3D data}{44}{subsection.7.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Variant D}{44}{subsection.7.3.1}\protected@file@percent }
+\newlabel{fig:first-image}{{7.1a}{45}{First image caption}{figure.caption.46}{}}
+\newlabel{sub@fig:first-image}{{a}{45}{First image caption}{figure.caption.46}{}}
+\newlabel{fig:second-image}{{7.1b}{45}{Second image caption}{figure.caption.46}{}}
+\newlabel{sub@fig:second-image}{{b}{45}{Second image caption}{figure.caption.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Overall figure caption describing both images}}{45}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:double-image}{{7.1}{45}{Overall figure caption describing both images}{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Real-World Testing and Validation}{45}{subsection.7.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Real-Time Deployment on End-User Devices}{45}{subsection.7.3.3}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{ref}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Appendices}{43}{chapter.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Appendices}{46}{chapter.8}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Additional Figures}{43}{section.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Code Snippets}{43}{section.8.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{43}{section.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Hardware Specifications}{43}{section.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Additional Figures}{46}{section.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Code Snippets}{46}{section.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{46}{section.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Hardware Specifications}{46}{section.8.4}\protected@file@percent }
 \bibcite{lowe2004}{1}
-\bibcite{xfeat_github}{2}
+\bibcite{x_feat_official_github}{2}
 \bibcite{xfeat2023}{3}
 \bibcite{zhao2020good}{4}
-\gdef \@abspage@last{46}
+\gdef \@abspage@last{49}

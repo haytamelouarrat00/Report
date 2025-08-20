@@ -54,33 +54,33 @@
 \contentsline {subsubsection}{Reliability Loss ($L_{rel}$)}{19}{equation.4.3.3}%
 \contentsline {subsubsection}{Fine Matching Loss ($L_{fine}$)}{19}{equation.4.3.4}%
 \contentsline {subsubsection}{Keypoint Detection Loss ($L_{kp}$)}{19}{equation.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{19}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Overview of the approach}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{20}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{20}{subsection.5.2.1}%
-\contentsline {subsubsection}{General Approach}{20}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{22}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Results}{23}{subsection.5.3.1}%
-\contentsline {subsubsection}{Accuracy Metrics}{24}{figure.caption.21}%
-\contentsline {subsubsection}{Loss Metrics}{25}{figure.caption.21}%
-\contentsline {subsubsection}{Confusion matrix}{25}{figure.caption.21}%
-\contentsline {subsubsection}{Overall Assessment}{26}{figure.caption.22}%
-\contentsline {section}{\numberline {5.4}Iterative Refinement}{26}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Variant A}{27}{subsection.5.4.1}%
-\contentsline {subsubsection}{Homography-based keypoint transfer}{27}{subsection.5.4.1}%
-\contentsline {paragraph}{Notes.}{27}{subsection.5.4.1}%
-\contentsline {subsubsection}{Accuracy metrics}{27}{figure.caption.23}%
-\contentsline {subsubsection}{Loss metrics}{28}{figure.caption.24}%
-\contentsline {subsubsection}{Confusion Matrix}{29}{figure.caption.25}%
-\contentsline {subsubsection}{Interpretation}{29}{figure.caption.26}%
-\contentsline {subsection}{\numberline {5.4.2}Variant B}{30}{subsection.5.4.2}%
-\contentsline {subsubsection}{Training Performance and Loss Analysis}{30}{figure.caption.29}%
-\contentsline {subsubsection}{Confusion matrix}{32}{figure.caption.31}%
-\contentsline {subsubsection}{Interpretation}{32}{figure.caption.32}%
-\contentsline {subsection}{\numberline {5.4.3}Variant C}{32}{subsection.5.4.3}%
-\contentsline {subsubsection}{Training Performance and Loss Analysis}{34}{figure.caption.34}%
-\contentsline {subsubsection}{Confusion matrix}{36}{figure.caption.36}%
+\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{20}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Overview of the approach}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{21}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{21}{subsection.5.2.1}%
+\contentsline {subsubsection}{General Approach}{21}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{23}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Results}{24}{subsection.5.3.1}%
+\contentsline {subsubsection}{Accuracy Metrics}{25}{figure.caption.22}%
+\contentsline {subsubsection}{Loss Metrics}{26}{figure.caption.22}%
+\contentsline {subsubsection}{Confusion matrix}{26}{figure.caption.22}%
+\contentsline {subsubsection}{Overall Assessment}{27}{figure.caption.23}%
+\contentsline {section}{\numberline {5.4}Iterative Refinement}{27}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Variant A}{28}{subsection.5.4.1}%
+\contentsline {subsubsection}{Homography-based keypoint transfer}{28}{subsection.5.4.1}%
+\contentsline {paragraph}{Notes.}{28}{subsection.5.4.1}%
+\contentsline {subsubsection}{Accuracy metrics}{28}{figure.caption.24}%
+\contentsline {subsubsection}{Loss metrics}{29}{figure.caption.25}%
+\contentsline {subsubsection}{Confusion Matrix}{30}{figure.caption.26}%
+\contentsline {subsubsection}{Interpretation}{30}{figure.caption.27}%
+\contentsline {subsection}{\numberline {5.4.2}Variant B}{31}{subsection.5.4.2}%
+\contentsline {subsubsection}{Training Performance and Loss Analysis}{31}{figure.caption.30}%
+\contentsline {subsubsection}{Confusion matrix}{33}{figure.caption.32}%
+\contentsline {subsubsection}{Interpretation}{33}{figure.caption.33}%
+\contentsline {subsection}{\numberline {5.4.3}Variant C}{33}{subsection.5.4.3}%
+\contentsline {subsubsection}{Training Performance and Loss Analysis}{34}{figure.caption.35}%
+\contentsline {subsubsection}{Confusion matrix}{36}{figure.caption.37}%
 \contentsline {chapter}{\numberline {6}Experimental Evaluation and Performance Analysis}{37}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Experimental Framework and Baseline Configuration}{37}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Performance Metrics and Quantitative Assessment}{37}{section.6.2}%
@@ -94,14 +94,14 @@
 \contentsline {subsection}{\numberline {6.4.1}Performance Benchmarking Analysis}{41}{subsection.6.4.1}%
 \contentsline {chapter}{\numberline {7}Conclusion and Future Work}{42}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Summary of Contributions}{42}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Limitations}{42}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Domain Generalization}{42}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Extreme Low-Light or High-Motion Scenes}{42}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Future Work}{42}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Hardware-Specific Optimizations (e.g., ARM CPU Tuning)}{42}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Real-Time Deployment on End-User Devices}{42}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Appendices}{43}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Additional Figures}{43}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Code Snippets}{43}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{43}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Hardware Specifications}{43}{section.8.4}%
+\contentsline {section}{\numberline {7.2}Limitations}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Future Work}{44}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Introduction of Synthetic 3D data}{44}{subsection.7.3.1}%
+\contentsline {subsubsection}{Variant D}{44}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Real-World Testing and Validation}{45}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Real-Time Deployment on End-User Devices}{45}{subsection.7.3.3}%
+\contentsline {chapter}{\numberline {8}Appendices}{46}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Additional Figures}{46}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Code Snippets}{46}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{46}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Hardware Specifications}{46}{section.8.4}%

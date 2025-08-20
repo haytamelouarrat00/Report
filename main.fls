@@ -548,6 +548,17 @@ INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
+INPUT .\ressources\test (1).jpg
 INPUT .\chapters\impl.tex
 INPUT .\chapters\impl.tex
 INPUT .\chapters\impl.tex
@@ -786,10 +797,6 @@ INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
 INPUT .\ressources\cm_L_10.png
-INPUT .\ressources\for_glory.png
-INPUT .\ressources\for_glory.png
-INPUT .\ressources\for_glory.png
-INPUT .\ressources\for_glory.png
 INPUT .\chapters\res_ana.tex
 INPUT .\chapters\res_ana.tex
 INPUT .\chapters\res_ana.tex
@@ -841,11 +848,37 @@ INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\00009.jpg
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
+INPUT .\ressources\depth_map.png
 INPUT .\chapters\append.tex
 INPUT .\chapters\append.tex
 INPUT .\chapters\append.tex
 INPUT .\chapters\append.tex
 INPUT chapters\append.tex
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl

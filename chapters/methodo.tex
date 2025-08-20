@@ -211,7 +211,23 @@ For each cell $k_{i,j} \in \mathbb{R}^{65}$, representing 64 positions plus a du
     L_{kp} = - \sum_k \log \big( \text{softmax}(k_{i,j})_{t_{idx}} \big),
 \end{equation}
 where $t_{idx}$ encodes the teacher-provided keypoint or the dustbin when no keypoint is present.
-
+\pagebreak
 \medskip
 \subsection{Matching Criterion}
-To determine whether the evaluated icon is present in the target image, we first needed to establish a robust matching criterion. The process begins with detecting all keypoints within the scene and isolating those belonging to the icon region using binary masks. To ensure reliability, we apply RANSAC to filter out spurious correspondences and retain only geometrically consistent inliers. Next, we define a bounding box around the set of matched keypoints. Our criterion is then expressed as the ratio between the number of inliers and the total number of keypoints located within this bounding box. This ratio provides a quantitative measure of confidence: higher values indicate stronger evidence that the icon truly exists in the target image, while lower values suggest the matches may be coincidental or unreliable.
+To determine whether the evaluated icon is present in the target image, we
+first needed to establish a robust matching criterion. The process begins with
+detecting all keypoints within the scene and isolating those belonging to the
+icon region using binary masks. To ensure reliability, we apply RANSAC to
+icon region using binary masks, we define a bounding box around the set of keypoints belonging to the icon area. To ensure reliability, we apply RANSAC to
+filter out spurious correspondences and retain only geometrically consistent
+inliers. Our criterion is then expressed as the ratio between the number of inliers (result of RANSAC filtering) and
+the total number of keypoints located within this bounding box. This ratio
+provides a quantitative measure of confidence: higher values indicate stronger
+evidence that the icon truly exists in the target image, while lower values
+suggest the matches may be coincidental or unreliable.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ressources/test (1).jpg}
+    \caption{Illustration of the matching criterion process.}
+    \label{fig:matching_criterion}
+\end{figure}

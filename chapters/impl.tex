@@ -295,7 +295,7 @@ we adjusted their relative weights so they would be more balanced. In
 particular, we lowered the weight of the keypoint position loss, as it was
 consistently the largest, to avoid it dominating the training signal. Despite
 these changes, the network still fails to capture the distinctive patterns and
-features that define our custom target.This suggests that the model is
+features that define our custom target. This suggests that the model is
 focusing on general cues or noise rather than learning the precise visual
 characteristics we aim to detect.
 \begin{figure}[H]
@@ -393,9 +393,9 @@ We could see that although the model can accurately detect the existence of keyp
 Although the training results show significant improvements in both loss and
 accuracy metrics, the model still struggles with false positives, which is
 result of the overfitting of our model. This could be proof that our choice of
-teacher model is not optimal for this task, the low recall suggests the network learned to be overly conservative. This likely happened because of an insufficient number of negative examples. Perfect correspondences are great, but we also need to teach the network what NOT to match or that the model does not
+teacher model is not optimal for this task, or that the model does not
 generalize well to the target domain. To address this, we decided to explore an
-alternative teacher model, and an alternative data formula.
+alternative teacher model.
 \subsection{Variant C}
 We decided to return to our original approach and adopt SIFT as the teacher
 method. Given that our SIFT-based solution already demonstrates strong

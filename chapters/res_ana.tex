@@ -1,55 +1,81 @@
 \chapter{Experimental Evaluation and Performance Analysis}
 
-This chapter presents a comprehensive evaluation of our proposed model against established baselines, with particular focus on the original pretrained XFeat models~\cite{xfeat_github} which serve as our primary benchmark for optimization in the target domain.
+This chapter presents a comprehensive evaluation of our proposed model against
+established baselines, with particular focus on the original pretrained XFeat
+models~\cite{x_feat_official_github} which serve as our primary benchmark for
+optimization in the target domain.
 
 \section{Experimental Framework and Baseline Configuration}
 
-In order to properly evaluate the performance of our model, we needed a baseline model to compare against. We chose the original pretrained XFeat models~\cite{xfeat_github} as they are we try to optimize for our target use case.
+In order to properly evaluate the performance of our model, we needed a
+baseline model to compare against. We chose the original pretrained XFeat
+models~\cite{x_feat_official_github} as they are we try to optimize for our target use
+case.
 
 \section{Performance Metrics and Quantitative Assessment}
 
 \subsection{Training Dynamics and Model Convergence}
 
-We compare the performance of our original pretrained model against the new model trained on our custom dataset across three key metrics: total loss, coarse accuracy, and fine accuracy. Table~\ref{tab:performance_comparison} summarizes the quantitative results.
+We compare the performance of our original pretrained model against the new
+model trained on our custom dataset across three key metrics: total loss,
+coarse accuracy, and fine accuracy. Table~\ref{tab:performance_comparison}
+summarizes the quantitative results.
 
 \begin{table}[htbp]
-\centering
-\caption{Performance comparison between original pretrained model and new model trained on custom dataset.}
-\label{tab:performance_comparison}
-\begin{tabular}{lcccc}
-\toprule
-\textbf{Metric} & \textbf{Original Model} & \textbf{New Model} & \textbf{Improvement} & \textbf{Relative Change} \\
-\midrule
-\multicolumn{5}{l}{\textit{Loss Performance}} \\
-Initial Loss & 11.06 & 23.36 & -- & -- \\
-Final Loss & 4.34 & 4.29 & -0.05 & 1.2\% better \\
-Best Loss & 4.04 & 3.72 & -0.32 & 7.9\% better \\
-Loss Reduction & 60.75\% & 81.65\% & +20.9 pp & 34.4\% better \\
-\midrule
-\multicolumn{5}{l}{\textit{Coarse Accuracy}} \\
-Final Accuracy & 38.70\% & 15.14\% & -23.56 pp & 60.9\% worse \\
-Peak Accuracy & 90.65\% & 70.37\% & -20.28 pp & 22.4\% worse \\
-Mean Accuracy & 49.45\% & 20.35\% & -29.10 pp & 58.8\% worse \\
-\midrule
-\multicolumn{5}{l}{\textit{Fine Accuracy}} \\
-Final Accuracy & 21.37\% & \textbf{64.00\%} & +42.63 pp & \textbf{199.4\% better} \\
-Peak Accuracy & 29.17\% & \textbf{100.00\%} & +70.83 pp & \textbf{242.9\% better} \\
-Mean Accuracy & 13.84\% & \textbf{66.92\%} & +53.08 pp & \textbf{383.4\% better} \\
-\midrule
-\multicolumn{5}{l}{\textit{Training Characteristics}} \\
-Training Steps & 154,674 & 144,688 & -9,986 & 6.5\% fewer \\
-Data Points & 10,000 & 20,000 & +10,000 & 2× more \\
-\bottomrule
-\end{tabular}
+    \centering
+    \caption{Performance comparison between original pretrained model and new model trained on custom dataset.}
+    \label{tab:performance_comparison}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Metric} & \textbf{Original Model} & \textbf{New Model} & \textbf{Improvement} & \textbf{Relative Change} \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Loss Performance}}                                                                    \\
+        Initial Loss    & 11.06                   & 23.36              & --                   & --                       \\
+        Final Loss      & 4.34                    & 4.29               & -0.05                & 1.2\% better             \\
+        Best Loss       & 4.04                    & 3.72               & -0.32                & 7.9\% better             \\
+        Loss Reduction  & 60.75\%                 & 81.65\%            & +20.9 pp             & 34.4\% better            \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Coarse Accuracy}}                                                                     \\
+        Final Accuracy  & 38.70\%                 & 15.14\%            & -23.56 pp            & 60.9\% worse             \\
+        Peak Accuracy   & 90.65\%                 & 70.37\%            & -20.28 pp            & 22.4\% worse             \\
+        Mean Accuracy   & 49.45\%                 & 20.35\%            & -29.10 pp            & 58.8\% worse             \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Fine Accuracy}}                                                                       \\
+        Final Accuracy  & 21.37\%                 & \textbf{64.00\%}   & +42.63 pp            & \textbf{199.4\% better}  \\
+        Peak Accuracy   & 29.17\%                 & \textbf{100.00\%}  & +70.83 pp            & \textbf{242.9\% better}  \\
+        Mean Accuracy   & 13.84\%                 & \textbf{66.92\%}   & +53.08 pp            & \textbf{383.4\% better}  \\
+        \midrule
+        \multicolumn{5}{l}{\textit{Training Characteristics}}                                                            \\
+        Training Steps  & 154,674                 & 144,688            & -9,986               & 6.5\% fewer              \\
+        Data Points     & 10,000                  & 20,000             & +10,000              & 2× more                  \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
-The results demonstrate a clear performance advantage for the new model in fine-grained accuracy tasks. Despite starting with a higher initial loss (23.36 vs 11.06), likely due to domain adaptation requirements, the new model achieves superior convergence with 81.65\% total loss reduction compared to 60.75\% for the original model. Most notably, fine accuracy performance shows dramatic improvements: the new model achieves 64.00\% final accuracy versus 21.37\% for the original model, representing a 199.4\% relative improvement. The new model even reaches 100\% peak fine accuracy, compared to 29.17\% for the original.
+The results demonstrate a clear performance advantage for the new model in
+fine-grained accuracy tasks. Despite starting with a higher initial loss (23.36
+vs 11.06), likely due to domain adaptation requirements, the new model achieves
+superior convergence with 81.65\% total loss reduction compared to 60.75\% for
+the original model. Most notably, fine accuracy performance shows dramatic
+improvements: the new model achieves 64.00\% final accuracy versus 21.37\% for
+the original model, representing a 199.4\% relative improvement. The new model
+even reaches 100\% peak fine accuracy, compared to 29.17\% for the original.
 
-However, coarse accuracy performance shows the opposite trend, with the new model achieving only 15.14\% final accuracy compared to 38.70\% for the original model. This degradation may indicate that our custom dataset presents more challenging coarse-grained classification tasks or requires different evaluation methodologies than the synthetic data used for the original model.
+However, coarse accuracy performance shows the opposite trend, with the new
+model achieving only 15.14\% final accuracy compared to 38.70\% for the
+original model. This degradation may indicate that our custom dataset presents
+more challenging coarse-grained classification tasks or requires different
+evaluation methodologies than the synthetic data used for the original model.
 
-Training efficiency also favors the new model, which converges to better performance in 6.5\% fewer steps (144,688 vs 154,674), suggesting improved sample efficiency. The comprehensive tracking with 20,000 loss measurements (versus 10,000 for the original) provides higher resolution monitoring of the training process.
+Training efficiency also favors the new model, which converges to better
+performance in 6.5\% fewer steps (144,688 vs 154,674), suggesting improved
+sample efficiency. The comprehensive tracking with 20,000 loss measurements
+(versus 10,000 for the original) provides higher resolution monitoring of the
+training process.
 
-These results strongly support deployment of the new model for applications requiring fine-grained accuracy, while highlighting the need for further investigation into coarse accuracy performance degradation.
+These results strongly support deployment of the new model for applications
+requiring fine-grained accuracy, while highlighting the need for further
+investigation into coarse accuracy performance degradation.
 
 \begin{figure}[H]
     \centering
@@ -57,6 +83,7 @@ These results strongly support deployment of the new model for applications requ
     \caption{Training loss comparison between XFeat-original and NAFM-Variant C.}
     \label{fig:loss_comparison}
 \end{figure}
+{\footnotesize * Smoothed using a Gaussian filter ($\sigma=5$)\par}
 
 \begin{figure}[H]
     \centering
@@ -64,7 +91,7 @@ These results strongly support deployment of the new model for applications requ
     \caption{Accuracy comparison between XFeat-original and NAFM-Variant C.}
     \label{fig:accuracy_comparison}
 \end{figure}
-
+{\footnotesize * Smoothed using a Gaussian filter ($\sigma=5$)\par}
 \section{Classification Performance Analysis}
 
 \subsection{Baseline Model Evaluation Results}
@@ -118,7 +145,10 @@ Compared to our models' performance:
     \label{tab:classification_report2}
 \end{table}
 
-Overall, the model achieved an accuracy of \textbf{75\%}. However, it performed better at identifying ``No Match'' pairs than at detecting all the ``Match'' pairs. The model is very cautious about calling something a ``Match''. When it does, it is usually correct, but it misses many true matches.
+Overall, the model achieved an accuracy of \textbf{75\%}. However, it performed
+better at identifying ``No Match'' pairs than at detecting all the ``Match''
+pairs. The model is very cautious about calling something a ``Match''. When it
+does, it is usually correct, but it misses many true matches.
 
 \subsection{Detailed Performance Breakdown}
 
@@ -150,7 +180,8 @@ Here is what each term means in the context of the results:
     \item \textbf{Weighted Avg (0.81, 0.81, 0.81):} The average weighted by the number of samples. Since there are more ``Match'' pairs, the average is biased towards their scores.
 \end{itemize}
 
-The model is very conservative, it avoids calling something a match unless it is very certain.
+The model is very conservative, it avoids calling something a match unless it
+is very certain.
 
 \begin{itemize}
     \item \textbf{Good news:} When it says ``Match'', we can trust it (81\% precision).
@@ -162,18 +193,31 @@ The model is very conservative, it avoids calling something a match unless it is
 \subsection{Performance Benchmarking Analysis}
 
 \begin{table}[H]
-\centering
-\caption{Computational performance comparison across different methodologies.}
-\label{tab:speed_comparison}
-\begin{tabular}{l r r r r r r r r}
-    \toprule
-    Method    & Extraction(s) & Speedup & Matching(s) & Speedup & Total(s) & Speedup & Matches & Matches/s \\
-    \midrule
-    SIFT-CPU  & 0.1420        & 1.0x     & 0.0024      & 0.63x    & 0.1443   & 1.0x     & 579     & 244319    \\
-    XFeat-GPU & 0.0117        & 12.1x    & 0.0015      & 1.0x     & 0.0132   & 10.9x    & 256     & 19394     \\
-    XFeat-CPU & 0.0110        & 12.9x    & 0.0006      & 2.5x     & 0.0116   & 12.4x    & 256     & 220690    \\
-    \bottomrule
-\end{tabular}
+    \centering
+    \caption{Computational performance comparison across different methodologies.}
+    \label{tab:speed_comparison}
+    \begin{tabular}{l r r r r r r r r}
+        \toprule
+        Method    & Extraction(s) & Speedup & Matching(s) & Speedup & Total(s) & Speedup & Matches & Matches/s \\
+        \midrule
+        SIFT-CPU  & 0.1420        & 1.0x    & 0.0024      & 0.63x   & 0.1443   & 1.0x    & 579     & 244319    \\
+        XFeat-GPU & 0.0117        & 12.1x   & 0.0015      & 1.0x    & 0.0132   & 10.9x   & 256     & 19394     \\
+        XFeat-CPU & 0.0110        & 12.9x   & 0.0006      & 2.5x    & 0.0116   & 12.4x   & 256     & 220690    \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
-The results highlight a pronounced contrast between SIFT and XFeat in terms of computational efficiency. XFeat demonstrates a substantial speed advantage, outperforming SIFT across extraction, matching, and total runtime. Notably, XFeat achieves these gains even on the CPU, underscoring its efficiency and making it a strong candidate for deployment in environments where GPU resources are limited or unavailable. However, this gain in speed comes at the cost of accuracy. While XFeat delivers results an order of magnitude faster, its number of matches is significantly lower than SIFT's, which translates into reduced reliability in many feature-matching tasks. SIFT, despite being slower, provides at least 15\% higher accuracy, which can be critical in applications where precision is more important than raw throughput. Overall, these findings illustrate the fundamental trade-off between speed and accuracy: XFeat offers exceptional performance efficiency, while SIFT remains more robust in terms of match quality.
+The results highlight a pronounced contrast between SIFT and XFeat in terms of
+computational efficiency. XFeat demonstrates a substantial speed advantage,
+outperforming SIFT across extraction, matching, and total runtime. Notably,
+XFeat achieves these gains even on the CPU, underscoring its efficiency and
+making it a strong candidate for deployment in environments where GPU resources
+are limited or unavailable. However, this gain in speed comes at the cost of
+accuracy. While XFeat delivers results an order of magnitude faster, its number
+of matches is significantly lower than SIFT's, which translates into reduced
+reliability in many feature-matching tasks. SIFT, despite being slower,
+provides at least 15\% higher accuracy, which can be critical in applications
+where precision is more important than raw throughput. Overall, these findings
+illustrate the fundamental trade-off between speed and accuracy: XFeat offers
+exceptional performance efficiency, while SIFT remains more robust in terms of
+match quality.

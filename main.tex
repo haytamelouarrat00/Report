@@ -1,4 +1,4 @@
-\documentclass[a4paper,9pt]{report}
+\documentclass[a4paper,10pt]{report} % Changed from 9pt (not valid) to 10pt
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
@@ -16,10 +16,12 @@
 \usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage{float} % For [H] placement option
+\usepackage{url}  % Added for URL support in bibliography
+
 % --- No page numbering for title ---
 \pagestyle{fancy}
 \fancyhf{}
-\setlength{\footskip}{50pt}
+\setlength{\footskip}{57pt} % Increased from 50pt to avoid fancyhdr warning
 \fancyfoot[C]{\thepage}
 \definecolor{darkgreen}{RGB}{0,100,0}
 \definecolor{myorange}{RGB}{255,165,0}
@@ -72,7 +74,7 @@
 % --- Page Break 
 \newpage
 \begin{abstract}
-    Real-time analysis of gaming footage requires feature matching algorithms that are both robust and computationally efficient. SteelSeries’ Moments software currently relies on the Scale-Invariant Feature Transform (SIFT) to detect and match in-game icons, offering strong invariance to scale, rotation, and illumination changes. However, SIFT’s high computational cost and latency make it unsuitable for high frame rate, CPU-bound environments. This work proposes a Neural-Assisted Feature Matching approach that accelerates the most computationally intensive stages of SIFT—keypoint detection and descriptor computation—through the integration of lightweight convolutional neural networks. We investigate recent neural methods, including ALIKE, LightGlue, and XFeat, identifying XFeat as the primary candidate for its favorable speed–accuracy trade-off. A custom gaming-focused dataset was created using real gameplay footage and synthetic transformations to evaluate matching quality, latency, and resource usage. The proposed hybrid pipeline achieves substantial reductions in processing time compared to the existing SIFT-based implementation, while preserving comparable matching accuracy and robustness under varied gaming conditions. These findings demonstrate the potential of neural-assisted methods for real-time, resource-constrained computer vision tasks, with direct applicability to gaming analytics and broader real-time visual correspondence applications.
+    Real-time analysis of gaming footage requires feature matching algorithms that are both robust and computationally efficient. SteelSeries' Moments software currently relies on the Scale-Invariant Feature Transform (SIFT) to detect and match in-game icons, offering strong invariance to scale, rotation, and illumination changes. However, SIFT's high computational cost and latency make it unsuitable for high frame rate, CPU-bound environments. This work proposes a Neural-Assisted Feature Matching approach that accelerates the most computationally intensive stages of SIFT: keypoint detection and descriptor computation, through the integration of lightweight convolutional neural networks. We investigate recent neural methods, including ALIKE, LightGlue, and XFeat, identifying XFeat as the primary candidate for its favorable speed–accuracy trade-off. A custom gaming-focused dataset was created using real gameplay footage and synthetic transformations to evaluate matching quality, latency, and resource usage. The proposed hybrid pipeline achieves substantial reductions in processing time compared to the existing SIFT-based implementation, while preserving comparable matching accuracy and robustness under varied gaming conditions. These findings demonstrate the potential of neural-assisted methods for real-time, resource-constrained computer vision tasks, with direct applicability to gaming analytics and broader real-time visual correspondence applications.
 \end{abstract}
 
 \tableofcontents
@@ -100,7 +102,7 @@
 \input{chapters/append}
 % ------------------------------------------------------------
 
-% Add bibliography here
+% Make sure the bibliography commands are not commented out and are placed correctly
 \bibliographystyle{plain}  % or another style: ieeetr, apalike, etc.
 \bibliography{ref}         % filename without .bib extension
 

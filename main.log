@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  20 AUG 2025 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.14)  20 AUG 2025 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,12 +545,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box66
 \@float@everytoks=\toks39
 \@floatcapt=\box67
-)
-
-LaTeX Warning: Unused global option(s):
-    [9pt].
-
-(main.aux
+) (main.aux
 
 LaTeX Warning: Label `fig:teacher_student' multiply defined.
 
@@ -563,24 +558,24 @@ LaTeX Warning: Label `fig:accuracy_metrics3' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -602,7 +597,7 @@ LaTeX Font Info:    ... okay on input line 33.
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=50.0pt
+* \footskip=57.0pt
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -635,7 +630,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 35.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -643,34 +638,28 @@ Package hyperref Info: Link coloring OFF on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<ressources/ss_horizontal_white_on_black.jpg, id=326, 1003.75pt x 143.53625pt>
+<ressources/ss_horizontal_white_on_black.jpg, id=322, 1003.75pt x 143.53625pt>
 File: ressources/ss_horizontal_white_on_black.jpg Graphic file (type jpg)
 <use ressources/ss_horizontal_white_on_black.jpg>
-Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 39.
+Package pdftex.def Info: ressources/ss_horizontal_white_on_black.jpg  used on input line 41.
 (pdftex.def)             Requested size: 227.62206pt x 32.54831pt.
-<ressources/logo_upssitech.png, id=327, 972.63374pt x 284.06125pt>
+<ressources/logo_upssitech.png, id=323, 972.63374pt x 284.06125pt>
 File: ressources/logo_upssitech.png Graphic file (type png)
 <use ressources/logo_upssitech.png>
-Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 44.
+Package pdftex.def Info: ressources/logo_upssitech.png  used on input line 46.
 (pdftex.def)             Requested size: 227.62206pt x 66.47699pt.
-<ressources/for_glory.png, id=329, 115.93312pt x 20.32594pt>
+<ressources/for_glory.png, id=325, 115.93312pt x 20.32594pt>
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 73.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 75.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[1
+ [1
 
 {C:/Users/aytam.elhouarrat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./ressources/ss_horizontal_white_on_black.jpg> <./ressources/logo_upssitech.png> <./ressources/for_glory.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 \end{abstract}
+l.78 \end{abstract}
                     [1] (main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -683,7 +672,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 ...}Matching Criterion}{19}{subsection.4.3.2}
+l.57 ...}Matching Criterion}{20}{subsection.4.3.2}
                                                   % [1
 
 ])
@@ -692,15 +681,9 @@ l.57 ...}Matching Criterion}{19}{subsection.4.3.2}
 
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 79.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 81.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[2] (main.lof)
+ [2] (main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -712,32 +695,32 @@ Chapter 1.
 
 ]
 Chapter 2.
-<ressources/mouse_1.png, id=519, 481.8pt x 385.44pt>
+<ressources/mouse_1.png, id=518, 481.8pt x 385.44pt>
 File: ressources/mouse_1.png Graphic file (type png)
 <use ressources/mouse_1.png>
 Package pdftex.def Info: ressources/mouse_1.png  used on input line 16.
 (pdftex.def)             Requested size: 113.81102pt x 91.04892pt.
-<ressources/mouse_2.png, id=520, 481.8pt x 275.0275pt>
+<ressources/mouse_2.png, id=519, 481.8pt x 275.0275pt>
 File: ressources/mouse_2.png Graphic file (type png)
 <use ressources/mouse_2.png>
 Package pdftex.def Info: ressources/mouse_2.png  used on input line 21.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/mouse_3.png, id=521, 481.8pt x 275.0275pt>
+<ressources/mouse_3.png, id=520, 481.8pt x 275.0275pt>
 File: ressources/mouse_3.png Graphic file (type png)
 <use ressources/mouse_3.png>
 Package pdftex.def Info: ressources/mouse_3.png  used on input line 26.
 (pdftex.def)             Requested size: 113.81102pt x 64.9672pt.
-<ressources/kb_1.png, id=522, 301.125pt x 301.125pt>
+<ressources/kb_1.png, id=521, 301.125pt x 301.125pt>
 File: ressources/kb_1.png Graphic file (type png)
 <use ressources/kb_1.png>
 Package pdftex.def Info: ressources/kb_1.png  used on input line 35.
 (pdftex.def)             Requested size: 113.81102pt x 113.81297pt.
-<ressources/kb_2.png, id=523, 301.125pt x 240.9pt>
+<ressources/kb_2.png, id=522, 301.125pt x 240.9pt>
 File: ressources/kb_2.png Graphic file (type png)
 <use ressources/kb_2.png>
 Package pdftex.def Info: ressources/kb_2.png  used on input line 40.
 (pdftex.def)             Requested size: 113.81102pt x 91.05038pt.
-<ressources/kb_3.png, id=524, 301.125pt x 240.9pt>
+<ressources/kb_3.png, id=523, 301.125pt x 240.9pt>
 File: ressources/kb_3.png Graphic file (type png)
 <use ressources/kb_3.png>
 Package pdftex.def Info: ressources/kb_3.png  used on input line 45.
@@ -745,17 +728,17 @@ Package pdftex.def Info: ressources/kb_3.png  used on input line 45.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<ressources/hs_2.png, id=525, 481.8pt x 481.8pt>
+<ressources/hs_2.png, id=524, 481.8pt x 481.8pt>
 File: ressources/hs_2.png Graphic file (type png)
 <use ressources/hs_2.png>
 Package pdftex.def Info: ressources/hs_2.png  used on input line 54.
 (pdftex.def)             Requested size: 113.81102pt x 113.81114pt.
-<ressources/hs_3.png, id=526, 301.125pt x 246.9225pt>
+<ressources/hs_3.png, id=525, 301.125pt x 246.9225pt>
 File: ressources/hs_3.png Graphic file (type png)
 <use ressources/hs_3.png>
 Package pdftex.def Info: ressources/hs_3.png  used on input line 59.
 (pdftex.def)             Requested size: 113.81102pt x 93.32663pt.
-<ressources/hs_1.png, id=527, 481.8pt x 481.8pt>
+<ressources/hs_1.png, id=526, 481.8pt x 481.8pt>
 File: ressources/hs_1.png Graphic file (type png)
 <use ressources/hs_1.png>
 Package pdftex.def Info: ressources/hs_1.png  used on input line 64.
@@ -766,7 +749,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [5
 
  <./ressources/mouse_1.png> <./ressources/mouse_2.png> <./ressources/mouse_3.png>]
-<ressources/sktt1.png, id=538, 963.6pt x 542.025pt>
+<ressources/sktt1.png, id=537, 963.6pt x 542.025pt>
 File: ressources/sktt1.png Graphic file (type png)
 <use ressources/sktt1.png>
 Package pdftex.def Info: ressources/sktt1.png  used on input line 83.
@@ -779,36 +762,19 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 91.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
 [6 <./ressources/kb_1.png> <./ressources/kb_2.png> <./ressources/kb_3.png> <./ressources/hs_2.png> <./ressources/hs_3.png> <./ressources/hs_1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[7 <./ressources/sktt1.png>]) (chapters/litt_rev.tex
+ [7 <./ressources/sktt1.png>]) (chapters/litt_rev.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[8]
+ [8]
 Chapter 3.
-<ressources/alike.png, id=562, 480.79625pt x 126.97438pt>
+<ressources/alike.png, id=561, 480.79625pt x 126.97438pt>
 File: ressources/alike.png Graphic file (type png)
 <use ressources/alike.png>
 Package pdftex.def Info: ressources/alike.png  used on input line 26.
@@ -816,7 +782,7 @@ Package pdftex.def Info: ressources/alike.png  used on input line 26.
 [9
 
  <./ressources/alike.png>]
-<ressources/lightglue.png, id=568, 709.14937pt x 205.5178pt>
+<ressources/lightglue.png, id=567, 709.14937pt x 205.5178pt>
 File: ressources/lightglue.png Graphic file (type png)
 <use ressources/lightglue.png>
 Package pdftex.def Info: ressources/lightglue.png  used on input line 91.
@@ -825,35 +791,17 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 96.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[10]
+ [10]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[11 <./ressources/lightglue.png>]
+ [11 <./ressources/lightglue.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 164.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[12]
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 194--197
 
  []
@@ -867,25 +815,14 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 248.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
 [13]) (chapters/methodo.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[14]
+ [14]
 Chapter 4.
-<ressources/xfeat-comparative-graph.png, id=610, 623.32875pt x 415.5525pt>
+<ressources/xfeat-comparative-graph.png, id=609, 623.32875pt x 415.5525pt>
 File: ressources/xfeat-comparative-graph.png Graphic file (type png)
 <use ressources/xfeat-comparative-graph.png>
 Package pdftex.def Info: ressources/xfeat-comparative-graph.png  used on input line 61.
@@ -893,22 +830,22 @@ Package pdftex.def Info: ressources/xfeat-comparative-graph.png  used on input l
 [15
 
 ]
-<ressources/iconexample1.png, id=616, 602.25pt x 602.25pt>
+<ressources/iconexample1.png, id=615, 602.25pt x 602.25pt>
 File: ressources/iconexample1.png Graphic file (type png)
 <use ressources/iconexample1.png>
 Package pdftex.def Info: ressources/iconexample1.png  used on input line 90.
 (pdftex.def)             Requested size: 91.04742pt x 91.0412pt.
-<ressources/iconexample2.png, id=617, 1927.2pt x 1927.2pt>
+<ressources/iconexample2.png, id=616, 1927.2pt x 1927.2pt>
 File: ressources/iconexample2.png Graphic file (type png)
 <use ressources/iconexample2.png>
 Package pdftex.def Info: ressources/iconexample2.png  used on input line 91.
 (pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
-<ressources/iconexample3.png, id=618, 256.96pt x 256.96pt>
+<ressources/iconexample3.png, id=617, 256.96pt x 256.96pt>
 File: ressources/iconexample3.png Graphic file (type png)
 <use ressources/iconexample3.png>
 Package pdftex.def Info: ressources/iconexample3.png  used on input line 92.
 (pdftex.def)             Requested size: 91.04742pt x 91.04695pt.
-<ressources/iconexample4.png, id=619, 24.09pt x 24.09pt>
+<ressources/iconexample4.png, id=618, 24.09pt x 24.09pt>
 File: ressources/iconexample4.png Graphic file (type png)
 <use ressources/iconexample4.png>
 Package pdftex.def Info: ressources/iconexample4.png  used on input line 93.
@@ -917,34 +854,28 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 97.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[16 <./ressources/xfeat-comparative-graph.png>]
-<ressources/bad_icon1.png, id=625, 513.92pt x 513.92pt>
+ [16 <./ressources/xfeat-comparative-graph.png>]
+<ressources/bad_icon1.png, id=624, 513.92pt x 513.92pt>
 File: ressources/bad_icon1.png Graphic file (type png)
 <use ressources/bad_icon1.png>
 Package pdftex.def Info: ressources/bad_icon1.png  used on input line 100.
 (pdftex.def)             Requested size: 91.04742pt x 91.04303pt.
-<ressources/bad_icon2.png, id=626, 501.875pt x 501.875pt>
+<ressources/bad_icon2.png, id=625, 501.875pt x 501.875pt>
 File: ressources/bad_icon2.png Graphic file (type png)
 <use ressources/bad_icon2.png>
 Package pdftex.def Info: ressources/bad_icon2.png  used on input line 101.
 (pdftex.def)             Requested size: 91.04742pt x 91.04579pt.
-<ressources/bad_icon3.png, id=627, 607.26875pt x 525.965pt>
+<ressources/bad_icon3.png, id=626, 607.26875pt x 525.965pt>
 File: ressources/bad_icon3.png Graphic file (type png)
 <use ressources/bad_icon3.png>
 Package pdftex.def Info: ressources/bad_icon3.png  used on input line 102.
 (pdftex.def)             Requested size: 91.04742pt x 78.85121pt.
-<ressources/bad_icon4.png, id=628, 4111.36pt x 4111.36pt>
+<ressources/bad_icon4.png, id=627, 4111.36pt x 4111.36pt>
 File: ressources/bad_icon4.png Graphic file (type png)
 <use ressources/bad_icon4.png>
 Package pdftex.def Info: ressources/bad_icon4.png  used on input line 103.
 (pdftex.def)             Requested size: 91.04742pt x 91.02734pt.
-<ressources/bg_example.jpg, id=629, 3854.4pt x 2168.1pt>
+<ressources/bg_example.jpg, id=628, 3854.4pt x 2168.1pt>
 File: ressources/bg_example.jpg Graphic file (type jpg)
 <use ressources/bg_example.jpg>
 Package pdftex.def Info: ressources/bg_example.jpg  used on input line 118.
@@ -953,13 +884,7 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 133.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[17 <./ressources/iconexample1.png> <./ressources/iconexample2.png> <./ressources/iconexample3.png> <./ressources/iconexample4.png> <./ressources/bad_icon1.png> <./ressources/bad_icon2.png> <./ressources/bad_icon3.png> <./ressources/bad_icon4.png> <./ressources/bg_example.jpg>]
+ [17 <./ressources/iconexample1.png> <./ressources/iconexample2.png> <./ressources/iconexample3.png> <./ressources/iconexample4.png> <./ressources/bad_icon1.png> <./ressources/bad_icon2.png> <./ressources/bad_icon3.png> <./ressources/bad_icon4.png> <./ressources/bg_example.jpg>]
 Overfull \hbox (1.14552pt too wide) in paragraph at lines 154--158
 []\OT1/cmr/m/n/10 Candidate cor-re-spon-dences are gen-er-ated us-ing a FLANN-based ap-prox-i-mate nearest-neighbour search
  []
@@ -968,39 +893,39 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 184.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[18]) (chapters/impl.tex
+[18]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 216.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [19]
+<ressources/test (1).jpg, id=659, 789.95125pt x 299.61937pt>
+File: ressources/test (1).jpg Graphic file (type jpg)
+<use ressources/test (1).jpg>
+Package pdftex.def Info: ressources/test (1).jpg  used on input line 230.
+(pdftex.def)             Requested size: 364.19667pt x 138.13747pt.
+) (chapters/impl.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[19]
+ [20 <./ressources/test (1).jpg>]
 Chapter 5.
-<ressources/roi.jpg, id=660, 3854.4pt x 2168.1pt>
+<ressources/roi.jpg, id=664, 3854.4pt x 2168.1pt>
 File: ressources/roi.jpg Graphic file (type jpg)
 <use ressources/roi.jpg>
 Package pdftex.def Info: ressources/roi.jpg  used on input line 30.
 (pdftex.def)             Requested size: 455.24411pt x 256.05855pt.
-[20
+[21
 
 ]
-<ressources/image1.jpg, id=665, 1271.75125pt x 714.67pt>
+<ressources/image1.jpg, id=669, 1271.75125pt x 714.67pt>
 File: ressources/image1.jpg Graphic file (type jpg)
 <use ressources/image1.jpg>
 Package pdftex.def Info: ressources/image1.jpg  used on input line 37.
 (pdftex.def)             Requested size: 409.71692pt x 230.24757pt.
  Excluding 'comment' comment.
-<ressources/image1_keypoints.jpg, id=667, 1271.75125pt x 714.67pt>
+<ressources/image1_keypoints.jpg, id=671, 1271.75125pt x 714.67pt>
 File: ressources/image1_keypoints.jpg Graphic file (type jpg)
 <use ressources/image1_keypoints.jpg>
 Package pdftex.def Info: ressources/image1_keypoints.jpg  used on input line 63.
@@ -1009,19 +934,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 66.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[21 <./ressources/roi.jpg> <./ressources/image1.jpg>]
-<ressources/mask_1.png, id=672, 1271.75125pt x 714.67pt>
+ [22 <./ressources/roi.jpg> <./ressources/image1.jpg>]
+<ressources/mask_1.png, id=676, 1271.75125pt x 714.67pt>
 File: ressources/mask_1.png Graphic file (type png)
 <use ressources/mask_1.png>
 Package pdftex.def Info: ressources/mask_1.png  used on input line 70.
 (pdftex.def)             Requested size: 364.19667pt x 204.6645pt.
-<ressources/image1_keypoints_masked.jpg, id=673, 1271.75125pt x 714.67pt>
+<ressources/image1_keypoints_masked.jpg, id=677, 1271.75125pt x 714.67pt>
 File: ressources/image1_keypoints_masked.jpg Graphic file (type jpg)
 <use ressources/image1_keypoints_masked.jpg>
 Package pdftex.def Info: ressources/image1_keypoints_masked.jpg  used on input line 77.
@@ -1030,24 +949,18 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 81.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[22 <./ressources/image1_keypoints.jpg> <./ressources/mask_1.png (PNG copy)>]
-<ressources/example_data1.png, id=679, 1727.253pt x 471.2004pt>
+ [23 <./ressources/image1_keypoints.jpg> <./ressources/mask_1.png (PNG copy)>]
+<ressources/example_data1.png, id=684, 1727.253pt x 471.2004pt>
 File: ressources/example_data1.png Graphic file (type png)
 <use ressources/example_data1.png>
 Package pdftex.def Info: ressources/example_data1.png  used on input line 85.
 (pdftex.def)             Requested size: 455.24411pt x 124.19165pt.
-<ressources/loss_1.png, id=680, 867.24pt x 505.89pt>
+<ressources/loss_1.png, id=685, 867.24pt x 505.89pt>
 File: ressources/loss_1.png Graphic file (type png)
 <use ressources/loss_1.png>
 Package pdftex.def Info: ressources/loss_1.png  used on input line 102.
 (pdftex.def)             Requested size: 455.24411pt x 265.55762pt.
-<ressources/acc_1.png, id=681, 867.24pt x 505.89pt>
+<ressources/acc_1.png, id=686, 867.24pt x 505.89pt>
 File: ressources/acc_1.png Graphic file (type png)
 <use ressources/acc_1.png>
 Package pdftex.def Info: ressources/acc_1.png  used on input line 108.
@@ -1056,25 +969,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 111.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[23 <./ressources/image1_keypoints_masked.jpg> <./ressources/example_data1.png>]
+ [24 <./ressources/image1_keypoints_masked.jpg> <./ressources/example_data1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 120.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[24 <./ressources/loss_1.png> <./ressources/acc_1.png>]
-<ressources/confusion_matrix_1.png, id=694, 381.5856pt x 342.19846pt>
+ [25 <./ressources/loss_1.png> <./ressources/acc_1.png>]
+<ressources/confusion_matrix_1.png, id=698, 381.5856pt x 342.19846pt>
 File: ressources/confusion_matrix_1.png Graphic file (type png)
 <use ressources/confusion_matrix_1.png>
 Package pdftex.def Info: ressources/confusion_matrix_1.png  used on input line 149.
@@ -1083,30 +984,18 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 155.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[25 <./ressources/confusion_matrix_1.png>]
+ [26 <./ressources/confusion_matrix_1.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 215.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[26]
-<ressources/image2.png, id=707, 1885.0425pt x 708.6475pt>
+ [27]
+<ressources/image2.png, id=711, 1885.0425pt x 708.6475pt>
 File: ressources/image2.png Graphic file (type png)
 <use ressources/image2.png>
 Package pdftex.def Info: ressources/image2.png  used on input line 237.
 (pdftex.def)             Requested size: 273.14923pt x 102.68097pt.
-<ressources/acuracy_2.png, id=708, 867.24pt x 505.89pt>
+<ressources/acuracy_2.png, id=712, 867.24pt x 505.89pt>
 File: ressources/acuracy_2.png Graphic file (type png)
 <use ressources/acuracy_2.png>
 Package pdftex.def Info: ressources/acuracy_2.png  used on input line 248.
@@ -1115,19 +1004,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 254.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[27 <./ressources/image2.png> <./ressources/acuracy_2.png>]
-<ressources/multiple_losses_graph_2.png, id=715, 867.24pt x 505.89pt>
+ [28 <./ressources/image2.png> <./ressources/acuracy_2.png>]
+<ressources/multiple_losses_graph_2.png, id=719, 867.24pt x 505.89pt>
 File: ressources/multiple_losses_graph_2.png Graphic file (type png)
 <use ressources/multiple_losses_graph_2.png>
 Package pdftex.def Info: ressources/multiple_losses_graph_2.png  used on input line 260.
 (pdftex.def)             Requested size: 318.66948pt x 185.88724pt.
-<ressources/confusion_matrix_2.png, id=716, 365.6862pt x 270.65115pt>
+<ressources/confusion_matrix_2.png, id=720, 365.6862pt x 270.65115pt>
 File: ressources/confusion_matrix_2.png Graphic file (type png)
 <use ressources/confusion_matrix_2.png>
 Package pdftex.def Info: ressources/confusion_matrix_2.png  used on input line 274.
@@ -1136,29 +1019,23 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 279.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[28 <./ressources/multiple_losses_graph_2.png>]
-<ressources/false_positive_1.png, id=722, 854.59274pt x 348.70274pt>
+ [29 <./ressources/multiple_losses_graph_2.png>]
+<ressources/false_positive_1.png, id=727, 854.59274pt x 348.70274pt>
 File: ressources/false_positive_1.png Graphic file (type png)
 <use ressources/false_positive_1.png>
 Package pdftex.def Info: ressources/false_positive_1.png  used on input line 303.
 (pdftex.def)             Requested size: 318.66948pt x 130.02893pt.
-<ressources/icon_4_original.png, id=723, 256.96pt x 256.96pt>
+<ressources/icon_4_original.png, id=728, 256.96pt x 256.96pt>
 File: ressources/icon_4_original.png Graphic file (type png)
 <use ressources/icon_4_original.png>
 Package pdftex.def Info: ressources/icon_4_original.png  used on input line 324.
 (pdftex.def)             Requested size: 159.33821pt x 159.34099pt.
-<ressources/icon_4.png, id=724, 128.48pt x 128.48pt>
+<ressources/icon_4.png, id=729, 128.48pt x 128.48pt>
 File: ressources/icon_4.png Graphic file (type png)
 <use ressources/icon_4.png>
 Package pdftex.def Info: ressources/icon_4.png  used on input line 331.
 (pdftex.def)             Requested size: 159.33821pt x 159.35078pt.
-<ressources/image_3.png, id=725, 686.565pt x 269.808pt>
+<ressources/image_3.png, id=730, 686.565pt x 269.808pt>
 File: ressources/image_3.png Graphic file (type png)
 <use ressources/image_3.png>
 Package pdftex.def Info: ressources/image_3.png  used on input line 339.
@@ -1167,14 +1044,8 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 342.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[29 <./ressources/confusion_matrix_2.png> <./ressources/false_positive_1.png>]
-<ressources/loss_3.png, id=733, 1076.3412pt x 713.5458pt>
+ [30 <./ressources/confusion_matrix_2.png> <./ressources/false_positive_1.png>]
+<ressources/loss_3.png, id=737, 1076.3412pt x 713.5458pt>
 File: ressources/loss_3.png Graphic file (type png)
 <use ressources/loss_3.png>
 Package pdftex.def Info: ressources/loss_3.png  used on input line 353.
@@ -1183,14 +1054,8 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 357.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[30 <./ressources/icon_4_original.png> <./ressources/icon_4.png> <./ressources/image_3.png>]
-<ressources/accuracy_3.png, id=742, 1077.3048pt x 713.5458pt>
+ [31 <./ressources/icon_4_original.png> <./ressources/icon_4.png> <./ressources/image_3.png>]
+<ressources/accuracy_3.png, id=746, 1077.3048pt x 713.5458pt>
 File: ressources/accuracy_3.png Graphic file (type png)
 <use ressources/accuracy_3.png>
 Package pdftex.def Info: ressources/accuracy_3.png  used on input line 360.
@@ -1199,14 +1064,8 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 378.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[31 <./ressources/loss_3.png> <./ressources/accuracy_3.png>]
-<ressources/confusion_matrix_3.png, id=750, 381.5856pt x 342.19846pt>
+ [32 <./ressources/loss_3.png> <./ressources/accuracy_3.png>]
+<ressources/confusion_matrix_3.png, id=754, 381.5856pt x 342.19846pt>
 File: ressources/confusion_matrix_3.png Graphic file (type png)
 <use ressources/confusion_matrix_3.png>
 Package pdftex.def Info: ressources/confusion_matrix_3.png  used on input line 381.
@@ -1215,19 +1074,13 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 415.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[32 <./ressources/confusion_matrix_3.png>]
-<ressources/image_41_heatmap.png, id=757, 336.2964pt x 252.4632pt>
+ [33 <./ressources/confusion_matrix_3.png>]
+<ressources/image_41_heatmap.png, id=761, 336.2964pt x 252.4632pt>
 File: ressources/image_41_heatmap.png Graphic file (type png)
 <use ressources/image_41_heatmap.png>
 Package pdftex.def Info: ressources/image_41_heatmap.png  used on input line 426.
 (pdftex.def)             Requested size: 364.19667pt x 273.41893pt.
-<ressources/image_41.png, id=758, 671.1474pt x 253.9086pt>
+<ressources/image_41.png, id=762, 671.1474pt x 253.9086pt>
 File: ressources/image_41.png Graphic file (type png)
 <use ressources/image_41.png>
 Package pdftex.def Info: ressources/image_41.png  used on input line 432.
@@ -1236,60 +1089,32 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 453.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[33 <./ressources/image_41_heatmap.png> <./ressources/image_41.png>]
+ [34 <./ressources/image_41_heatmap.png> <./ressources/image_41.png>]
 File: ressources/loss_3.png Graphic file (type png)
 <use ressources/loss_3.png>
 Package pdftex.def Info: ressources/loss_3.png  used on input line 456.
 (pdftex.def)             Requested size: 364.19667pt x 241.43736pt.
-<ressources/accuracy_4.png, id=768, 613.21095pt x 397.84634pt>
+<ressources/accuracy_4.png, id=772, 613.21095pt x 397.84634pt>
 File: ressources/accuracy_4.png Graphic file (type png)
 <use ressources/accuracy_4.png>
 Package pdftex.def Info: ressources/accuracy_4.png  used on input line 464.
 (pdftex.def)             Requested size: 364.19667pt x 236.29353pt.
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 468.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 482.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[34]
-<ressources/cm_L_10.png, id=773, 577.4373pt x 432.8973pt>
+ [35 <./ressources/accuracy_4.png>]
+<ressources/cm_L_10.png, id=779, 577.4373pt x 432.8973pt>
 File: ressources/cm_L_10.png Graphic file (type png)
 <use ressources/cm_L_10.png>
 Package pdftex.def Info: ressources/cm_L_10.png  used on input line 486.
 (pdftex.def)             Requested size: 364.19667pt x 273.0438pt.
-File: ressources/for_glory.png Graphic file (type png)
-<use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 490.
-(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[35 <./ressources/accuracy_4.png>]) (chapters/res_ana.tex
+) (chapters/res_ana.tex
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[36 <./ressources/cm_L_10.png>]
+ [36 <./ressources/cm_L_10.png>]
 Chapter 6.
 [37
 
@@ -1297,52 +1122,34 @@ Chapter 6.
 <ressources/comparative_losses.png, id=794, 715.11165pt x 426.393pt>
 File: ressources/comparative_losses.png Graphic file (type png)
 <use ressources/comparative_losses.png>
-Package pdftex.def Info: ressources/comparative_losses.png  used on input line 56.
+Package pdftex.def Info: ressources/comparative_losses.png  used on input line 82.
 (pdftex.def)             Requested size: 364.19667pt x 217.15826pt.
 <ressources/comaprative_accuracy.png, id=795, 715.473pt x 426.393pt>
 File: ressources/comaprative_accuracy.png Graphic file (type png)
 <use ressources/comaprative_accuracy.png>
-Package pdftex.def Info: ressources/comaprative_accuracy.png  used on input line 63.
+Package pdftex.def Info: ressources/comaprative_accuracy.png  used on input line 90.
 (pdftex.def)             Requested size: 364.19667pt x 217.04115pt.
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 67.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 94.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[38 <./ressources/comparative_losses.png>]
+ [38 <./ressources/comparative_losses.png>]
 <ressources/xfeat_cm.png, id=801, 381.5856pt x 342.19846pt>
 File: ressources/xfeat_cm.png Graphic file (type png)
 <use ressources/xfeat_cm.png>
-Package pdftex.def Info: ressources/xfeat_cm.png  used on input line 74.
+Package pdftex.def Info: ressources/xfeat_cm.png  used on input line 101.
 (pdftex.def)             Requested size: 273.14923pt x 244.96767pt.
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 97.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 124.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[39 <./ressources/comaprative_accuracy.png> <./ressources/xfeat_cm.png>]
+ [39 <./ressources/comaprative_accuracy.png> <./ressources/xfeat_cm.png>]
 File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
-Package pdftex.def Info: ressources/for_glory.png  used on input line 157.
+Package pdftex.def Info: ressources/for_glory.png  used on input line 188.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[40]
-Overfull \hbox (42.77072pt too wide) in paragraph at lines 168--177
+ [40]
+Overfull \hbox (42.77072pt too wide) in paragraph at lines 199--208
  [][] 
  []
 
@@ -1351,21 +1158,41 @@ File: ressources/for_glory.png Graphic file (type png)
 <use ressources/for_glory.png>
 Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
 (pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
-
-
-Package fancyhdr Warning: \footskip is too small (50.0pt): 
-(fancyhdr)                Make it at least 56.24039pt, for example:
-(fancyhdr)                \setlength{\footskip}{56.24039pt}.
-
-[41]
+ [41]
 Chapter 7.
-) (chapters/append.tex [42
+[42
 
 ]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 142.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [43]
+<ressources/00009.jpg, id=828, 1284.8pt x 722.7pt>
+File: ressources/00009.jpg Graphic file (type jpg)
+<use ressources/00009.jpg>
+Package pdftex.def Info: ressources/00009.jpg  used on input line 215.
+(pdftex.def)             Requested size: 218.51521pt x 122.9125pt.
+<ressources/depth_map.png, id=829, 350.14815pt x 203.44005pt>
+File: ressources/depth_map.png Graphic file (type png)
+<use ressources/depth_map.png>
+Package pdftex.def Info: ressources/depth_map.png  used on input line 222.
+(pdftex.def)             Requested size: 218.51521pt x 126.96034pt.
+) (chapters/append.tex
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [44]
+File: ressources/for_glory.png Graphic file (type png)
+<use ressources/for_glory.png>
+Package pdftex.def Info: ressources/for_glory.png  used on input line 1.
+(pdftex.def)             Requested size: 40.57011pt x 7.11317pt.
+ [45 <./ressources/00009.jpg> <./ressources/depth_map.png>]
 Chapter 8.
-) (main.bbl [43
+) (main.bbl [46
 
-]) [44
+]) [47
 
 ] (main.aux)
  ***********
@@ -1377,20 +1204,20 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C12260AB557D3634618BC8A1630433C;16438.
+(rerunfilecheck)             Checksum: 496AB9E6FE0B6D480160635A33EE67D0;16121.
  ) 
 Here is how much of TeX's memory you used:
- 23703 strings out of 474486
- 455618 string characters out of 5738563
+ 23731 strings out of 474486
+ 456378 string characters out of 5738563
  1945542 words of memory out of 5000000
- 45378 multiletter control sequences out of 15000+600000
+ 45402 multiletter control sequences out of 15000+600000
  568622 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,16n,93p,1867b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\aytam.elhouarrat\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/aytam.elhouarrat/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (46 pages, 15307918 bytes).
+Output written on main.pdf (49 pages, 15765453 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
- 913 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1003 PDF objects out of 1200 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 920 words of extra memory for PDF output out of 10000 (max. 10000000)
 
