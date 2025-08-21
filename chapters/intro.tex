@@ -3,7 +3,7 @@
 \section{Host Organism}
 \subsection{SteelSeries}
 \subsubsection{Company history and Background}
-Steel\textbf{Series}, a Danish manufacturer of gaming peripherals, was founded in 2001 by Jacob Wolff-Petersen. The company originally launched under the name Soft Trading, and made its mark with innovative gaming mousepads in the early 2000s. In 2007, Soft Trading rebranded to SteelSeries, reflecting its broadened focus beyond mousepads and into a full range of PC gaming accessories. Key milestones in SteelSeries' evolution include the 2008 acquisition of Ideazon, which brought the Zboard and World of Warcraft gaming keyboard into its portfolio and furthered its presence in the North American market.
+Steel\textbf{series}, a Danish manufacturer of gaming peripherals, was founded in 2001 by Jacob Wolff-Petersen. The company originally launched under the name Soft Trading, and made its mark with innovative gaming mousepads in the early 2000s. In 2007, Soft Trading rebranded to SteelSeries, reflecting its broadened focus beyond mousepads and into a full range of PC gaming accessories. Key milestones in SteelSeries' evolution include the 2008 acquisition of Ideazon, which brought the Zboard and World of Warcraft gaming keyboard into its portfolio and furthered its presence in the North American market.
 The company grew rapidly in the 2010s, fueled by its involvement in the esports scene and partnerships with professional gamers. SteelSeries has since expanded its product line to include high-performance gaming mice, keyboards, headsets, and mousepads, becoming a leading brand in the gaming industry.
 
 \subsubsection{Key Products and Technologies}
@@ -78,13 +78,24 @@ SteelSeries, renowned for its gaming peripherals and accessories, spanning sever
 
 \subsection{Mission}
 SteelSeries' mission is to create the best gaming gear in the world, empowering gamers to perform at their best, whether it is for professionals who seek perfection, or casuals who seek a sense of competition and completion. Its implication over the years in the esports scene has made it a trusted brand among professional gamers, and its commitment to innovation continues to drive the development of new products that enhance the gaming experience. Most notably, SKT Gaming, a professional esports organization, has been using SteelSeries products since 2012, and has won multiple championships in games like CS:GO and League of Legends etc.
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{ressources/sktt1.png}
     \caption{5x League of Legends World Champions SKT T1}
     \label{fig:5x League of Legends World Champions SKT T1}
 \end{figure}
 \section{Context \& Motivation}
+\subsection{SteelSeries’s Objective}
+SteelSeries software, and particularly the \textit{Moments} application, is designed to run alongside demanding video games without interrupting or degrading the user’s experience. To achieve this, the software must be able to detect the appearance of predefined visual templates within the live feed of the player, such as icons or achievement indicators, in order to automatically capture highlights. This task requires a feature matching method that is:
+
+\begin{itemize}
+    \item \textbf{Fast:} able to process frames in real time with minimal latency so as not to interfere with the game’s performance.
+    \item \textbf{Reliable:} consistently functional across different games, visual styles, and in-game conditions.
+    \item \textbf{Accurate:} capable of pinpointing the presence and location of the template without producing false detections.
+\end{itemize}
+
+The core objective for SteelSeries, therefore, is to employ a feature matching solution that balances these requirements, ensuring smooth integration with gaming sessions and maintaining the performance expectations of competitive and casual players alike.
+
 \subsection{Feature Matching in Computer Vision}
 \subsubsection{Definition}
 Feature matching refers to the process of finding corresponding keypoints between two images of the same scene or object. These keypoints are distinctive image features, such as corners, edges, blobs, or regions with significant intensity changes that can be reliably identified in different images, even if those images have undergone transformations.

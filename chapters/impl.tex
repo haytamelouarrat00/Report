@@ -1,7 +1,7 @@
 \chapter{Implementation, Result, and Analysis}
 \section{Overview of the approach}
 Before training, we have reviewed what the chosen network requires as input.
-Since we are training using synthetic dataset that would imitate our target
+Since we are training using synthetic datasets that would imitate our target
 scenarios, we focused on generating diverse and representative samples.
 \section{Dataset Preparation \& Preprocessing}
 The network expects:
@@ -13,7 +13,7 @@ The network expects:
                     image. It has a shape of $(N, 2)$, where N is the number of keypoints, and the coordinates are (x, y).
               \item \textbf{Target keypoints:} An array of keypoint coordinates found in the target image that correspond to the reference keypoints. It has the same shape $(N, 2)$.
           \end{itemize}
-    \item \textbf{Matches:} An array of shape $(N, 2)$ that stores the indices of the matching keypoints. For example, $[i, j]$ means that the i-th keypoint in the reference keypoints matches the j-th keypoint in the target keypoints.
+    \item \textbf{Matches:} An array of shape $(M, 2)$ that stores the indices of the matching keypoints. For example, $[i, j]$ means that the i-th keypoint in the reference keypoints matches the j-th keypoint in the target keypoints.
     \item \textbf{Homography Matrix: } A 3 by 3 matrix that relates the reference icon to the target one. It is used to transform points from the reference to the target image, and vice versa.
     \item \textbf{Two binary masks:} Binary masks of the target image that indicates the region where the pixel exists. This is useful to separate the foreground from the background.
 \end{itemize}
@@ -39,19 +39,6 @@ This newly selected area will serve as our background for the rest of the synthe
     \label{fig:overlay_example}
 \end{figure}
 While this describes our general design principle for synthetic data generation, the process was refined over several iterations to address specific challenges such as background complexity, icon transformations, and the robustness of extracted keypoints.
-\begin{comment}
-\begin{itemize}
-    \item Scaling: We randomly scale the icon by a factor between 1.0 and 3.0
-    \item Rotation: We randomly rotate the icon by an angle between -30 and 30 degrees.
-    \item Translation: We randomly translate the icon by a few pixels in both x and y
-          directions, while insuring that the icon remains within the bounds of the
-          background.
-    \item Color Jittering: We apply random changes to the brightness, contrast,
-          saturation, and hue of the icon to create variations in appearance.
-    \item Gaussian Noise: We add random Gaussian noise to the icon to simulate real-world
-          noise.
-\end{itemize}
-\end{comment}
 
 \section{Training Procedure \& Experimental Setup}
 Our chosen approach consists of training the network on synthetic data using a

@@ -226,5 +226,40 @@ And we would use generate a 3D depth map from the camera's perspective by settin
     \caption{Overall figure caption describing both images}
     \label{fig:double-image}
 \end{figure}
+\subsection{Better Matching Criterion}
+The current matching criterion relies on the ratio of inliers to features
+within the detected bounding box, but this approach exhibits several critical
+limitations that compromise its reliability. When RANSAC filtering produces
+weak results—either due to insufficient keypoints or low-quality
+correspondences—the criterion becomes susceptible to both false positives and
+false negatives. The fundamental issue stems from the criterion's inability to
+distinguish between meaningful geometric consistency and coincidental spatial
+clustering. False positives occur when background keypoints happen to fall
+within the bounding box boundaries, artificially inflating the inlier count
+despite lacking genuine correspondence to the target icon. Conversely, true
+matches may be rejected when legitimate icon features are sparse or when RANSAC
+fails to identify sufficient inliers, even though the underlying
+correspondences are geometrically valid. This binary approach also ignores the
+spatial distribution quality of matches. A few highly concentrated inliers in
+one corner of the bounding box receive the same confidence score as evenly
+distributed matches across the entire icon region, despite the latter providing
+stronger evidence of correct detection. Future work should explore multi-factor
+matching criteria that incorporate:
+\begin{itemize}
+    \item \textbf{Geometric consistency measures} beyond simple inlier counting, such as evaluating the uniformity of keypoint distribution across the detected region and assessing the coherence of local geometric transformations between matched features.
+    \item \textbf{Descriptor quality assessment} that weighs matches based on their descriptor similarity scores rather than treating all correspondences equally, allowing high-confidence matches to carry more influence in the final decision.
+    \item \textbf{Spatial relationship validation} that examines the structural relationships between keypoints, ensuring that matched features maintain expected relative positions and orientations consistent with the target icon's geometry.
+\end{itemize}
+These enhancements would address the current criterion's oversimplification while maintaining computational efficiency suitable for real-time gaming applications.
+
 \subsection{Real-World Testing and Validation}
-\subsection{Real-Time Deployment on End-User Devices}
+Real-world validation requires deploying the system on diverse gaming content across multiple titles and genres to assess performance under actual operating conditions. The testing framework should capture live gameplay footage at various frame rates and resolutions, measuring detection accuracy, false positive rates, and computational overhead during extended gaming sessions. Critical evaluation metrics include the system's ability to maintain real-time performance during graphically intensive scenes, robustness to UI scaling and transparency effects, and consistency across different lighting conditions and visual styles. The validation process must also examine failure modes, such as performance degradation during rapid scene transitions or when multiple UI elements appear simultaneously, to establish reliable operating parameters for production deployment.
+
+\section{Personal Reflection on the Internship Experience}
+\subsection{Assessment of the Position and Company}
+The internship at SteelSeries provided valuable exposure to applied computer vision research within a gaming industry context. Working on neural-assisted feature matching offered hands-on experience with modern deep learning frameworks while addressing real computational constraints in production software. The company's commitment to maintaining high-performance gaming software created a challenging environment that demanded practical engineering solutions rather than purely academic approaches.
+The technical mentorship was substantial, with access to both domain expertise in real-time software and guidance on deep learning implementation. The six-month internship period, while sufficient for proof-of-concept development, highlighted the extended validation cycles necessary for production-ready computer vision systems.
+\subsection{Conclusion}
+This work contributes to a larger shift toward neural acceleration of classical computer vision algorithms, particularly in resource-constrained environments. The findings suggest that domain-specific optimization can yield significant performance improvements, but also reveal the complexity of replacing well-established methods like SIFT in production systems. The teacher-student framework demonstrated here could extend beyond gaming applications to other real-time vision tasks where classical methods create computational bottlenecks.
+The research exposes fundamental questions about the trade-offs between computational efficiency and reliability in computer vision systems. While neural approaches offer compelling speed advantages, the degradation in certain accuracy metrics underscores the need for careful evaluation frameworks that go beyond simple performance benchmarks. Future work in this area will likely need to address the generalization gap between synthetic training data and real-world deployment scenarios, potentially through improved domain adaptation techniques or hybrid classical-neural architectures that preserve the reliability advantages of traditional methods while incorporating the efficiency gains of modern neural networks
+The internship experience at SteelSeries has been instrumental in shaping my understanding of the practical applications of computer vision in the industry. The challenges faced during the project underscored the importance of robust testing and validation methodologies. Moving forward, I am excited to explore the broader implications of neural-assisted traditional methods and their potential to enhance current solutions.

@@ -5,103 +5,102 @@
 \contentsline {subsubsection}{Company history and Background}{5}{subsection.2.1.1}%
 \contentsline {subsubsection}{Key Products and Technologies}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Mission}{6}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Context \& Motivation}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Feature Matching in Computer Vision}{6}{subsection.2.2.1}%
-\contentsline {subsubsection}{Definition}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}How Feature Matching Works}{7}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Scale Invariant Feature Transform}{7}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Challenges in Gaming Applications}{8}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Limitations of Traditional Feature Matching Techniques}{8}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.2}Context \& Motivation}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}SteelSeries’s Objective}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Feature Matching in Computer Vision}{7}{subsection.2.2.2}%
+\contentsline {subsubsection}{Definition}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}How Feature Matching Works}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Scale Invariant Feature Transform}{8}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Challenges in Gaming Applications}{8}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Limitations of Traditional Feature Matching Techniques}{8}{subsection.2.2.6}%
 \contentsline {section}{\numberline {2.3}Project Objectives}{8}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Reproducing Feature Matching Techniques with Neural Networks}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Problem Statement}{8}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Industrial Relevance}{8}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{8}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Literature Review: Neural Feature Matching}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Review of Recent Methods}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Shared Feature Encoder}{9}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Keypoint Detection Head}{10}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Descriptor Extraction Head}{10}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}LightGlue: Local Feature Matching at Light Speed}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Input Representation:}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Transformer-based Backbone: }{11}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Lightweight Matching Head:}{11}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Adaptive Inference:}{11}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}XFeat: Accelerated Features for Lightweight Image Matching}{12}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Featherweight Network Backbone}{12}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Local Feature extraction}{12}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Dense Matching and Match Refinement}{12}{subsection.3.4.3}%
-\contentsline {subsubsection}{What is Mutual Nearest Neighbor?}{12}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Sparse \& Semi-dense Matching}{13}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Gaps and Limitations}{14}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Problem Formulation}{15}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Feature Matching as Correspondence Prediction}{15}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{15}{subsection.4.1.2}%
-\contentsline {subsubsection}{Performance Requirements}{15}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Choice of Models}{15}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Datasets}{16}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Experimental Design}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Data Collection and Preprocessing}{16}{subsection.4.2.1}%
-\contentsline {subsubsection}{Icons and Templates}{16}{subsection.4.2.1}%
-\contentsline {subsubsection}{Footage Collection}{17}{figure.caption.12}%
-\contentsline {subsection}{\numberline {4.2.2}Design of Teacher-Student Framework}{17}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}SIFT Implementation}{18}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Evaluation metrics}{18}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Loss Functions}{18}{subsection.4.3.1}%
-\contentsline {subsubsection}{Dual-Softmax Descriptor Loss ($L_{ds}$)}{19}{equation.4.3.1}%
-\contentsline {subsubsection}{Reliability Loss ($L_{rel}$)}{19}{equation.4.3.3}%
-\contentsline {subsubsection}{Fine Matching Loss ($L_{fine}$)}{19}{equation.4.3.4}%
-\contentsline {subsubsection}{Keypoint Detection Loss ($L_{kp}$)}{19}{equation.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{20}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Overview of the approach}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{21}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{21}{subsection.5.2.1}%
-\contentsline {subsubsection}{General Approach}{21}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{23}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Results}{24}{subsection.5.3.1}%
-\contentsline {subsubsection}{Accuracy Metrics}{25}{figure.caption.22}%
-\contentsline {subsubsection}{Loss Metrics}{26}{figure.caption.22}%
-\contentsline {subsubsection}{Confusion matrix}{26}{figure.caption.22}%
-\contentsline {subsubsection}{Overall Assessment}{27}{figure.caption.23}%
-\contentsline {section}{\numberline {5.4}Iterative Refinement}{27}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Variant A}{28}{subsection.5.4.1}%
-\contentsline {subsubsection}{Homography-based keypoint transfer}{28}{subsection.5.4.1}%
-\contentsline {paragraph}{Notes.}{28}{subsection.5.4.1}%
-\contentsline {subsubsection}{Accuracy metrics}{28}{figure.caption.24}%
-\contentsline {subsubsection}{Loss metrics}{29}{figure.caption.25}%
-\contentsline {subsubsection}{Confusion Matrix}{30}{figure.caption.26}%
-\contentsline {subsubsection}{Interpretation}{30}{figure.caption.27}%
-\contentsline {subsection}{\numberline {5.4.2}Variant B}{31}{subsection.5.4.2}%
-\contentsline {subsubsection}{Training Performance and Loss Analysis}{31}{figure.caption.30}%
-\contentsline {subsubsection}{Confusion matrix}{33}{figure.caption.32}%
-\contentsline {subsubsection}{Interpretation}{33}{figure.caption.33}%
-\contentsline {subsection}{\numberline {5.4.3}Variant C}{33}{subsection.5.4.3}%
-\contentsline {subsubsection}{Training Performance and Loss Analysis}{34}{figure.caption.35}%
-\contentsline {subsubsection}{Confusion matrix}{36}{figure.caption.37}%
-\contentsline {chapter}{\numberline {6}Experimental Evaluation and Performance Analysis}{37}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Experimental Framework and Baseline Configuration}{37}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Performance Metrics and Quantitative Assessment}{37}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Training Dynamics and Model Convergence}{37}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Classification Performance Analysis}{39}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Baseline Model Evaluation Results}{39}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Enhanced Model Performance Evaluation}{40}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Detailed Performance Breakdown}{40}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Performance Summary and Behavioral Characteristics}{40}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Computational Efficiency and Speed-Accuracy Trade-offs}{41}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Performance Benchmarking Analysis}{41}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{42}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Summary of Contributions}{42}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Limitations}{43}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Future Work}{44}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Introduction of Synthetic 3D data}{44}{subsection.7.3.1}%
-\contentsline {subsubsection}{Variant D}{44}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Real-World Testing and Validation}{45}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Real-Time Deployment on End-User Devices}{45}{subsection.7.3.3}%
-\contentsline {chapter}{\numberline {8}Appendices}{46}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Additional Figures}{46}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Code Snippets}{46}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Hyperparameter Tables}{46}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Hardware Specifications}{46}{section.8.4}%
+\contentsline {subsection}{\numberline {2.3.2}Problem Statement}{9}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Industrial Relevance}{9}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Integration with SteelSeries Moments Software}{9}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Literature Review: Neural Feature Matching}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Review of Recent Methods}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Shared Feature Encoder}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Keypoint Detection Head}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Descriptor Extraction Head}{11}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}LightGlue: Local Feature Matching at Light Speed}{12}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Input Representation:}{12}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Transformer-based Backbone: }{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Lightweight Matching Head:}{12}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Adaptive Inference:}{12}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}XFeat: Accelerated Features for Lightweight Image Matching}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Featherweight Network Backbone}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Local Feature extraction}{13}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Dense Matching and Match Refinement}{13}{subsection.3.4.3}%
+\contentsline {subsubsection}{What is Mutual Nearest Neighbor?}{13}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Sparse \& Semi-dense Matching}{14}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Gaps and Limitations}{15}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Methodology}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Problem Formulation}{16}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Feature Matching as Correspondence Prediction}{16}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Objectives in Terms of Speed, Accuracy, and Robustness}{16}{subsection.4.1.2}%
+\contentsline {subsubsection}{Performance Requirements}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Choice of Models}{17}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Datasets}{17}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Experimental Design}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Data Collection and Preprocessing}{17}{subsection.4.2.1}%
+\contentsline {subsubsection}{Icons and Templates}{17}{subsection.4.2.1}%
+\contentsline {subsubsection}{Footage Collection}{18}{figure.caption.12}%
+\contentsline {subsection}{\numberline {4.2.2}Design of Teacher-Student Framework}{18}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}SIFT Implementation}{19}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Evaluation metrics}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Loss Functions}{19}{subsection.4.3.1}%
+\contentsline {subsubsection}{Dual-Softmax Descriptor Loss ($L_{ds}$)}{20}{equation.4.3.1}%
+\contentsline {subsubsection}{Reliability Loss ($L_{rel}$)}{20}{equation.4.3.3}%
+\contentsline {subsubsection}{Fine Matching Loss ($L_{fine}$)}{20}{equation.4.3.4}%
+\contentsline {subsubsection}{Keypoint Detection Loss ($L_{kp}$)}{20}{equation.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.2}Matching Criterion}{21}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Implementation, Result, and Analysis}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Overview of the approach}{22}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dataset Preparation \& Preprocessing}{22}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Data Synthesis}{22}{subsection.5.2.1}%
+\contentsline {subsubsection}{General Approach}{22}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Training Procedure \& Experimental Setup}{24}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Results}{25}{subsection.5.3.1}%
+\contentsline {subsubsection}{Accuracy Metrics}{26}{figure.caption.22}%
+\contentsline {subsubsection}{Loss Metrics}{27}{figure.caption.22}%
+\contentsline {subsubsection}{Confusion matrix}{27}{figure.caption.22}%
+\contentsline {subsubsection}{Overall Assessment}{28}{figure.caption.23}%
+\contentsline {section}{\numberline {5.4}Iterative Refinement}{28}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Variant A}{29}{subsection.5.4.1}%
+\contentsline {subsubsection}{Homography-based keypoint transfer}{29}{subsection.5.4.1}%
+\contentsline {paragraph}{Notes.}{29}{subsection.5.4.1}%
+\contentsline {subsubsection}{Accuracy metrics}{29}{figure.caption.24}%
+\contentsline {subsubsection}{Loss metrics}{30}{figure.caption.25}%
+\contentsline {subsubsection}{Confusion Matrix}{31}{figure.caption.26}%
+\contentsline {subsubsection}{Interpretation}{31}{figure.caption.27}%
+\contentsline {subsection}{\numberline {5.4.2}Variant B}{32}{subsection.5.4.2}%
+\contentsline {subsubsection}{Training Performance and Loss Analysis}{32}{figure.caption.30}%
+\contentsline {subsubsection}{Confusion matrix}{34}{figure.caption.32}%
+\contentsline {subsubsection}{Interpretation}{34}{figure.caption.33}%
+\contentsline {subsection}{\numberline {5.4.3}Variant C}{34}{subsection.5.4.3}%
+\contentsline {subsubsection}{Training Performance and Loss Analysis}{35}{figure.caption.35}%
+\contentsline {subsubsection}{Confusion matrix}{37}{figure.caption.37}%
+\contentsline {chapter}{\numberline {6}Experimental Evaluation and Performance Analysis}{38}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Experimental Framework and Baseline Configuration}{38}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Performance Metrics and Quantitative Assessment}{38}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Training Dynamics and Model Convergence}{38}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Classification Performance Analysis}{40}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Baseline Model Evaluation Results}{40}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Enhanced Model Performance Evaluation}{41}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Detailed Performance Breakdown}{41}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Performance Summary and Behavioral Characteristics}{41}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Computational Efficiency and Speed-Accuracy Trade-offs}{42}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Performance Benchmarking Analysis}{42}{subsection.6.4.1}%
+\contentsline {chapter}{\numberline {7}Conclusion and Future Work}{43}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Summary of Contributions}{43}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Limitations}{44}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Future Work}{45}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Introduction of Synthetic 3D data}{45}{subsection.7.3.1}%
+\contentsline {subsubsection}{Variant D}{45}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Better Matching Criterion}{46}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Real-World Testing and Validation}{46}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Personal Reflection on the Internship Experience}{47}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Assessment of the Position and Company}{47}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Conclusion}{47}{subsection.7.4.2}%

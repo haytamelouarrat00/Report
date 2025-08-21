@@ -1,7 +1,7 @@
 \chapter{Methodology}
 \section{Problem Formulation}
 \subsection{Feature Matching as Correspondence Prediction}
-The current solution implemented at SteelSeries leverages SIFT (Scale-Invariant
+The current solution considered at SteelSeries leverages SIFT (Scale-Invariant
 Feature Transform) for detecting specific icons and matching them across frames
 in a live video feed. This method was selected due to its well-documented
 robustness to scale, rotation, and illumination changes, which is critical in
@@ -49,6 +49,7 @@ dimensions:
     \caption{Performance Requirements and Current Baseline Comparison}
     \label{tab:performance_requirements}
 \end{table}
+\pagebreak
 \subsection{Choice of Models}
 Although each Neural Network solution excel in different aspects, we have to
 select a model that balances speed, accuracy, and robustness. The chosen model
@@ -164,7 +165,7 @@ The filtered matches are recorded as index pairs into the respective keypoint
 arrays. This combination of tuned detector parameters, descriptor
 normalisation, and dual match filtering yields a set of correspondences that is
 both distinctive and resilient to background clutter and illumination changes.
-\section{Evaluation metrics} %TODO
+\section{Evaluation metrics}
 \subsection{Loss Functions}
 
 The training of XFeat relies on a combination of four complementary losses,
@@ -214,17 +215,7 @@ where $t_{idx}$ encodes the teacher-provided keypoint or the dustbin when no key
 \pagebreak
 \medskip
 \subsection{Matching Criterion}
-To determine whether the evaluated icon is present in the target image, we
-first needed to establish a robust matching criterion. The process begins with
-detecting all keypoints within the scene and isolating those belonging to the
-icon region using binary masks. To ensure reliability, we apply RANSAC to
-icon region using binary masks, we define a bounding box around the set of keypoints belonging to the icon area. To ensure reliability, we apply RANSAC to
-filter out spurious correspondences and retain only geometrically consistent
-inliers. Our criterion is then expressed as the ratio between the number of inliers (result of RANSAC filtering) and
-the total number of keypoints located within this bounding box. This ratio
-provides a quantitative measure of confidence: higher values indicate stronger
-evidence that the icon truly exists in the target image, while lower values
-suggest the matches may be coincidental or unreliable.
+To determine if an icon is present in a target image, we established a robust matching criterion. The process begins by matching keypoints from the icon's region in a reference image to the keypoints found in the target image. To ensure reliability, we apply the RANSAC algorithm to this initial set of matches. This filters out spurious correspondences and retains only the geometrically consistent matches, which are known as `inliers'. Next, we define a bounding box that tightly encloses these inliers within the target image. Our criterion is then expressed as the ratio between the number of inliers and the total number of initial matches that fall within this bounding box. This ratio provides a quantitative measure of confidence. A higher value indicates strong evidence that the icon is present, as it signifies a high density of geometrically consistent matches in a localized area. Conversely, a lower value suggests the matches are sparse and may be coincidental or unreliable.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{ressources/test (1).jpg}

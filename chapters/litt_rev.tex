@@ -110,11 +110,11 @@ pairs, as well as predict the matchability scores for each point (i.e., whether
 a point is likely to have a corresponding point in the other image). It
 combines similarity and matchability into a soft partial assignment matrix.
 \subsection{Adaptive Inference:}
-This is a unique feature of LightGlue, teh ability to dynamically adjust the
+This is a unique feature of LightGlue, the ability to dynamically adjust the
 computations by using:
 \begin{itemize}
     \item \textbf{Adaptive Depth: }after each layer, a classifier predicts if a sufficient number of features
-    \item \textbf{Adaptive Depth:} the points predicted as confidently unmatchable are pruned from further processing, reducing computational load.
+    \item \textbf{Adaptive Prunning:} the points predicted as confidently unmatchable are pruned from further processing, reducing computational load.
 \end{itemize}
 \section{XFeat: Accelerated Features for Lightweight Image Matching}
 This work presents a new lightweight CNN structure that redefines the trade-off
@@ -127,7 +127,7 @@ sparse and semi-dense matching modes, the first efficient model to do so, and
 is suitable for visual localization and pose estimation. XFeat is typically
 5–9× faster than other state-of-the-art methods, but offers similar or better
 accuracy. The three design choices: growth of channel number tripled, early
-resolution preservation, and course-to-fine refinement, contribute to high
+resolution preservation, and coarse-to-fine refinement, contribute to high
 quality matching for practical device constraints. It is a scalable,
 lightweight and practical deep learning architecture for the real world.
 \subsection{Featherweight Network Backbone}
@@ -248,4 +248,4 @@ image matching: \\
           \end{itemize}
 \end{enumerate}
 \section{Gaps and Limitations}
-While there have been substantial advancements in neural-supported feature matching, frameworks such as ALIKE, XFeat, and LightGlue each encounter trade-offs limiting their suitability for purpose-built 2D image contexts. ALIKE does a great job at efficient keypoint detection and binary descriptors which makes it suitable for mobile and embedded contexts, but it is limited as it provides no built-in matching pipeline, and poor detection performance when the stimulus contains low-texture or synthetic scenarios, such as gaming or icon-based imagery. LightGlue employs an attention-based transformer model that makes it robust to perspective and lighting changes, but this comes at a high computational cost that also limits its adaptability to low-cost or low-latency environments for rapid feature matching. This state of play lays bare a glaring gap in the research alignment: there is no single feature matching framework that combines the benefit of speed (e.g., ALIKE and XFeat) with the ability to adaptively and robustly handle image distortion to the extent of (or more) than LightGlue, and is specifically optimized for "2D" applications, such as icon localization, synthetic-to-real matching, and dynamic in-game overlays—where conventional 3D priors and richly textured cues are often absent or unreliable. XFeat improves upon some its limitations by adopting a more integrated process to detection, description, and matching in a lightweight end-to-end model that demonstrates impressive efficiency gains when doing computationally expensive matching comparisons, however, its performance is limited when considering view and lighting changes or changing imagery states when the model is representative of highly structured and realistic 2D datasets.
+While there have been substantial advancements in neural-supported feature matching, frameworks such as ALIKE, XFeat, and LightGlue each encounter trade-offs limiting their suitability for purpose-built 2D image contexts. ALIKE does a great job at efficient keypoint detection and binary descriptors which makes it suitable for mobile and embedded contexts, but it is limited as it provides no built-in matching pipeline, and poor detection performance when the stimulus contains low-texture or synthetic scenarios, such as gaming or icon-based imagery. LightGlue employs an attention-based transformer model that makes it robust to perspective and lighting changes, but this comes at a high computational cost that also limits its adaptability to low-cost or low-latency environments for rapid feature matching. This state of play lays bare a glaring gap in the research alignment: there is no single feature matching framework that combines the benefit of speed (e.g., ALIKE and XFeat) with the ability to adaptively and robustly handle image distortion to the extent of (or more) than LightGlue, and is specifically optimized for "2D" applications, such as icon localization, synthetic-to-real matching, and dynamic in-game overlays—where conventional 3D priors and richly textured cues are often absent or unreliable. XFeat improves upon some of its limitations by adopting a more integrated process to detection, description, and matching in a lightweight end-to-end model that demonstrates impressive efficiency gains when doing computationally expensive matching comparisons, however, its performance is limited when considering view and lighting changes or changing imagery states when the model is representative of highly structured and realistic 2D datasets.

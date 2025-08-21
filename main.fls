@@ -405,6 +405,10 @@ INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
 INPUT .\chapters\litt_rev.tex
 INPUT .\chapters\litt_rev.tex
 INPUT .\chapters\litt_rev.tex
@@ -866,11 +870,6 @@ INPUT .\ressources\depth_map.png
 INPUT .\ressources\depth_map.png
 INPUT .\ressources\depth_map.png
 INPUT .\ressources\depth_map.png
-INPUT .\chapters\append.tex
-INPUT .\chapters\append.tex
-INPUT .\chapters\append.tex
-INPUT .\chapters\append.tex
-INPUT chapters\append.tex
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
 INPUT .\ressources\for_glory.png
@@ -882,6 +881,10 @@ INPUT .\ressources\for_glory.png
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
+INPUT .\ressources\for_glory.png
 INPUT C:\Users\aytam.elhouarrat\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT main.aux
 INPUT .\main.out
